@@ -1,0 +1,9 @@
+.env
+articles/
+supplemental/
+logs/
+state/
+__pycache__/
+*.pyc
+*.png
+*.jpg

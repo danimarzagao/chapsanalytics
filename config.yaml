@@ -1,0 +1,163 @@
+author:
+  first_name: ""         # Preencher: primeiro nome como aparece em publicações
+  last_name: "Marzagão"
+  email: "daniela.marzagao@astrape.com.br"
+  orcid: ""              # Preencher: ex. 0000-0002-xxxx-xxxx (obrigatório RAE)
+  institution: ""        # Preencher: ex. "Astrape"
+  department: ""         # Opcional
+  country: "Brazil"
+  phone: ""              # Preencher: alguns portais exigem
+
+articles:
+  A3:
+    title_pt: "O Instrumento e Suas Condições de Operação: Segurança Psicológica como Variável Neurobiológica, Debt Cognitivo e o Paradoxo da Alta Performance"
+    title_en: "The Instrument and Its Operating Conditions: Psychological Safety as a Neurobiological Variable, Cognitive Debt, and the High-Performance Leadership Paradox"
+    language: "pt"
+    journal: "RAE"
+    file: "articles/A3_Instrumento_humanizado.docx"
+    cover_letter: "cover_letters/RAE_A3_cover_letter.txt"
+    abstract_pt: >
+      O debate sobre liderança e inteligência artificial tende a operar em dois registros que, juntos,
+      produzem um ponto cego: ou afirma que o julgamento humano é categoricamente insubstituível, ou
+      descreve os riscos de substituição por automação. Ambos tratam de categorias. Nenhum responde à
+      pergunta sobre instâncias concretas: o instrumento, o julgamento de líderes específicos em
+      organizações específicas, está funcionando? Este ensaio parte dessa distinção, formulada por
+      Marzagão (2026), para desenvolver quatro contribuições. A primeira aprofunda o mecanismo
+      neurobiológico pelo qual estresse crônico degrada o córtex pré-frontal, integrando Arnsten,
+      Damasio e Kahneman com evidências da São Paulo Innovation Week 2026. A segunda propõe o conceito
+      de debt cognitivo organizacional (DCO), análogo ao debt técnico em engenharia de software, como
+      ferramenta diagnóstica do acúmulo invisível de degradação decisória. A terceira reposiciona
+      segurança psicológica de variável cultural para condição neurobiológica necessária à operação do
+      córtex pré-frontal. A quarta propõe um framework de auditoria neurobiológica organizacional com
+      quatro dimensões mensuráveis.
+    abstract_en: >
+      The debate on leadership and artificial intelligence tends to operate in two registers that,
+      together, produce a blind spot: either asserting that human judgment is categorically irreplaceable,
+      or describing automation risks. Both deal with categories. Neither answers the question about
+      concrete instances: is the instrument, the judgment of specific leaders in specific organizations,
+      actually functioning? This theoretical essay departs from this distinction, formulated by
+      Marzagão (2026), to develop four contributions. The first deepens the neurobiological mechanism
+      by which chronic stress degrades the prefrontal cortex, integrating Arnsten, Damasio, and
+      Kahneman with evidence from SPIW 2026. The second proposes the concept of organizational
+      cognitive debt (OCD), analogous to technical debt in software engineering, as a diagnostic tool
+      for the invisible accumulation of decisional degradation. The third repositions psychological
+      safety from a cultural variable to a neurobiological condition necessary for prefrontal cortex
+      operation. The fourth proposes an organizational neurobiological audit framework with four
+      measurable dimensions.
+    keywords_pt:
+      - "segurança psicológica"
+      - "córtex pré-frontal"
+      - "debt cognitivo"
+      - "liderança"
+      - "neurobiologia organizacional"
+      - "estresse crônico"
+    keywords_en:
+      - "psychological safety"
+      - "prefrontal cortex"
+      - "cognitive debt"
+      - "leadership"
+      - "organizational neurobiology"
+      - "chronic stress"
+    area_rae: ""         # Preencher: ex. "Gestão de Pessoas" ou "Teoria das Organizações"
+    article_type: "Ensaio Teórico"
+
+  A1:
+    title_pt: "Delegação Identitária Patológica: Trabalho, Agentes de IA e Erosão do Self"
+    title_en: "Pathological Identity Delegation: Work, AI Agents, and the Erosion of Self"
+    language: "pt"
+    journal: "OS"
+    file: "articles/A1_DIP_humanizado.docx"
+    cover_letter: "cover_letters/OS_A1_cover_letter.txt"
+    abstract_pt: >
+      A proliferação de agentes de inteligência artificial que executam funções cognitivas, relacionais
+      e decisórias impõe um problema que o debate sobre automação raramente formula com precisão. A
+      ameaça não recai apenas sobre estruturas de emprego. Recai sobre os scaffoldings neurocognitivos
+      pelos quais indivíduos constroem identidade. Este ensaio teórico propõe o conceito de delegação
+      identitária patológica (DIP): o processo pelo qual sujeitos transferem a agentes de IA não apenas
+      tarefas operacionais, mas os atos de agência, competência e autoria que sustentam a narrativa de
+      self. O argumento integra neurociência do córtex pré-frontal (Damasio; Arnsten), filosofia da
+      identidade narrativa (Ricoeur; Hegel), sociologia da modernidade (Bauman; Sennett) e teoria
+      organizacional do sensemaking (Weick). Três efeitos sistêmicos são propostos: erosão do default
+      mode network como substrato da autorreferência; colapso do arco narrativo de identidade; e
+      degradação do sensemaking organizacional coletivo. Evidências da São Paulo Innovation Week 2026
+      ancoram empiricamente o argumento.
+    abstract_en: >
+      The proliferation of artificial intelligence agents capable of performing cognitive, relational,
+      and decisional functions poses a problem that the automation debate rarely frames with precision.
+      The threat falls not only on employment structures. It targets the neurocognitive scaffoldings
+      through which individuals construct identity. This theoretical essay proposes the concept of
+      pathological identity delegation (PID): the process by which subjects transfer to AI agents not
+      merely operational tasks, but the acts of agency, competence, and authorship that sustain the
+      narrative self. The argument integrates prefrontal cortex neuroscience (Damasio; Arnsten),
+      philosophy of narrative identity (Ricoeur; Hegel), sociology of modernity (Bauman; Sennett),
+      and organizational sensemaking theory (Weick). Three systemic effects are proposed: erosion of
+      the default mode network as a substrate of self-reference; collapse of the narrative arc of
+      identity; and degradation of collective organizational sensemaking. Evidence from the São Paulo
+      Innovation Week 2026 empirically anchors the argument.
+    keywords_pt:
+      - "identidade narrativa"
+      - "inteligência artificial"
+      - "córtex pré-frontal"
+      - "sensemaking"
+      - "agência"
+      - "design organizacional"
+    keywords_en:
+      - "narrative identity"
+      - "artificial intelligence"
+      - "prefrontal cortex"
+      - "sensemaking"
+      - "agency"
+      - "organizational design"
+    article_type: "Ensaio Teórico"
+
+  A2:
+    title_en: "The Scarcity Heuristic in Hypermodern Consumption: Why the Hunter-Gatherer Brain Migrated from Object to Existential Experience"
+    language: "en"
+    journal: "JBR"
+    file: "articles/A2_Scarcity_humanizado.docx"
+    cover_letter: "cover_letters/JBR_A2_cover_letter.txt"
+    abstract_en: >
+      Lipovetsky's hypermodern luxury thesis describes, with sociological precision, the transition
+      from luxury as social display to luxury as existential experience. This theoretical article
+      provides the explanatory substrate that sociology alone cannot supply: why this transition
+      occurred, through evolutionary psychology, consumer neuroscience, and the philosophy of value.
+      The central argument is that the migration from material to experiential luxury is a predictable
+      adaptive response by a brain evolutionarily calibrated for scarcity, now operating in
+      unprecedented material abundance. When imitation of possession signals becomes cheap, the
+      mesolimbic dopaminergic system and the orbitofrontal cortex shift the status signal toward
+      genuinely scarce goods: time, qualified attention, authenticity, and irreproducible experiences.
+      The article integrates costly signaling theory (Zahavi; Grafen), the neuroscience of anticipation
+      and episodic memory (Knutson; Schacter), and the philosophy of value (Baudrillard; Lipovetsky)
+      to propose the Multidimensional Perceived Scarcity (MPS) model. Evidence from the São Paulo
+      Innovation Week 2026 anchors the theoretical argument.
+    keywords_en:
+      - "hypermodern luxury"
+      - "scarcity heuristic"
+      - "evolutionary psychology"
+      - "consumer neuroscience"
+      - "existential experience"
+      - "costly signaling"
+      - "perceived scarcity"
+      - "orbitofrontal cortex"
+    ai_declaration: true
+    article_type: "Full Length Article"
+
+journals:
+  RAE:
+    url: "http://mc04.manuscriptcentral.com/rae-scielo"
+    email_backup: "raeredacao@fgv.br"
+    requires_open_science_form: true
+    supplemental: "supplemental/RAE_Open_Science_Compliance_Form.docx"
+
+  OS:
+    url: "https://www.revistaoes.ufba.br"
+    email: "revistaoes@ufba.br"
+    system: "ojs"
+    apc: false
+    license: "CC-BY"
+
+  JBR:
+    url: "https://www.editorialmanager.com/jbr/"
+    apc_usd: 4420
+    requires_account_creation: true
+    requires_ai_declaration: true
