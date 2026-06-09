@@ -157,7 +157,7 @@ journals:
     license: "CC-BY"
 
   JBR:
-    url: "https://www.editorialmanager.com/jbr/"
+    url: "https://www.editorialmanager.com/busi/"
     apc_usd: 4420
     requires_account_creation: true
     requires_ai_declaration: true
