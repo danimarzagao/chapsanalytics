@@ -1,12 +1,12 @@
 author:
-  first_name: ""         # Preencher: primeiro nome como aparece em publicações
+  first_name: "Daniela"
   last_name: "Marzagão"
   email: "daniela.marzagao@astrape.com.br"
-  orcid: ""              # Preencher: ex. 0000-0002-xxxx-xxxx (obrigatório RAE)
-  institution: ""        # Preencher: ex. "Astrape"
-  department: ""         # Opcional
+  orcid: "0000-0001-5239-8290"
+  institution: "Astrape"
+  department: ""
   country: "Brazil"
-  phone: ""              # Preencher: alguns portais exigem
+  phone: "+55 11 97296-4928"
 
 articles:
   A3:
@@ -58,7 +58,7 @@ articles:
       - "leadership"
       - "organizational neurobiology"
       - "chronic stress"
-    area_rae: ""         # Preencher: ex. "Gestão de Pessoas" ou "Teoria das Organizações"
+    area_rae: "Teoria das Organizações"
     article_type: "Ensaio Teórico"
 
   A1:

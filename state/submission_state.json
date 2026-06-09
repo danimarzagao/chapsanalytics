@@ -1,0 +1,27 @@
+{
+  "A3": {
+    "journal": "RAE",
+    "status": "not_started",
+    "manuscript_id": null,
+    "submitted_at": null,
+    "portal_screenshot": null,
+    "gmail_draft_id": null,
+    "notes": ""
+  },
+  "A1": {
+    "journal": "OS",
+    "status": "not_started",
+    "manuscript_id": null,
+    "submitted_at": null,
+    "portal_screenshot": null,
+    "notes": ""
+  },
+  "A2": {
+    "journal": "JBR",
+    "status": "not_started",
+    "submission_id": null,
+    "submitted_at": null,
+    "portal_screenshot": null,
+    "notes": ""
+  }
+}
