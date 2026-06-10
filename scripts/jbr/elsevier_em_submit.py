@@ -8,7 +8,7 @@ ROOT = Path(__file__).parent.parent.parent
 LOGS = ROOT / "logs"
 LOGS.mkdir(exist_ok=True)
 
-EM_URL = "https://www.editorialmanager.com/jbr/"
+EM_URL = "https://www.editorialmanager.com/busi/"
 
 
 def submit_to_elsevier_em(art_id: str, art: dict) -> dict:
