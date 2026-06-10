@@ -30,16 +30,52 @@ def submit_to_scholarone(art_id: str, art: dict) -> dict:
             # If the browser already has an ORCID session the redirect completes automatically.
             print("  [RAE] Acessando ScholarOne (login via ORCID OAuth)...")
             page.goto(url)
-            # Wait up to 3 min for all OAuth redirects to complete and land on dashboard
-            page.wait_for_url("**/rae-scielo**", timeout=180_000)
             page.wait_for_load_state("networkidle")
 
-            # If a traditional login form appeared (fallback for non-ORCID accounts)
-            login_input = page.query_selector('input[name="login"]')
-            if login_input and login_input.is_visible():
-                login_input.fill(secrets["username"])
-                page.fill('input[name="password"]', secrets["password"])
-                page.click('input[type="submit"]')
+            # Handle intermediate login pages before reaching ScholarOne dashboard
+            for _ in range(10):
+                current = page.url
+                if "rae-scielo" in current and "broker" not in current and "login" not in current:
+                    break  # on ScholarOne dashboard
+
+                # Clarivate / Web of Science login page
+                if "access.clarivate.com/login" in current or "clarivate.com/login" in current:
+                    print("  [RAE] Login Clarivate/Web of Science...")
+                    _try_fill(page, 'input[name="username"], input[type="email"]', secrets["username"])
+                    _try_fill(page, 'input[name="password"], input[type="password"]', secrets["wos_password"] or secrets["password"])
+                    page.click('button[type="submit"], input[type="submit"]')
+                    page.wait_for_load_state("networkidle")
+                    continue
+
+                # ORCID login page
+                if "orcid.org" in current and "/signin" in current:
+                    print("  [RAE] Login ORCID...")
+                    _try_fill(page, 'input#username, input[name="username"]', secrets["orcid_email"])
+                    _try_fill(page, 'input#password, input[name="password"]', secrets["orcid_password"])
+                    page.click('button#signin-button, button[type="submit"]')
+                    page.wait_for_load_state("networkidle")
+                    continue
+
+                # ORCID authorize/grant page
+                if "orcid.org/oauth/authorize" in current:
+                    print("  [RAE] Autorizando acesso ORCID...")
+                    authorize_btn = page.query_selector('input#authorize, button:has-text("Authorize")')
+                    if authorize_btn:
+                        authorize_btn.click()
+                        page.wait_for_load_state("networkidle")
+                    continue
+
+                # Traditional ScholarOne login form (rare fallback)
+                login_input = page.query_selector('input[name="login"]')
+                if login_input and login_input.is_visible():
+                    login_input.fill(secrets["username"])
+                    _try_fill(page, 'input[name="password"]', secrets["password"])
+                    page.click('input[type="submit"]')
+                    page.wait_for_load_state("networkidle")
+                    continue
+
+                # Still loading / in-between redirect — wait
+                page.wait_for_timeout(2_000)
                 page.wait_for_load_state("networkidle")
 
             # Verify we reached the dashboard
@@ -151,6 +187,9 @@ def _get_secrets() -> dict:
     return {
         "username": os.environ.get("RAE_USERNAME", ""),
         "password": os.environ.get("RAE_PASSWORD", ""),
+        "orcid_email": os.environ.get("ORCID_EMAIL", os.environ.get("RAE_USERNAME", "")),
+        "orcid_password": os.environ.get("ORCID_PASSWORD", ""),
+        "wos_password": os.environ.get("WOS_PASSWORD", ""),
     }
 
 
@@ -197,6 +236,16 @@ def _fill_if_empty(page, selector: str, value: str) -> None:
         current = el.input_value() or ""
         if not current.strip():
             el.fill(value)
+
+
+def _try_fill(page, selector: str, value: str) -> None:
+    if not value:
+        return
+    for sel in selector.split(", "):
+        el = page.query_selector(sel.strip())
+        if el and el.is_visible():
+            el.fill(value)
+            return
 
 
 def _extract_manuscript_id(page) -> str:
