@@ -25,12 +25,30 @@ def submit_to_scholarone(art_id: str, art: dict) -> dict:
 
         try:
             # Step 1 — Login
+            # RAE ScholarOne uses ORCID OAuth — no traditional login form.
+            # Navigating to the URL triggers Clarivate → ORCID → back to ScholarOne.
+            # If the browser already has an ORCID session the redirect completes automatically.
+            print("  [RAE] Acessando ScholarOne (login via ORCID OAuth)...")
             page.goto(url)
+            # Wait up to 3 min for all OAuth redirects to complete and land on dashboard
+            page.wait_for_url("**/rae-scielo**", timeout=180_000)
             page.wait_for_load_state("networkidle")
-            page.fill('input[name="login"]', secrets["username"])
-            page.fill('input[name="password"]', secrets["password"])
-            page.click('input[type="submit"][value*="Log"]')
-            page.wait_for_load_state("networkidle")
+
+            # If a traditional login form appeared (fallback for non-ORCID accounts)
+            login_input = page.query_selector('input[name="login"]')
+            if login_input and login_input.is_visible():
+                login_input.fill(secrets["username"])
+                page.fill('input[name="password"]', secrets["password"])
+                page.click('input[type="submit"]')
+                page.wait_for_load_state("networkidle")
+
+            # Verify we reached the dashboard
+            if not page.query_selector('text=Author Center, text=Author Dashboard, text=Welcome'):
+                raise RuntimeError(
+                    "Login não confirmado. Verifique se o ORCID está vinculado à conta ScholarOne "
+                    "em access.clarivate.com e tente novamente."
+                )
+            print("  [RAE] Login OK.")
 
             # Step 2 — Navigate to Author Center → Start New Submission
             page.click('text=Author Center')
