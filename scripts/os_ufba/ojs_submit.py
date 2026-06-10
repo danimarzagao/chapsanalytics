@@ -8,7 +8,7 @@ ROOT = Path(__file__).parent.parent.parent
 LOGS = ROOT / "logs"
 LOGS.mkdir(exist_ok=True)
 
-OJS_URL = "https://www.revistaoes.ufba.br"
+OJS_URL = "https://periodicos.ufba.br/index.php/revistaoes"
 
 
 def submit_to_ojs(art_id: str, art: dict) -> dict:
@@ -22,7 +22,7 @@ def submit_to_ojs(art_id: str, art: dict) -> dict:
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False, slow_mo=120)
-        ctx = browser.new_context()
+        ctx = browser.new_context(ignore_https_errors=True)
         page = ctx.new_page()
         page.set_default_timeout(120_000)
 

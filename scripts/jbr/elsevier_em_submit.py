@@ -141,8 +141,8 @@ def submit_to_elsevier_em(art_id: str, art: dict) -> dict:
 def _login(page, email: str, password: str) -> None:
     print("  [JBR] Fazendo login na Elsevier...")
 
-    # Look for login/sign-in button on the portal
-    login_clicked = _click_any(page, [
+    # Click Sign in if present on portal landing page
+    _click_any(page, [
         'button:has-text("Sign in")',
         'button:has-text("Log in")',
         'a:has-text("Sign in")',
@@ -150,32 +150,31 @@ def _login(page, email: str, password: str) -> None:
         '[data-testid*="login"]',
         '[data-testid*="signin"]',
     ], required=False)
-
     page.wait_for_load_state("networkidle")
 
-    # Fill email/username
-    _fill_any(page, [
-        'input[type="email"]',
-        'input[name*="email" i]',
-        'input[name*="username" i]',
-        'input[id*="email" i]',
-        'input[placeholder*="email" i]',
-    ], email)
+    # Step 1 — Enter email (Elsevier SSO is two-step: email → Continue → password)
+    email_field = page.wait_for_selector(
+        'input[type="email"], input[name*="email" i], input[name*="username" i]',
+        timeout=20_000,
+    )
+    email_field.fill(email)
 
-    # Some portals have a two-step login (email first, then password)
+    # Click Continue / Next to advance to password step
     _click_any(page, [
         'button:has-text("Continue")',
         'button:has-text("Next")',
+        'button[type="submit"]',
         'input[type="submit"]',
-    ], required=False)
+    ])
+    # Wait for password field to appear (may involve page navigation)
     page.wait_for_load_state("networkidle")
 
-    # Fill password
-    _fill_any(page, [
+    # Step 2 — Enter password (now on new page/state)
+    password_field = page.wait_for_selector(
         'input[type="password"]',
-        'input[name*="password" i]',
-        'input[id*="password" i]',
-    ], password)
+        timeout=20_000,
+    )
+    password_field.fill(password)
 
     _click_any(page, [
         'button[type="submit"]',
