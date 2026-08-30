@@ -52,6 +52,13 @@ Ordene o relatório por gravidade, nunca pela ordem do texto.
 1. **Análise do sistema de medição.** Para cada série citada: qual fonte, qual recorte, qual
    período, qual definição de mercado. Números de metodologias diferentes encadeados como
    trajetória = ❌ automático.
+2. **Independência das fontes.** Para cada número atribuído a uma fonte secundária, abra a
+   nota de rodapé dela e veja de onde veio. Relatório de consultoria e de laboratório
+   corporativo frequentemente cita trabalho acadêmico. Se duas "fontes independentes"
+   apontam para o mesmo instrumento em safras diferentes, o texto tem uma série, não uma
+   triangulação, e precisa dizer isso.
+3. **Razão sem os brutos.** Toda razão ("sete vezes mais") precisa dos dois números que a
+   produziram. O bruto costuma ser mais informativo que a razão.
 2. **Promessa contra desembolso.** Todo valor de investimento: é orçamento anunciado ou aporte
    efetivo? Quem aportou?
 3. **Dupla contagem.** Toda participação de mercado: a série já agrega mais de um ator?

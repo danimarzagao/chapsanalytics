@@ -53,6 +53,17 @@ buraco.
 Frases do tipo "quase nenhum país ocidental faz X" caem em cinco segundos de busca.
 Se a frase é sobre o que outros fazem ou deixam de fazer, cheque antes de escrever.
 
+**1.10 Antes de declarar pergunta em aberto, veja se o autor já respondeu.**
+Escrever "o teste está disponível, basta esperar" sobre um controle que já está no
+apêndice do próprio artigo é pior do que não levantar a objeção. Leia os apêndices e as
+seções de robustez antes de apresentar uma explicação concorrente como não testada.
+
+**1.11 Cheque se a tendência antecede a causa que você atribui a ela.**
+Uma divergência que já existia antes do evento que você está usando como explicação não
+invalida o argumento, mas muda o que ele pode afirmar. Procure a linha de base anterior
+antes de datar o início do fenômeno. Se o próprio autor reconhece a complicação e
+apresenta defesa, isso é defesa, não ausência de problema, e o texto tem que dizer isso.
+
 ---
 
 ## 2. Regras de números
@@ -86,6 +97,11 @@ Este tipo de erro costuma ser a própria notícia.
 **2.7 Intervalo largo entra como ordem de grandeza, com a palavra "estimativa".**
 Nunca como ponto.
 
+**2.8 Razão derivada esconde os números brutos. Publique os brutos.**
+"Sete vezes mais" é menos informativo que "52% contra 7%", e a razão sozinha impede o
+leitor de ver que metade das vagas de entrada deixou de ser vaga de entrada. Sempre que
+encontrar uma razão, ache os dois números que a produziram e use os dois.
+
 ---
 
 ## 3. Regras de fonte
@@ -106,6 +122,15 @@ que a ressalva genérica sugere.
 **3.4 Enquadramento contestável é atribuído, não afirmado.**
 Se a afirmação é a leitura de um autor e há contraexemplos plausíveis, escreva que é a
 leitura dele. Deixe o leitor discordar do autor, não de você.
+
+**3.5 Antes de chamar de triangulação, prove que as fontes são independentes.**
+Esta é a regra mais cara da lista, porque o erro é invisível. Três números concordando
+podem ser uma pesquisa medida três vezes: relatório de consultoria ou de laboratório
+corporativo frequentemente cita um trabalho acadêmico, e a citação de segunda mão aponta
+de volta ao mesmo instrumento numa safra anterior. Para cada fonte, abra a nota de rodapé
+e veja de onde o número veio. Se duas apontam para o mesmo lugar, você tem uma série
+dentro de um instrumento, não acordo entre instrumentos. A série não é pior; é outra
+coisa, e afirma menos.
 
 ---
 
