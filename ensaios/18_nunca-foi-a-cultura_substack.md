@@ -102,11 +102,13 @@ Se fosse cultura, a subsidiária pontuaria como a média do país.
 
 No palco eu contei um caso meu, e vou repeti-lo aqui porque ele é a razão de eu escrever sobre isso.
 
-Uma empresa grande me contratou para tocar uma transformação. Quando emperrou, escrevi num relatório, e eu tenho esse relatório, que o problema era resistência cultural.
+Em 2014 implantei um PMO de inovação numa empresa de serviços que faturava cerca de R$ 3 bilhões. Era o maior projeto desse tipo que eu tinha tocado.
 
-Eu usei o álibi. Eu cobrei por ele.
+A implantação falhou. E quando falhou, nós falamos de cultura. Eu falei de cultura, com convicção, e cobrei por isso.
 
-O que faltava era outra coisa, e levei tempo demais para enxergar. A parte que não sai é que as pessoas daquele time acreditaram, por causa do meu relatório, que o problema eram elas.
+Doze anos depois, olhando de novo, a causa era outra e é mais simples de nomear. Não havia direção. Não existia uma meta única que aquele PMO servisse, e a aproximação de meta que existia estava amarrada a uma liderança específica. Quando a liderança mudou, sobrou uma estrutura sem para quê: ritos, comitês, funil de ideias e nenhuma pergunta que aquilo respondesse.
+
+Repare que isso é exatamente a primeira das quatro perguntas que fiz lá em cima. Uma meta mensurável que sobrevive à troca do diretor. A minha não sobreviveu, e levei mais de uma década para chamar isso pelo nome certo, porque "cultura" estava disponível e era mais confortável.
 
 Não conto isso para você gostar de mim. Conto porque o álibi é confortável mesmo para quem é pago para não usar.
 
@@ -196,6 +198,14 @@ Agora volte às quatro perguntas do começo.
 
 Elas eram Direção, Absorção, Arquitetura e Consequência, nessa ordem, e você respondeu sem saber o nome do que estava respondendo. Aquela em que você travou é a sua corda em tacet.
 
+Na sala do HackTown eu contei as mãos levantadas para cada "não". Os números crus, e ficam crus porque são poucos demais para virar porcentagem: Arquitetura 8, Direção 5, Absorção 3, Consequência 3.
+
+Eu esperava Consequência. É a que costuma vencer quando faço essa pergunta. Venceu Arquitetura, com folga. E vale dizer o óbvio: contagem de mãos numa sala não é amostra de coisa nenhuma, é o retrato de quem estava ali numa manhã de sexta-feira.
+
+Ainda assim o retrato tem algo que me interessa. Arquitetura é a corda mais cara de consertar, porque consertar arquitetura significa redesenhar processo, que é o 70% da conta da BCG que ninguém orça. Direção, que foi o que faltou no meu caso de 2014, é a mais barata de escrever e a mais difícil de manter viva, porque ela não morre de falta de orçamento. Morre de troca de diretor.
+
+E olhe o desencontro, que é o ponto de tudo isto: a corda que faltava naquela sala não era a corda que faltou em mim. Por isso um diagnóstico genérico do tipo "o problema é a cultura" não serve para ninguém. Ele descreve todo mundo e não localiza nada.
+
 Se a sua transformação está falhando, a resposta não é culpar a cultura brasileira. Cultura é o que se observa depois que as quatro cordas estão afinadas, nunca antes e nunca no lugar delas.
 
 Qual das quatro está calada é uma pergunta de projeto. O que quer dizer que tem resposta.
@@ -221,6 +231,10 @@ Escrevi esta nota durante a pesquisa, antes de montar o texto, e ela mudou duas 
 **O que não reverifiquei nesta rodada** e portanto declaro como preservado da versão do palco sem nova checagem: os rankings do Global Innovation Index e as posições de instituições e estabilidade de política; os 32,9% da PINTEC; a queda de três anos na taxa de inovação industrial; a proporção de uma empresa em 774 na Lei do Bem; os números de absenteísmo e qualidade de Fremont; os resultados do experimento têxtil indiano de Bloom e coautores; a posição e o escore do Brasil no World Management Survey; e a comparação de assimetria entre a distribuição brasileira e a americana. São dados que constavam do roteiro com fonte declarada, e mantê-los sem nova checagem é uma escolha que estou registrando, não escondendo.
 
 **Sobre a palestra.** HackTown, 4 de setembro de 2026, Santa Rita do Sapucaí. O diagnóstico com as quatro perguntas foi feito ao vivo, com contagem de mãos, antes de qualquer nomeação do framework.
+
+**Sobre a contagem da sala.** Arquitetura 8, Direção 5, Absorção 3, Consequência 3, sendo cada voto uma mão levantada para "não" na pergunta correspondente. São dezenove respostas no total, colhidas por contagem visual minha, sem registro independente, numa sala em que nem todos os presentes trabalham em empresa. Não converti em porcentagem e não trato como amostra. É anedota bem documentada, que é uma coisa diferente de dado.
+
+**Sobre o caso de 2014.** PMO de inovação em empresa de serviços com faturamento na casa de R$ 3 bilhões. Não nomeio a empresa. O diagnóstico de que a falha foi de Direção, e não de cultura, é minha releitura doze anos depois, com o viés que uma releitura própria carrega: é a interpretação de quem tem interesse em que a história tenha uma lição. Registro como reconstrução honesta, não como apuração.
 
 ---
 
