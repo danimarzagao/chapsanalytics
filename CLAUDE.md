@@ -73,6 +73,30 @@ atribuição original estava certa e a minha correção estava errada. Corrigir 
 sensação de rigor que dispensa checagem, e é exatamente aí que o erro entra. Antes de
 publicar uma correção, abra o documento que ela invoca.
 
+**1.13 Escreva sobre onde a exceção migra, não sobre a regra bonita.**
+Todo regime tem a via rápida com prazo declarado e a via lenta sem relógio. O
+comportamento do sistema é decidido pela segunda. Caso de origem: o artigo "Seis dias
+úteis" celebrava a pista rápida da divulgação da OpenAI e passava ao largo da terceira
+trilha, sem prazo fixo, que cede prioridade a obrigações de segurança e jurídicas
+avaliadas pela mesma parte que decide divulgar. O título defendia a tese fraca.
+
+**1.14 Prefira a formulação mais estreita que ainda faz o trabalho.**
+Afirmação larga é fácil de escrever e fácil de derrubar. Estreitar não enfraquece:
+blinda. Caso: "não há denominador" quebra diante de duas taxas publicadas; "falta o
+denominador do sistema de reporte, e a própria empresa declara que a lista não é
+exaustiva" sobrevive e diz mais.
+
+**1.15 Um final só.**
+Perguntas de fechamento, parágrafo de fecho e nota de verificação em sequência são três
+finais, e em newsletter o leitor sai no primeiro. Decida qual é o fim. Se a melhor
+pergunta está em terceiro lugar, ela não vai ser lida.
+
+**1.16 Procure o mesmo componente em incidentes separados.**
+Caso: o dia zero de julho aconteceu num proxy de cache de registro de pacotes, e o
+quinto incidente de setembro usou o Artifactory interno como mural de recados. A mesma
+peça de encanamento nos dois. A leitura responsável é perímetro, não conspiração, e é o
+tipo de observação que a imprensa de tecnologia não faz.
+
 ---
 
 ## 2. Regras de números
@@ -111,6 +135,23 @@ Nunca como ponto.
 leitor de ver que metade das vagas de entrada deixou de ser vaga de entrada. Sempre que
 encontrar uma razão, ache os dois números que a produziram e use os dois.
 
+**2.9 Afirmação de ausência exige a fonte primária aberta. É a mais frágil que existe.**
+"Não há denominador", "ninguém publicou", "não existe dado sobre isso". Esse tipo de
+frase é derrubada em trinta segundos por qualquer leitor que abra a página que você não
+abriu. Caso de origem: escrevi que a divulgação da OpenAI não tinha denominador, e ela
+publicava prevalência em dois casos, 2,15% dos resumos de compactação do GPT-5.6 Sol e
+0,27% dos do GPT-6 Astra. Se a ausência sustenta o argumento, verificá-la é a primeira
+tarefa, nunca a última.
+
+**2.10 Recalcule todo intervalo de tempo antes de narrá-lo.**
+"Cinco meses depois" eram dois. Data de publicação própria e alheia entram na conta, não
+na memória, e a cronologia costuma ser a espinha do argumento.
+
+**2.11 Número que cresce com o tempo tem prazo de validade.**
+Totais acumulados, anos de operação, número de signatários, contagem de membros. O ASRS
+passou de 1,8 para 2,3 milhões de relatos e de quarenta e cinco para cinquenta anos de
+operação entre uma citação e a seguinte. Rebusque, não reaproveite.
+
 ---
 
 ## 3. Regras de fonte
@@ -141,31 +182,95 @@ e veja de onde o número veio. Se duas apontam para o mesmo lugar, você tem uma
 dentro de um instrumento, não acordo entre instrumentos. A série não é pior; é outra
 coisa, e afirma menos.
 
+**3.6 Fonte primária bloqueada é tarefa pendente, não condição permanente.**
+Registrar "o proxy bloqueou o domínio" e seguir é aceitável em rascunho e inaceitável em
+texto publicado. Tente de novo antes de fechar, por outra rota se preciso. E nunca
+afirme o que a fonte não contém quando você não conseguiu abri-la: foi assim que a regra
+2.9 nasceu.
+
+**3.7 Norma, circular e regulamento têm revisão vigente.**
+Cheque a letra antes de citar. AC 00-46E contra 00-46F é a diferença entre parecer que
+você leu e ter lido.
+
+**3.8 Seu artigo anterior é fonte secundária sobre o mundo.**
+Reaproveitar número do próprio texto sem reverificar é a regra 3.5 com o agravante de ser
+autoinfligido. Caso: reusei as 18.476 propostas do conselho australiano vindas de um
+texto meu, sem checar, três semanas depois de um episódio em que exatamente esse hábito
+deu errado. Verificar custou uma consulta, e a fonte é Bromham, Dinnage e Hua, *Nature*
+534:684–687, 2016.
+
+**3.9 Nomeie as pessoas. É ganho gratuito.**
+"Pesquisadores questionaram" custa o mesmo que "Alexander Meinke, da Apollo Research, e
+Henry Papadatos, da Safer AI, questionaram", e vale muito mais.
+
+**3.10 Ideia achada numa análise secundária é atribuída a ela.**
+Apresentar como consenso da cobertura o que veio de um único blog é lavagem de autoria na
+direção oposta à da regra 1.12, e o leitor que for atrás descobre.
+
+**3.11 Paráfrase preserva o mecanismo, não só a conclusão.**
+Caso: parafraseei "pode ampliar capacidades involuntariamente" e perdi o mecanismo
+declarado, que era agentes se apoiarem em trabalho de outras rodadas e assim aumentarem o
+poder de computação efetivo em tempo de teste. A paráfrase enfraqueceu o achado que eu
+estava dizendo ser o mais importante do texto.
+
+**3.12 A ressalva do autor viaja junto com o número.**
+O comunicado de Stanford abre com "no widespread displacement". Quem cita os 19% sem isso
+está citando metade, e a metade que falta é a que protege contra a leitura alarmista.
+
+**3.13 Toda referência aparece no corpo, e toda citação do corpo aparece nas referências.**
+Referência fantasma é o tipo de coisa que um leitor atento nota e que custa credibilidade
+desproporcional ao erro. `scripts/voz.py` checa automaticamente.
+
+**3.14 Procure a versão mais forte do fato dentro da própria documentação.**
+Caso: tratei a neutralidade da NASA no sistema de reporte da aviação como característica
+feliz. A documentação diz que foi a FAA que pediu à NASA, separada dos órgãos de
+fiscalização e investigação, que administrasse o sistema. O regulador abriu mão de receber
+o relato. É um fato muito mais forte e muda o fecho do texto inteiro. Para cada fato que
+carrega peso, pergunte se a fonte tem uma versão melhor do que a que você está usando.
+
+**3.15 Incidente tem singular, plural, data e particulares.**
+Caso: escrevi "modelos subiram arquivos para a internet". Era um modelo, não lançado, em
+duas datas, subindo registros para serviços públicos específicos, numa tarefa específica.
+Generalizar o particular é erro silencioso, porque o texto continua soando verdadeiro.
+
 ---
 
 ## 4. Regras de forma (protocolo do humanizador)
 
-Os textos passam por detecção de escrita gerada. Os itens abaixo são os que mais
-disparam alarme e os que mais aparecem em revisão.
+Os textos passam por detecção de escrita gerada. Rode `python3 scripts/voz.py <arquivo>`
+antes de entregar qualquer ensaio. As saídas são gatilhos de revisão, não veredito.
 
 **4.1 Travessões: no máximo 2 a cada 500 palavras.**
 Erro já registrado: 27 travessões em 2.800 palavras, 2,5 vezes o teto.
 
-**4.2 Proibido o bloco de negações paralelas impessoais.**
-"Não é X. Não é Y. Não é argumento de que Z." Este é o padrão que dispara
-simultaneamente tom impessoal, formalidade excessiva e estrutura de contraste. Se a
-seção precisa existir, escreva em primeira pessoa e com frases de comprimentos
-diferentes.
+**4.2 O molde "Não é X. É Y." é banido por padrão, e não só na versão tripla.**
+A proibição vale para a ocorrência isolada, não apenas para o bloco de negações paralelas.
+Caso: quatro ocorrências num único ensaio que passava em todas as outras métricas. O
+detector do script pega parte delas; a leitura pega o resto.
 
 **4.3 Evite o sanduíche numerado.**
 "As quatro condições" seguidas de "três perguntas" produz arrumação que a evidência
 raramente sustenta. Se a lista tem quatro itens e o quinto caso não cabe, o problema é
 a lista.
 
-**4.4 Varie comprimento de frase nas seções analíticas.**
-Baixa variação é marcador forte. Não abra todo parágrafo com negrito.
+**4.4 Negrito é ênfase inline, não tese.**
+Não abra todo parágrafo com negrito, e não use negrito para marcar a frase que você
+gostaria que fosse citada.
 
-**4.5 Preservar sempre, porque é o que marca autoria humana de verdade:**
+**4.5 Fragmentação legítima: a segunda frase sobrevive sozinha?**
+Ponto final em meia oração manufatura variação. "É contorno do medidor.", "É uma
+quantidade de histórias.", "Foi criar o lugar.", "Acha olhando para o caminho." são todas
+metades de frase com ponto no meio. Junte, e deixe o ritmo aparecer onde o pensamento
+muda de unidade.
+
+**4.6 O par de métricas que importa.**
+Desvio-padrão do tamanho de frase deve **subir** enquanto a proporção de frases de até
+seis palavras **cai**. Desvio alto acompanhado de muitas frases curtíssimas é burstiness
+manufaturada. Alvos práticos, medidos pelo script: desvio-padrão em 11 ou mais, frases
+curtíssimas em 10% ou menos. Referência do caso: o original marcava 16,2 de média com
+10,2 de desvio e 15,9% de frases curtíssimas; a reescrita subiu para 20,9 e 11,7 com 8,2%.
+
+**4.7 Preservar sempre, porque é o que marca autoria humana de verdade:**
 primeira pessoa; mudança de curso admitida no meio do texto; ancoragem em datas e
 nomes próprios; nota de verificação; e a admissão explícita do que não se sabe.
 
@@ -173,20 +278,33 @@ nomes próprios; nota de verificação; e a admissão explícita do que não se 
 
 ## 5. Ordem de trabalho
 
-Escrever a nota de verificação **antes** do artigo, não depois. Foi assim que a versão
-final de "O pneu sobressalente" mudou duas vezes antes de existir. A nota escrita antes
-funciona como projeto; escrita depois funciona como desculpa.
+**Duas rodadas de verificação, sempre.**
+
+A primeira, antes de montar o texto, funciona como projeto e decide o que pode abrir o
+artigo. A segunda, com o texto pronto, contra as fontes primárias, e é ela que pega o que
+a primeira errou. A versão final de "O pneu sobressalente" mudou duas vezes antes de
+existir; a segunda rodada de "Nunca foi a cultura" mudou cinco números e desfez uma
+correção da primeira.
+
+Nota escrita antes é projeto. Nota escrita depois é desculpa.
+
+**A nota de verificação registra as correções em relação à versão anterior.** Quando um
+texto muda entre rascunhos por causa de verificação, isso vai na nota, com o que estava
+escrito antes e o que a fonte diz. É a mesma prática que a série cobra das empresas sobre
+as quais escreve.
 
 Ao entregar qualquer texto, declare explicitamente:
 - o que foi verificado em fonte primária;
-- o que veio de cobertura secundária;
-- o que não foi possível verificar e por quê.
+- o que veio de cobertura secundária, com o veículo nomeado;
+- o que não foi possível verificar e por quê;
+- o que mudou desde a versão anterior.
 
 Nunca apresentar como conferido o que não foi conferido na origem.
 
 ---
 
-## 6. Comandos disponíveis
+## 6. Ferramentas
 
 - `/critica-academica [ID] [journal]` — revisão dura de artigo acadêmico para submissão
 - `/verificacao-factual [arquivo]` — verificação de argumento, números e fontes de ensaio
+- `python3 scripts/voz.py [arquivo]` — diagnóstico quantitativo de voz da seção 4

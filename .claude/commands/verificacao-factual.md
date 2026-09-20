@@ -14,10 +14,16 @@ Se nenhum argumento for passado, peça o arquivo.
 
 ## Protocolo
 
-Leia o texto inteiro antes de checar qualquer coisa. Depois execute os três blocos na ordem.
+Leia o texto inteiro antes de checar qualquer coisa. Depois execute os blocos na ordem.
 Para cada item: ✅ sobrevive · ⚠️ precisa de ressalva · ❌ não sobrevive.
 
 Ordene o relatório por gravidade, nunca pela ordem do texto.
+
+**Antes de tudo: tente abrir toda fonte primária, inclusive as que a rodada anterior não
+conseguiu.** Bloqueio de rede é condição temporária. Se a página abriu agora, todo achado
+construído sobre a cobertura secundária volta para a fila.
+
+**Rode `python3 scripts/voz.py <arquivo>` e cole a saída no bloco 4.**
 
 ---
 
@@ -44,6 +50,16 @@ Ordene o relatório por gravidade, nunca pela ordem do texto.
    Cheque. Costuma cair em segundos.
 9. **Nota de verificação como pára-raios.** Algum número contestado abre o texto e é
    relativizado só no rodapé?
+10. **Onde a exceção migra.** O texto descreve a via rápida com prazo e ignora a via lenta
+    sem relógio? O título defende a tese forte ou a fraca?
+11. **Largura da afirmação.** Existe formulação mais estreita que sobrevive melhor e diz
+    mais? Afirmação larga é fácil de derrubar.
+12. **Três finais.** Perguntas, fecho e nota em sequência. Onde o leitor sai, e a melhor
+    pergunta está antes ou depois disso?
+13. **Componente repetido.** O mesmo sistema, peça ou fornecedor aparece em incidentes
+    tratados como separados? Cruze antes de concluir.
+14. **Excesso de autocitação.** Conte as remissões a textos próprios. Cada uma precisa
+    fazer trabalho que uma fonte externa não faria melhor.
 
 ---
 
@@ -69,6 +85,16 @@ Ordene o relatório por gravidade, nunca pela ordem do texto.
    métrica citada é a métrica do ranking? Cheque a unidade.
 7. **Intervalos.** Estimativa com dispersão grande aparece como ordem de grandeza, nunca como
    ponto.
+8. **Afirmação de ausência.** Toda frase do tipo "não há X", "ninguém publicou Y", "não
+   existe dado sobre Z" é ❌ automático até que a fonte primária tenha sido aberta e lida.
+   É a afirmação mais frágil possível e a mais fácil de derrubar em trinta segundos.
+9. **Aritmética de datas.** Recalcule todo intervalo narrado no texto. "Cinco meses depois"
+   costuma não ser cinco meses.
+10. **Números com validade.** Totais acumulados, anos de operação, contagem de signatários
+    e de membros mudam. Rebusque em vez de reaproveitar.
+11. **Revisão vigente.** Circular, norma, regulamento e CFR têm letra de revisão. Cheque.
+12. **Singular, plural e particulares.** "Modelos fizeram X" era um modelo, em duas datas,
+    num serviço específico? Generalização do particular é erro silencioso.
 
 ---
 
@@ -81,18 +107,36 @@ Ordene o relatório por gravidade, nunca pela ordem do texto.
    ressalva sugere.
 4. **Enquadramento afirmado como fato.** Leitura contestável de um autor precisa ser atribuída
    a ele.
+5. **Autocitação sem reverificação.** Número vindo de texto anterior da própria autora é
+   fonte secundária sobre o mundo e precisa da mesma checagem.
+6. **Pessoas sem nome.** "Pesquisadores criticaram" tem nome e instituição. Procure.
+7. **Origem real da análise.** Uma ideia apresentada como consenso da cobertura veio de
+   quantos veículos? Se veio de um, atribua a ele.
+8. **Paráfrase que perde o mecanismo.** Compare a paráfrase com a formulação original: o
+   mecanismo declarado sobreviveu, ou só a conclusão?
+9. **Ressalva do autor omitida.** O comunicado original abre com uma qualificação que o
+   texto deixou de fora?
+10. **Referência fantasma.** Toda entrada das referências aparece no corpo? `scripts/voz.py`
+    checa.
+11. **Versão mais forte do fato.** A documentação contém uma formulação mais forte do que a
+    usada? Fato central merece essa pergunta sempre.
 
 ---
 
 ### BLOCO 4 — Marcadores de escrita gerada
 
-Contagens objetivas, não impressões:
+Rode `python3 scripts/voz.py <arquivo>` e cole a saída. Contagens objetivas, não impressões:
 
 - Travessões por 500 palavras. Teto: 2.
-- Blocos de negações paralelas impessoais ("Não é X. Não é Y."). Teto: 0.
+- Molde "Não é X. É Y.". Teto: 0, inclusive em ocorrência isolada.
 - Sanduíche numerado (lista de N condições seguida de lista de M perguntas).
-- Variação de comprimento de frase nas seções analíticas.
-- Parágrafos abrindo com negrito em sequência.
+- Parágrafos abrindo com negrito em sequência; negrito usado como tese.
+- Referências fantasma.
+- **O par que importa:** desvio-padrão do tamanho de frase deve subir enquanto a proporção
+  de frases de até seis palavras cai. Alvos: desvio ≥ 11,0 e curtíssimas ≤ 10%. Desvio alto
+  com muitas frases curtas é burstiness manufaturada por ponto final em meia oração.
+- Para cada fragmento apontado pelo script, aplique o teste: **a segunda frase sobrevive
+  sozinha?** Se não, junte com a anterior.
 
 Registre também o que **deve ser preservado**: primeira pessoa, mudança de curso no meio do
 texto, datas e nomes próprios, nota de verificação, admissão do que não se sabe.
