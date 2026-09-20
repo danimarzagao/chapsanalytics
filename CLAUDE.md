@@ -64,6 +64,15 @@ invalida o argumento, mas muda o que ele pode afirmar. Procure a linha de base a
 antes de datar o início do fenômeno. Se o próprio autor reconhece a complicação e
 apresenta defesa, isso é defesa, não ausência de problema, e o texto tem que dizer isso.
 
+**1.12 Correção é afirmação, e exige a mesma verificação que o erro que ela corrige.**
+Caso de origem: acusei o texto do HackTown de lavar autoria ao atribuir ao Banco Mundial
+um contrafactual de produtividade, e escrevi um parágrafo de correção dizendo que a fonte
+era Veloso e coautores. A autora abriu o relatório e a frase está no prefácio de *Emprego
+e Crescimento: A Agenda da Produtividade* (Banco Mundial, 2018), em voz própria. A
+atribuição original estava certa e a minha correção estava errada. Corrigir dá uma
+sensação de rigor que dispensa checagem, e é exatamente aí que o erro entra. Antes de
+publicar uma correção, abra o documento que ela invoca.
+
 ---
 
 ## 2. Regras de números
