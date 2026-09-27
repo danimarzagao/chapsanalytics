@@ -87,7 +87,7 @@ def contar_molde_nao_e_x_e_y(fs):
     """Molde 'Não é X. É Y.' e variantes coladas, banido por padrão."""
     ocorrencias = []
     padrao_interno = re.compile(
-        r"\bN[ãa]o\s+(?:é|foi|era)\b[^.!?]*[.;,]\s*(?:É|Foi|Era)\b", re.I)
+        r"\bN[ãa]o\s+(?:é|foi|era)\b[^.!?]{0,80}?[.;]\s*(?:É|Foi|Era)\b", re.I)
     for i, f in enumerate(fs):
         if padrao_interno.search(f):
             ocorrencias.append(f[:90])
