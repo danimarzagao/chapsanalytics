@@ -20,7 +20,15 @@ def carregar(caminho):
 
 
 def separar_corpo_e_referencias(texto):
-    """Corpo = tudo antes da nota de verificação. Referências = seção própria."""
+    """Três recortes, porque cada métrica precisa de um escopo diferente.
+
+    corpo      = prosa do artigo, sem nota de verificação e sem referências.
+                 Escopo das métricas de ritmo.
+    citavel    = tudo menos a lista de referências, nota incluída. Escopo da
+                 checagem de referência fantasma: citar uma fonte na nota de
+                 verificação é atribuição legítima, não fantasma.
+    referencias = a lista.
+    """
     corpo = texto
     for marcador in ("## Nota de verificação", "## Referências"):
         pos = texto.find(marcador)
@@ -28,7 +36,8 @@ def separar_corpo_e_referencias(texto):
             corpo = min(corpo, texto[:pos], key=len)
     m = re.search(r"^##\s*Referências\s*$(.*?)(?=^##\s|\Z)", texto, re.M | re.S)
     referencias = m.group(1) if m else ""
-    return corpo, referencias
+    citavel = texto.replace(referencias, "") if referencias else texto
+    return corpo, citavel, referencias
 
 
 def limpar(corpo):
@@ -92,8 +101,8 @@ def contar_molde_nao_e_x_e_y(fs):
     return ocorrencias
 
 
-def referencias_fantasma(corpo, referencias):
-    """Sobrenome em MAIÚSCULAS na seção de referências, ausente do corpo."""
+def referencias_fantasma(citavel, referencias):
+    """Sobrenome em MAIÚSCULAS nas referências, ausente de todo o resto do texto."""
     fantasmas = []
     for linha in referencias.splitlines():
         linha = linha.strip()
@@ -104,7 +113,7 @@ def referencias_fantasma(corpo, referencias):
             continue
         sobrenome = m.group(1).strip()
         alvo = sobrenome.capitalize()
-        if alvo.lower() not in corpo.lower():
+        if alvo.lower() not in citavel.lower():
             fantasmas.append(sobrenome)
     return fantasmas
 
@@ -116,7 +125,7 @@ def main():
 
     caminho = sys.argv[1]
     texto = carregar(caminho)
-    corpo_bruto, referencias = separar_corpo_e_referencias(texto)
+    corpo_bruto, citavel, referencias = separar_corpo_e_referencias(texto)
     corpo = limpar(corpo_bruto)
     fs = frases(corpo)
     tamanhos = [len(palavras(f)) for f in fs]
@@ -130,7 +139,7 @@ def main():
     travessoes = contar_travessoes(texto)
     teto_travessoes = int(total_palavras * 2 / 500)
     moldes = contar_molde_nao_e_x_e_y(fs)
-    fantasmas = referencias_fantasma(corpo, referencias)
+    fantasmas = referencias_fantasma(citavel, referencias)
 
     fragmentos = [f for f in fs
                   if len(palavras(f)) <= 6 and comeca_sem_sujeito(f)]
