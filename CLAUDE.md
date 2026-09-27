@@ -274,54 +274,109 @@ dela. É a regra 3.5 aplicada dentro de um único documento.
 
 ---
 
-## 4. Regras de forma (protocolo do humanizador)
+## 4. Regras de forma
 
-Os textos passam por detecção de escrita gerada. Rode `python3 scripts/voz.py <arquivo>`
-antes de entregar qualquer ensaio. As saídas são gatilhos de revisão, não veredito.
+**A fonte canônica desta seção não é este arquivo.** É o `SKILL-humanizador-textos.md`, no
+Drive da autora, em versões de 31 de maio e 14 de junho de 2026. Ele tem cinco partes, nove
+antídotos numerados, três modos de voz e dois corpora primários de escrita pré-LLM. Leia-o
+antes de revisar forma. O que segue são apenas três coisas: a declaração de modo, o que o
+trabalho neste repositório acrescentou ao que já estava lá, e o que ficou mecanizado.
 
-**4.1 Travessões: no máximo 2 a cada 500 palavras.**
-Erro já registrado: 27 travessões em 2.800 palavras, 2,5 vezes o teto.
+Doc: `1-dGn--7C9Lrn9Z4JYqCSjAb3s8LMD0CAvXm0fw6sbT8` (versão de 14/06, a mais completa).
 
-**4.2 O molde "Não é X. É Y." é banido por padrão, e não só na versão tripla.**
-A proibição vale para a ocorrência isolada, não apenas para o bloco de negações paralelas.
-Caso: quatro ocorrências num único ensaio que passava em todas as outras métricas. O
-detector do script pega parte delas; a leitura pega o resto.
+---
 
-**4.3 Evite o sanduíche numerado.**
-"As quatro condições" seguidas de "três perguntas" produz arrumação que a evidência
-raramente sustenta. Se a lista tem quatro itens e o quinto caso não cabe, o problema é
-a lista.
+### 4.1 Declare o modo antes de aplicar qualquer número
 
-**4.4 Negrito é rótulo, não tese. Teto de quinze no corpo.**
-Rótulo de item enumerado e cabeçalho de pergunta são legítimos. Não abra todo parágrafo com
-negrito, e nunca use negrito para marcar a frase que você gostaria que fosse citada. Caso de
-origem: 31 negritos num artigo, reduzidos a 13 sem perda nenhuma.
+O skill define três modos com assinaturas diferentes, e esta era a lacuna maior das versões
+anteriores desta seção, que aplicava um único conjunto de alvos a tudo.
 
-**4.5 Fragmentação legítima: a segunda frase sobrevive sozinha?**
-Ponto final em meia oração manufatura variação. "É contorno do medidor.", "É uma
-quantidade de histórias.", "Foi criar o lugar.", "Acha olhando para o caminho." são todas
-metades de frase com ponto no meio. Junte, e deixe o ritmo aparecer onde o pensamento
-muda de unidade.
+**Executivo**: relatório, análise, apresentação. Conclusão antes das premissas, dado antes
+da afirmação, sem metáfora decorativa.
 
-**4.6 O par de métricas que importa.**
-Desvio-padrão do tamanho de frase deve **subir** enquanto a proporção de frases de até
-seis palavras **cai**. Desvio alto acompanhado de muitas frases curtíssimas é burstiness
-manufaturada. Alvos práticos, medidos pelo script: desvio-padrão em 11 ou mais, frases
-curtíssimas em 10% ou menos. Referência do caso: o original marcava 16,2 de média com
-10,2 de desvio e 15,9% de frases curtíssimas; a reescrita subiu para 20,9 e 11,7 com 8,2%.
+**Artístico (fingerprint Sedna)**: Substack pessoal, dramaturgia de negócios. Entrada sem
+anúncio, acumulação em série com detonador final, frase de execução de 2 a 6 palavras.
+Métricas do corpus real de 2004: média de 15 palavras por frase, desvio-padrão 8,3, 22% de
+frases com até 8 palavras, burstiness 0,55.
 
-**4.7 Meta-frases são tique e saem todas.**
-"Vale contar", "vale insistir", "vale registrar", "vale ler devagar", "e isso vale dizer".
-São comentários do texto sobre o próprio texto, e não acrescentam informação nenhuma: se a
-coisa vale ser contada, conte. Teto zero, medido pelo script.
+**Provocateur Executive**: os ensaios da série. Funde os dois anteriores dentro do
+parágrafo. O skill não publica métricas para este modo.
 
-**4.8 Frases de até oito palavras: teto de 13%.**
-Complementa o corte de seis palavras da regra 4.6. A faixa de sete e oito palavras é onde a
-fragmentação se esconde do primeiro filtro.
+**Consequência prática.** Os alvos de desvio-padrão em 11 e de frases curtas em 13% que
+esta seção trazia foram derivados de uma única reescrita de um único artigo, não de corpus.
+Eles ficam, porque as reescritas da autora no modo Provocateur Executive medem perto de 20
+de média com 11,7 de desvio, e não perto dos 15 e 8,3 do Sedna. Mas ficam **declarados como
+alvos de modo**, e não como alvos de voz humana em geral. Aplicar os números do Provocateur
+Executive a um texto artístico o afastaria da voz autêntica.
 
-**4.9 Preservar sempre, porque é o que marca autoria humana de verdade:**
-primeira pessoa; mudança de curso admitida no meio do texto; ancoragem em datas e
-nomes próprios; nota de verificação; e a admissão explícita do que não se sabe.
+---
+
+### 4.2 O que este repositório acrescentou ao skill
+
+**Fragmentação ilegítima.** O Antídoto 2 do skill instrui injetar frase curta depois de
+frase longa, pela técnica dos pares. Aplicada mecanicamente, essa instrução produz
+burstiness manufaturada: ponto final em meia oração, que eleva a contagem de frases curtas
+sem elevar a variância real. O teste que resolve: **a segunda frase sobrevive sozinha?** Se
+não, junte. O par de métricas que denuncia: desvio-padrão subindo enquanto a proporção de
+frases curtíssimas cai. Desvio alto com muitas frases curtas é fabricação.
+
+**Meta-frases em português.** O skill veta "it's worth noting" na lista negra em inglês. A
+família portuguesa "vale contar", "vale insistir", "vale registrar", "vale ler devagar", "e
+isso vale dizer" é tique frequente e tem teto zero.
+
+**Referência fantasma.** Toda entrada das referências aparece em algum lugar do texto, e
+toda citação do texto aparece nas referências. Não está no skill e custa credibilidade
+desproporcional ao erro.
+
+**Medição automática.** `python3 scripts/voz.py <arquivo>` mede travessões, molde de negação,
+distribuição de tamanho de frase, meta-frases, negritos, conectivos formais, lista negra
+lexical em português, frases-contêiner, referências fantasma e MATTR. O skill não tem
+instrumento; só critério.
+
+---
+
+### 4.3 O que estava no skill e eu tinha ignorado
+
+Registro como dívida, para não reinventar de novo.
+
+**Antídoto 1.** Trocar sinônimo não muda a assinatura estatística. O que muda é trocar o
+padrão de construção. **Passo 3** é explícito: nunca substituição palavra por palavra,
+sempre reescrita da unidade semântica completa. As três passadas de ritmo que fiz no artigo
+20, movendo frases para mexer num número, violam os dois.
+
+**Antídoto 3.** Todo parágrafo com afirmação geral precisa de um dado concreto: número, nome
+próprio, citação de fonte identificável ou anedota em primeira ou segunda pessoa.
+
+**Antídoto 6.** Máximo um conectivo formal por 300 palavras, com tabela de substitutos.
+
+**Antídoto 7.** Além do teto de dois travessões por 500 palavras, o skill tem a tabela das
+cinco substituições por profundidade, e o teste: se o ponto final serve, use o ponto.
+
+**Antídoto 9.** Frase-contêiner com três ou mais subordinadores encadeados é marcador de
+alto impacto no GPTZero, classificado como *Robotic Formality + Complex Sentences*. Teste
+mecânico: contar os "que". Ao terceiro encadeado, ponto e frase nova. O detector do script
+superconta, porque soma todos os subordinadores em vez de só os encadeados, então trate a
+saída como triagem.
+
+**Categoria 1.** Lista negra lexical inteira, por era de modelo. O script cobre a fatia
+portuguesa e nada mais.
+
+**Modos de voz e o DNA do perfil de 2005.** Entrada sem anúncio, série acumulativa com
+detonador, frase de execução que não pode ser trocada por "portanto X", epígrafe que abre
+campo em vez de ilustrar, verbo carregado no lugar de adjetivo avaliativo, e a instrução de
+deixar os dois ângulos em tensão na mesma frase em vez de escolher o apresentável.
+
+**Mapa por detector.** GPTZero pune negação paralela impessoal, frase-contêiner e jargão em
+frase longa, e recompensa pergunta curta e fragmento deliberado. Turnitin é mais sensível a
+vocabulário sinal. Copyleaks, a estrutura e conectivo. Isso permite priorizar antídoto por
+alvo, e eu vinha aplicando tudo sem ordem.
+
+---
+
+### 4.4 Preservar sempre
+
+Primeira pessoa; mudança de curso admitida no meio do texto; ancoragem em datas e nomes
+próprios; nota de verificação; e a admissão explícita do que não se sabe.
 
 ---
 
@@ -374,4 +429,7 @@ Nunca apresentar como conferido o que não foi conferido na origem.
 
 - `/critica-academica [ID] [journal]` — revisão dura de artigo acadêmico para submissão
 - `/verificacao-factual [arquivo]` — verificação de argumento, números e fontes de ensaio
-- `python3 scripts/voz.py [arquivo]` — diagnóstico quantitativo de voz da seção 4
+- `python3 scripts/voz.py [arquivo]` — diagnóstico quantitativo de forma
+- `SKILL-humanizador-textos.md` no Drive — **fonte canônica das regras de forma**, id
+  `1-dGn--7C9Lrn9Z4JYqCSjAb3s8LMD0CAvXm0fw6sbT8`
+- `ensaios/INDEX.md` — índice canônico da série de 2026, com id de cada documento

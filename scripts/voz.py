@@ -96,6 +96,56 @@ def contar_meta_frases(corpo):
     return [m.group(0) for m in META.finditer(corpo)]
 
 
+def mattr(corpo, janela=500):
+    """Type-token ratio por media de janela movel. TTR simples cai com o
+    comprimento (lei de Heaps) e nao e comparavel entre textos de tamanhos
+    diferentes; MATTR com janela declarada e."""
+    pal = [p.lower() for p in re.findall(r"[\wÀ-ÿ'-]+", corpo)]
+    if len(pal) < janela:
+        return len(set(pal)) / len(pal) if pal else 0, len(pal)
+    razoes = [len(set(pal[i:i + janela])) / janela
+              for i in range(0, len(pal) - janela + 1, 25)]
+    return sum(razoes) / len(razoes), len(pal)
+
+
+QUE = re.compile(r"\b(que|qual|quais|cujo|cuja|cujos|cujas|onde|quando)\b", re.I)
+
+
+def frases_conteiner(fs, teto=2):
+    """Antidoto 9: frase com mais de dois subordinadores encadeados."""
+    saida = []
+    for f in fs:
+        n = len(QUE.findall(f))
+        if n > teto:
+            saida.append((n, f[:110]))
+    return sorted(saida, reverse=True)
+
+
+CONECTIVOS = re.compile(
+    r"\b(?:portanto|entretanto|contudo|todavia|ademais|outrossim|"
+    r"consequentemente|por conseguinte|dessa forma|desse modo|"
+    r"em conclus[ãa]o|em resumo|resumindo|em suma|primeiramente|"
+    r"por fim|adicionalmente|al[ée]m disso)\b", re.I)
+
+
+def contar_conectivos(corpo):
+    """Antidoto 6: maximo 1 conectivo formal por 300 palavras."""
+    return [m.group(0) for m in CONECTIVOS.finditer(corpo)]
+
+
+LISTA_NEGRA = re.compile(
+    r"\b(?:alavancar|potencializar|fomentar|robusto|abrangente|"
+    r"transformador|inovador|disruptivo|paradigma|sinergia|ecossistema|"
+    r"jornada|pilar|alicerce|multifacetad[oa]|cruciais?|crucial|"
+    r"[ée] importante (?:notar|ressaltar|destacar)|"
+    r"vale (?:notar|ressaltar|destacar)|no mundo atual|"
+    r"nos dias de hoje|na era (?:moderna|digital))\b", re.I)
+
+
+def lista_negra(corpo):
+    return [m.group(0) for m in LISTA_NEGRA.finditer(corpo)]
+
+
 def contar_negritos(corpo):
     """Negrito no corpo. Rotulo de item e cabecalho de pergunta sao legitimos;
     enfase em frase-tese nao e."""
@@ -163,6 +213,10 @@ def main():
     moldes = contar_molde_nao_e_x_e_y(fs)
     fantasmas = referencias_fantasma(citavel, referencias)
     metas = contar_meta_frases(corpo)
+    ttr, n_pal = mattr(corpo)
+    conteineres = frases_conteiner(fs)
+    conectivos = contar_conectivos(corpo)
+    negras = lista_negra(corpo)
     negritos = contar_negritos(corpo_bruto)
 
     fragmentos = [f for f in fs
@@ -174,6 +228,8 @@ def main():
     print(f"media / desvio-padrao: {media:.1f} / {desvio:.1f}")
     print(f"frases <= 6 palavras: {pct_curtas:.1f}% ({len(curtas)})")
     print(f"frases <= 8 palavras: {pct_curtas8:.1f}% ({len(curtas8)})")
+    print(f"MATTR janela 500: {ttr:.2f}  (TTR simples nao e comparavel "
+          f"entre textos de tamanhos diferentes)")
     print()
 
     def veredito(ok, rotulo, detalhe=""):
@@ -204,6 +260,21 @@ def main():
         print(f"         > {m}")
     veredito(len(negritos) <= 15,
              "negritos no corpo", f": {len(negritos)} (alvo <= 15, so rotulos)")
+    teto_con = max(1, n_pal // 300)
+    veredito(len(conectivos) <= teto_con,
+             "conectivos formais (Antidoto 6)",
+             f": {len(conectivos)} (teto {teto_con}, 1 por 300 palavras)")
+    for c in sorted(set(conectivos))[:10]:
+        print(f"         > {c}")
+    veredito(not conteineres,
+             "frases-conteiner, 3+ subordinadores (Antidoto 9)",
+             f": {len(conteineres)}")
+    for n, f in conteineres[:6]:
+        print(f"         > [{n}] {f}")
+    veredito(not negras,
+             "lista negra lexica", f": {len(negras)}")
+    for w in sorted(set(negras))[:10]:
+        print(f"         > {w}")
     veredito(not fragmentos,
              "candidatos a fragmentacao ilegitima", f": {len(fragmentos)}")
     for f in fragmentos[:12]:
