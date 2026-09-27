@@ -56,8 +56,10 @@ def limpar(corpo):
 
 
 def frases(texto):
+    """Separa frases sem quebrar em inicial de nome ("Joel Z. Leibo")."""
+    texto = re.sub(r"\b([A-ZÀ-Ú])\.\s", "\\1\u00a0", texto)
     bruto = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-ÚÁÉÍÓÚÂÊÔÃÕÇ])", texto)
-    return [f.strip() for f in bruto if len(f.strip()) > 1]
+    return [f.strip().replace("\u00a0", ". ") for f in bruto if len(f.strip()) > 1]
 
 
 def palavras(frase):
@@ -81,6 +83,24 @@ def comeca_sem_sujeito(frase):
 
 def contar_travessoes(texto):
     return texto.count("—")
+
+
+META = re.compile(
+    r"\b(?:vale|conv[ée]m|cabe)\s+(?:a\s+pena\s+)?"
+    r"(?:contar|insistir|registrar|dizer|notar|ler|lembrar|destacar|observar|"
+    r"repetir|marcar|frisar|sublinhar|reparar)\b", re.I)
+
+
+def contar_meta_frases(corpo):
+    """Comentario do texto sobre o proprio texto. Tique a eliminar."""
+    return [m.group(0) for m in META.finditer(corpo)]
+
+
+def contar_negritos(corpo):
+    """Negrito no corpo. Rotulo de item e cabecalho de pergunta sao legitimos;
+    enfase em frase-tese nao e."""
+    return re.findall(r"\*\*[^*\n]{1,120}\*\*", corpo)
+
 
 
 def contar_molde_nao_e_x_e_y(fs):
@@ -135,11 +155,15 @@ def main():
     desvio = statistics.pstdev(tamanhos) if len(tamanhos) > 1 else 0
     curtas = [t for t in tamanhos if t <= 6]
     pct_curtas = 100 * len(curtas) / len(tamanhos) if tamanhos else 0
+    curtas8 = [t for t in tamanhos if t <= 8]
+    pct_curtas8 = 100 * len(curtas8) / len(tamanhos) if tamanhos else 0
 
     travessoes = contar_travessoes(texto)
     teto_travessoes = int(total_palavras * 2 / 500)
     moldes = contar_molde_nao_e_x_e_y(fs)
     fantasmas = referencias_fantasma(citavel, referencias)
+    metas = contar_meta_frases(corpo)
+    negritos = contar_negritos(corpo_bruto)
 
     fragmentos = [f for f in fs
                   if len(palavras(f)) <= 6 and comeca_sem_sujeito(f)]
@@ -149,6 +173,7 @@ def main():
     print(f"frases: {len(fs)}")
     print(f"media / desvio-padrao: {media:.1f} / {desvio:.1f}")
     print(f"frases <= 6 palavras: {pct_curtas:.1f}% ({len(curtas)})")
+    print(f"frases <= 8 palavras: {pct_curtas8:.1f}% ({len(curtas8)})")
     print()
 
     def veredito(ok, rotulo, detalhe=""):
@@ -171,6 +196,14 @@ def main():
              "referencias fantasma", f": {len(fantasmas)}")
     for f in fantasmas:
         print(f"         > {f}")
+    veredito(pct_curtas8 <= 13.0,
+             "frases <= 8 palavras", f": {pct_curtas8:.1f}% (alvo <= 13%)")
+    veredito(not metas,
+             "meta-frases ('vale dizer', 'vale registrar')", f": {len(metas)}")
+    for m in metas:
+        print(f"         > {m}")
+    veredito(len(negritos) <= 15,
+             "negritos no corpo", f": {len(negritos)} (alvo <= 15, so rotulos)")
     veredito(not fragmentos,
              "candidatos a fragmentacao ilegitima", f": {len(fragmentos)}")
     for f in fragmentos[:12]:

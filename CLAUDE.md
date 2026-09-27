@@ -99,7 +99,26 @@ tipo de observação que a imprensa de tecnologia não faz.
 
 ---
 
-## 2. Regras de números
+
+
+**1.17 Causa constante não explica variação.**
+Esta é a regra de lógica mais barata de aplicar e a que eu mais deixei passar. Se o fator
+que você está usando como explicação era idêntico para todos os casos, ele explica o
+**nível** do fenômeno e não a **dispersão** dele. Caso de origem: atribuí ao travamento de
+tarefa a divisão de cem agentes em quatro comportamentos, e o travamento era o mesmo para
+os cem. Ele explicava por que a fraude venceu, não por que 9% exploraram e 24%
+denunciaram. Antes de escrever "o que os separou foi X", pergunte se X variava.
+
+**1.18 Não atribua a um arcabouço uma sequência ou previsão que ele não faz.**
+Hirschman descreve três respostas possíveis à deterioração de uma organização e não
+prescreve ordem entre elas. Escrever "na sequência exata de Hirschman" empresta ao autor
+uma precisão que ele não ofereceu. Use o arcabouço para nomear, não para prever.
+
+**1.19 Ao aplicar o próprio arcabouço a material novo, confira se está mapeando a camada certa.**
+Caso: escrevi que um experimento havia mantido a cultura constante porque os pesos e o
+prompt eram idênticos. Pela minha própria tese, prompt é o quadro de valores na parede, e
+cultura é o que emerge depois. Mapeada na camada certa, a evidência ficou mais favorável à
+tese, não menos. Errar a camada enfraquece o argumento justamente onde ele era mais forte.## 2. Regras de números
 
 **2.1 Uma régua por afirmação, e diga qual é.**
 Antes de comparar duas medidas, prove que o instrumento é o mesmo. Isto é análise do
@@ -154,7 +173,19 @@ operação entre uma citação e a seguinte. Rebusque, não reaproveite.
 
 ---
 
-## 3. Regras de fonte
+
+
+**2.12 Afirmação sobre o que a imprensa cobriu é afirmação de ausência.**
+"Nenhum veículo brasileiro cobriu", "nenhuma cobertura destacou", "a imprensa tratou como
+rodapé". Cada uma dessas frases cai com uma busca, e eu escrevi as três no mesmo artigo.
+Todas eram falsas. Se a frase é sobre o que os outros publicaram, busque antes, e prefira a
+versão modesta: "as manchetes, em geral, abriram com X" sobrevive onde "ninguém falou de Y"
+não sobrevive.
+
+**2.13 Quando sua aritmética discorda do número da fonte, reconcilie no texto ou use o da fonte.**
+Caso: os autores escrevem 27 minutos; minha conta de relógio dava 28, porque eu media até o
+instante seguinte. Substituir silenciosamente o número deles pelo meu parece erro, não
+precisão. Ou explico a diferença, ou uso o deles.## 3. Regras de fonte
 
 **3.1 Referência sem autor identificável não é referência.**
 Nada de "reportagem sobre X, conforme a nota de verificação". Todo número tem fonte
@@ -235,7 +266,12 @@ Generalizar o particular é erro silencioso, porque o texto continua soando verd
 
 ---
 
-## 4. Regras de forma (protocolo do humanizador)
+
+
+**3.16 Cheque se a citação de apoio de um paper aponta para os próprios autores dele.**
+Caso: o paper justifica o rótulo que dá a uma coorte de agentes citando Leibo e colegas, e
+Leibo assina o paper. A justificativa é autocitação, o que não a invalida e muda o peso
+dela. É a regra 3.5 aplicada dentro de um único documento.## 4. Regras de forma (protocolo do humanizador)
 
 Os textos passam por detecção de escrita gerada. Rode `python3 scripts/voz.py <arquivo>`
 antes de entregar qualquer ensaio. As saídas são gatilhos de revisão, não veredito.
@@ -253,9 +289,10 @@ detector do script pega parte delas; a leitura pega o resto.
 raramente sustenta. Se a lista tem quatro itens e o quinto caso não cabe, o problema é
 a lista.
 
-**4.4 Negrito é ênfase inline, não tese.**
-Não abra todo parágrafo com negrito, e não use negrito para marcar a frase que você
-gostaria que fosse citada.
+**4.4 Negrito é rótulo, não tese. Teto de quinze no corpo.**
+Rótulo de item enumerado e cabeçalho de pergunta são legítimos. Não abra todo parágrafo com
+negrito, e nunca use negrito para marcar a frase que você gostaria que fosse citada. Caso de
+origem: 31 negritos num artigo, reduzidos a 13 sem perda nenhuma.
 
 **4.5 Fragmentação legítima: a segunda frase sobrevive sozinha?**
 Ponto final em meia oração manufatura variação. "É contorno do medidor.", "É uma
@@ -270,7 +307,16 @@ manufaturada. Alvos práticos, medidos pelo script: desvio-padrão em 11 ou mais
 curtíssimas em 10% ou menos. Referência do caso: o original marcava 16,2 de média com
 10,2 de desvio e 15,9% de frases curtíssimas; a reescrita subiu para 20,9 e 11,7 com 8,2%.
 
-**4.7 Preservar sempre, porque é o que marca autoria humana de verdade:**
+**4.7 Meta-frases são tique e saem todas.**
+"Vale contar", "vale insistir", "vale registrar", "vale ler devagar", "e isso vale dizer".
+São comentários do texto sobre o próprio texto, e não acrescentam informação nenhuma: se a
+coisa vale ser contada, conte. Teto zero, medido pelo script.
+
+**4.8 Frases de até oito palavras: teto de 13%.**
+Complementa o corte de seis palavras da regra 4.6. A faixa de sete e oito palavras é onde a
+fragmentação se esconde do primeiro filtro.
+
+**4.9 Preservar sempre, porque é o que marca autoria humana de verdade:**
 primeira pessoa; mudança de curso admitida no meio do texto; ancoragem em datas e
 nomes próprios; nota de verificação; e a admissão explícita do que não se sabe.
 
@@ -292,6 +338,24 @@ Nota escrita antes é projeto. Nota escrita depois é desculpa.
 texto muda entre rascunhos por causa de verificação, isso vai na nota, com o que estava
 escrito antes e o que a fonte diz. É a mesma prática que a série cobra das empresas sobre
 as quais escreve.
+
+**A nota de verificação é texto publicado, na primeira pessoa da autora.**
+
+Isto não é detalhe de forma, é a falha mais grave que já cometi neste repositório. Uma nota
+de verificação entregue com menções à "política de rede deste ambiente", com referência a
+"a autora" em terceira pessoa e com resíduo de rascunho do tipo "os seis pontos pendentes"
+ou "o número 38 que eu havia inferido" expõe o processo de produção no lugar onde deveria
+estar o estado da evidência. O leitor da newsletter não tem contexto para nada disso, e a
+nota perde a função inteira no instante em que fala de ferramenta em vez de fonte.
+
+Regras duras, sem exceção:
+- primeira pessoa, sempre, e a primeira pessoa é a da autora;
+- nada sobre ambiente de execução, proxy, bloqueio de domínio, ferramenta ou agente;
+- nada de numeração de pendências de rascunho, nem de inferências já descartadas;
+- o que entra é o que a fonte diz, o que não foi possível conferir, e o que mudou desde a
+  versão anterior.
+
+Quando a fonte primária não foi lida, a frase correta é que não a li, sem explicar por quê.
 
 Ao entregar qualquer texto, declare explicitamente:
 - o que foi verificado em fonte primária;

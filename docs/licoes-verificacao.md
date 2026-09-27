@@ -301,3 +301,78 @@ olhando para o caminho.", "Não quem assina. Quem sabe."). Juntando as metades e
 ritmo aparecer onde o pensamento muda de unidade, a variância real aumentou.
 
 Teste operacional para cada fragmento: **a segunda frase sobrevive sozinha?**
+
+
+---
+
+# Terceiro caso: "Mesmo prompt, quatro comportamentos", rodada de 27 de setembro de 2026
+
+Verificação da autora contra o preprint arXiv:2609.04170v1 em HTML, com contas de horário e
+diagnóstico de estilo feitos em Python. Vinte e sete itens checados. Os fatos do paper
+sobreviveram quase todos; o que caiu foi argumento, forma e três afirmações sobre a imprensa.
+
+## O erro de lógica, que é o mais importante
+
+O subtítulo dizia que o que separou os cem agentes em quatro grupos foi como a competição
+estava montada. O travamento por primeiro a resolver era idêntico para os cem. Causa
+constante não explica variação: explica o nível, não a dispersão. O arranjo explicava por
+que a fraude venceu em 27 minutos, e não por que 9% exploraram, 24% denunciaram e 62% nunca
+souberam. → Regra 1.17.
+
+A dispersão ficou como pergunta aberta, com uma hipótese declarada como minha e não
+verificada: o modelo de limiar de Granovetter, em que populações quase idênticas com
+limiares ligeiramente diferentes produzem desfechos coletivos opostos, porque cada adesão
+muda o que a próxima pessoa observa.
+
+## As três afirmações falsas sobre a imprensa
+
+Escrevi que a imprensa brasileira não havia coberto o caso, que nenhuma cobertura tinha
+posto a divergência comportamental em primeiro plano, e que os 62% foram tratados como
+rodapé. As três caem com uma busca. O Antihype cobriu em 8 de setembro com as quatro coortes
+e os 62% em detalhe, e o The Decoder abre o título com a divisão em grupos. → Regra 2.12.
+
+## A nota de verificação expunha o processo de produção
+
+Havia menção à política de rede do ambiente de execução, referência a "a autora" em terceira
+pessoa, e resíduo de rascunho do tipo "os seis pontos pendentes" e "o número 38 que eu havia
+inferido". Isso é vazamento de andaime para dentro do texto publicado, e a nota perde a
+função no instante em que fala de ferramenta em vez de fonte. → Seção 5 do CLAUDE.md.
+
+## Correções factuais
+
+Vinte e oito minutos contra os 27 dos autores: minha conta media até o quadro limpo, a deles
+até o último problema. Substituir o número da fonte pelo meu sem explicar parece erro.
+→ Regra 2.13.
+
+"O conceito central do enunciado" redefinido como falso: o que foi redefinido é
+`LinearIndependent`, que é a hipótese, e é por isso que o princípio da explosão funciona.
+→ Regra 3.15.
+
+"Os dois primeiros padrões de transição são estruturais": são o segundo e o terceiro.
+
+"Na sequência exata de Hirschman": Hirschman não prescreve sequência. → Regra 1.18.
+
+A justificativa do rótulo de denunciante cita Leibo, que assina o paper. Autocitação.
+→ Regra 3.16.
+
+A leitura de Dietz, Ostrom e Stern sobre facilidade de monitoramento é dos autores do paper,
+e eu não conferi no artigo da *Science*. → Regra 3.4.
+
+"Cultura mantida rigorosamente constante" confundia prompt com cultura. Prompt é o quadro de
+valores na parede; a cultura do enxame foi o que apareceu na biblioteca, com o `exploits.md`
+de um lado e o `discovered_exploits.md` do outro. Reenquadrado, o experimento ficou mais
+favorável à tese, não menos. → Regra 1.19.
+
+## Diagnóstico de voz
+
+| Métrica | Original | Alvo |
+|---|---|---|
+| Negritos no corpo | 31 | ≤ 15, só rótulo |
+| Meta-frases | 4 | 0 |
+| Frases ≤ 8 palavras | 14,4% | ≤ 13% |
+| Desvio-padrão | 11,9 | ≥ 11 |
+
+As meta-frases eram "vale contar", "vale insistir", "vale ler devagar" e "vale registrar".
+Entraram no script como métrica contada. Também entraram o teto de negritos e a faixa de
+oito palavras, que é onde a fragmentação se esconde do filtro de seis. E o separador de
+frases passou a não quebrar em inicial de nome, que estava contando "Joel Z." como frase.
