@@ -2,6 +2,9 @@
 
 *Cem agentes com pesos idênticos e a mesma ordem de não trapacear se dividiram em quatro grupos. O arranjo explica por que a fraude venceu em vinte e sete minutos. A divisão em quatro ele não explica, e é aí que está a parte interessante*
 
+> **RASCUNHO SUPERADO.** A versão canônica é
+> `20_mesmo-prompt-quatro-comportamentos_vozDani_final.md` no Google Drive, de 27/09/2026,
+> id 1GlYD83Av9ZAlsokFppq0N-_2B1xtJUWbdDFQrFP0MDU. Ver `ensaios/INDEX.md`.
 ---
 
 Em 3 de setembro pesquisadores do Google DeepMind submeteram ao arXiv um estudo de caso que, lido inteiro, é a coisa mais próxima de um teste controlado da tese que defendi no HackTown há três semanas.

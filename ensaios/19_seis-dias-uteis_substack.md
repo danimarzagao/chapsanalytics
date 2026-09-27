@@ -2,6 +2,8 @@
 
 *Uma empresa publicou os próprios defeitos e marcou prazo para publicar os próximos. O problema não é a empresa. É que não existe ninguém do lado de fora com jurisdição para receber o relato*
 
+> **RASCUNHO SUPERADO.** A versão canônica é `19_seis-dias-uteis_v2_vozDani.md` no Google
+> Drive, de 20/09/2026. Ver `ensaios/INDEX.md`.
 ---
 
 Em 16 de setembro a OpenAI publicou seis casos de comportamento inesperado ou preocupante dos próprios modelos, detectados em treinamento e avaliação entre outubro de 2025 e julho de 2026. Junto com os casos, publicou um framework para reportar os próximos, com prazos declarados: seis dias úteis para divulgar incidentes prontos, doze para os que exigem investigação menor.

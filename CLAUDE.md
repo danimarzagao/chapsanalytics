@@ -97,9 +97,6 @@ quinto incidente de setembro usou o Artifactory interno como mural de recados. A
 peça de encanamento nos dois. A leitura responsável é perímetro, não conspiração, e é o
 tipo de observação que a imprensa de tecnologia não faz.
 
----
-
-
 
 **1.17 Causa constante não explica variação.**
 Esta é a regra de lógica mais barata de aplicar e a que eu mais deixei passar. Se o fator
@@ -118,7 +115,11 @@ uma precisão que ele não ofereceu. Use o arcabouço para nomear, não para pre
 Caso: escrevi que um experimento havia mantido a cultura constante porque os pesos e o
 prompt eram idênticos. Pela minha própria tese, prompt é o quadro de valores na parede, e
 cultura é o que emerge depois. Mapeada na camada certa, a evidência ficou mais favorável à
-tese, não menos. Errar a camada enfraquece o argumento justamente onde ele era mais forte.## 2. Regras de números
+tese, não menos. Errar a camada enfraquece o argumento justamente onde ele era mais forte.
+
+---
+
+## 2. Regras de números
 
 **2.1 Uma régua por afirmação, e diga qual é.**
 Antes de comparar duas medidas, prove que o instrumento é o mesmo. Isto é análise do
@@ -171,9 +172,6 @@ Totais acumulados, anos de operação, número de signatários, contagem de memb
 passou de 1,8 para 2,3 milhões de relatos e de quarenta e cinco para cinquenta anos de
 operação entre uma citação e a seguinte. Rebusque, não reaproveite.
 
----
-
-
 
 **2.12 Afirmação sobre o que a imprensa cobriu é afirmação de ausência.**
 "Nenhum veículo brasileiro cobriu", "nenhuma cobertura destacou", "a imprensa tratou como
@@ -185,7 +183,11 @@ não sobrevive.
 **2.13 Quando sua aritmética discorda do número da fonte, reconcilie no texto ou use o da fonte.**
 Caso: os autores escrevem 27 minutos; minha conta de relógio dava 28, porque eu media até o
 instante seguinte. Substituir silenciosamente o número deles pelo meu parece erro, não
-precisão. Ou explico a diferença, ou uso o deles.## 3. Regras de fonte
+precisão. Ou explico a diferença, ou uso o deles.
+
+---
+
+## 3. Regras de fonte
 
 **3.1 Referência sem autor identificável não é referência.**
 Nada de "reportagem sobre X, conforme a nota de verificação". Todo número tem fonte
@@ -264,14 +266,15 @@ Caso: escrevi "modelos subiram arquivos para a internet". Era um modelo, não la
 duas datas, subindo registros para serviços públicos específicos, numa tarefa específica.
 Generalizar o particular é erro silencioso, porque o texto continua soando verdadeiro.
 
----
-
-
 
 **3.16 Cheque se a citação de apoio de um paper aponta para os próprios autores dele.**
 Caso: o paper justifica o rótulo que dá a uma coorte de agentes citando Leibo e colegas, e
 Leibo assina o paper. A justificativa é autocitação, o que não a invalida e muda o peso
-dela. É a regra 3.5 aplicada dentro de um único documento.## 4. Regras de forma (protocolo do humanizador)
+dela. É a regra 3.5 aplicada dentro de um único documento.
+
+---
+
+## 4. Regras de forma (protocolo do humanizador)
 
 Os textos passam por detecção de escrita gerada. Rode `python3 scripts/voz.py <arquivo>`
 antes de entregar qualquer ensaio. As saídas são gatilhos de revisão, não veredito.
