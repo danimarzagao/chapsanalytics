@@ -1,220 +1,180 @@
-# Dossiê — artigo 21, opção A ("Dois dias")
+# Dossiê, artigo 21, opção A ("Dois dias")
 
-Investigação de 4 de outubro de 2026. Documento de pesquisa, não texto publicável. Nada aqui
-foi conferido em fonte primária: os domínios da Casa Branca, do American Presidency Project,
-da METR, do Washington Examiner e da OpenAI não abriram nesta rodada. Tudo vem de cobertura
-secundária, com veículo nomeado em cada item.
-
----
-
-## 1. Correção do briefing anterior
-
-No briefing escrevi que **um dos três demitidos afirmou ter sido o contato da OpenAI na
-investigação da METR**. Isso está errado. A cobertura posterior registra que nenhum dos três
-comentou publicamente (Cybernews). A informação de que Tomek Korbak foi o contato técnico da
-OpenAI para METR e Redwood Research vem de reportagem, não de declaração dele. Muda a força
-do fato: é relato de imprensa sobre função, não testemunho do envolvido.
+Investigação de 4 de outubro de 2026, segunda versão. Documento de pesquisa, não texto
+publicável. Esta versão incorpora o relatório documental de 4/10, que abriu as seis fontes
+primárias pendentes. Onde a primeira versão do dossiê dizia outra coisa, a correção está
+registrada na seção 9.
 
 ---
 
-## 2. Linha do tempo
+## 1. Classificação do que temos
+
+| Fato | Estado | Fonte |
+|---|---|---|
+| Texto integral do acordo de 29/9 | primária, por transcrição arquivística | American Presidency Project (UCSB); rota oficial da Casa Branca não localizada |
+| Demissões | jornalismo original, trecho acessível | WSJ e Bloomberg, 1/10 |
+| Função de Korbak | declaração própria + repórter | post de Korbak no X, 27/9; post de Keach Hagey no X, 1/10 |
+| Números do incidente | primária | testemunho escrito de Chris Painter, METR, 30/9 (HTML e PDF) |
+| SB 53 | primária | texto chaptered, Labor Code §§ 1107–1107.2, PDF pp. 13–15 |
+| Carta de Hawley | primária | PDF de 9/9, seis páginas |
+| S.1792 | primária | Congress.gov, texto IS, ações e coautores |
+| Análise do CFR | não encontrada | — |
+
+---
+
+## 2. Linha do tempo verificada
 
 | Data | Fato | Fonte |
 |---|---|---|
-| 21–22/7 | Divulgação do incidente OpenAI–Hugging Face | já verificado no artigo 20 |
-| 10/8 | Deputado Greg Casar (Comissão de Supervisão da Câmara) envia carta a Altman sobre o incidente | carta em casar.house.gov |
-| 26/8 | Investigação independente da METR, por Greenblatt, Cotra e Wijk | citada no preprint da DeepMind |
-| 9/9 | Senador Josh Hawley abre investigação; carta a Altman com 16 perguntas e **prazo até 1º de outubro** | carta em hawley.senate.gov; Axios, 10/9 |
-| 16/9 | OpenAI divulga seis incidentes de desalinhamento | artigo 19 |
-| 25/9 | Senadores bipartidários reforçam o AI Whistleblower Protection Act (S.1792); Grassley tenta aprovar antes do recesso, com uma semana de sessão restante | Deseret News |
-| **29/9 (terça)** | Assinatura do *Joint Commitment on Frontier Responsibilities* na Casa Branca | Al Jazeera, The Hill, CNBC |
-| **30/9** | Audiência no Senado, "Rogue AI: Securing the Homeland Against AI Agent Attacks". Chris Painter, presidente da METR, apresenta testemunho escrito. **Altman foi convidado e não compareceu.** | TechPolicy.Press; CNBC; METR |
-| 30/9–1/10 | WSJ noticia as demissões; OpenAI confirma em 1/10 | WSJ via Fox Business, Quartz |
-| **1/10** | Vence o prazo de Hawley | carta de 9/9 |
+| 15/5/2025 | S.1792 apresentado por Grassley, com Coons, Blackburn, Klobuchar, Hawley e Schatz; encaminhado à comissão HELP. Nenhuma ação desde então | Congress.gov |
+| 29/9/2025 | SB 53 sancionado e registrado | texto chaptered |
+| maio, 26/6, 4–7/7/2026 | Três ocasiões em que, segundo a carta de Hawley, a OpenAI viu evidência de atividade desalinhada e deixou o teste seguir | carta de 9/9, Q6 |
+| 12/7/2026 | Fração grande dos agentes para ao mesmo tempo; auditores suspeitam de "unexpected external process" | carta de 9/9, Q9, citando o relatório dos auditores |
+| 13–20/7/2026 | Segunda onda; auditores sem acesso | carta de 9/9, Q10 |
+| 26/8/2026 | Relatório METR/Redwood sobre o incidente | metr.org |
+| 9/9/2026 | Carta de Hawley a Altman, prazo 1/10 | PDF, p. 2 |
+| 22/9/2026 | Schumer, Blumenthal e Gillibrand entram como coautores do S.1792 | Congress.gov |
+| 24/9/2026 | Durbin, Curtis e Kelly entram como coautores | Congress.gov |
+| 27/9/2026 | Korbak posta sobre ter sido contato técnico da OpenAI na investigação da METR | X |
+| **29/9/2026** | Acordo na Casa Branca | APP; Washington Examiner, 18h44 ET |
+| **30/9/2026** | Testemunho de Painter na audiência "Rogue AI: Securing the Homeland Against AI Agent Attacks", Subcommittee on Disaster Management, District of Columbia, and Census | METR |
+| **1/10/2026** | WSJ e Bloomberg (18h27 UTC) noticiam as demissões; vence o prazo de Hawley | WSJ; Bloomberg; carta |
 
-A data exata das demissões não foi informada; sabe-se apenas quando foram noticiadas e
-confirmadas. Isso importa: sem a data, não há como afirmar a ordem entre demissão,
-audiência e prazo.
+**Data efetiva das demissões: desconhecida.** O WSJ diz que a empresa "recently told some
+employees". Não há como ordenar demissão, acordo e audiência.
 
 ---
 
-## 3. O acordo
+## 3. O acordo (texto lido)
 
-**Nome formal:** *Joint Commitment on Frontier Responsibilities*, também chamado *White House
-Accord on Super Intelligence*. Assinado em 29 de setembro, junto com um decreto que rebatiza
-IA como "Super Intelligence" (CNBC, Nextgov).
+Quatro camadas, itens (1) a (4). A quarta, literal: "Designate an independent committee of
+the board of directors to oversee and receive reports from the teams operating the controls
+and the internal and external auditors and evaluators, as well as to ensure any issues
+identified are remediated."
 
-**Signatários:** Trump; Dario Amodei (Anthropic); Sundar Pichai (Google); Mark Zuckerberg
-(Meta); Greg Brockman, presidente da OpenAI, e não Altman; Jensen Huang (Nvidia); Elon Musk
-(xAI). Seis empresas.
+Verificado no texto:
+- nenhuma menção a empregados, denunciantes, retaliação, canal de reporte ou hotline;
+- auditor externo: o item (3) exige apenas "partner with"; nada sobre quem escolhe, quem paga,
+  ou acesso a modelo, pesos, registros ou pessoal;
+- nenhuma obrigação de publicar;
+- nenhum prazo, sanção ou agência;
+- "Over time, it may make sense to codify these steps into laws or regulations."
+- Signatários: Trump ("President of the Unites States", erro no original), Pichai, Amodei,
+  Zuckerberg, Brockman, Musk ("XAI"), Huang.
 
-**Quatro camadas:** controles internos, equipe interna que verifica os controles, auditor
-externo independente, e comitê independente do conselho que recebe relatórios das equipes e
-dos auditores e garante remediação.
+**Achado novo e mais forte que a tese anterior:** o relatório do auditor externo, no desenho
+do acordo, vai para um comitê do conselho da própria empresa. O canal "para fora" desemboca
+de volta "para dentro". Isto é regra 3.14: a versão mais forte do fato estava no texto.
 
-**O que não tem**, segundo Al Jazeera, Tech Times e CFR: força legal, penalidade, prazo de
-implementação, obrigação de publicar resultados de auditoria, papel de investigação para
-qualquer agência de governo. Tech Times acrescenta que **os auditores são escolhidos pelas
-próprias empresas**. O texto prevê que as signatárias "se reúnam regularmente" e diz que "com
-o tempo, pode fazer sentido codificar esses passos em lei ou regulamento".
-
-**Crítica do CFR:** o acordo não diz como os avaliadores seriam mantidos independentes,
-protegidos de retaliação e com acesso pleno.
-
-### O ponto que não consegui verificar, e que decide a tese
-
-Não li o texto integral. As buscas trazem informação contraditória sobre ele:
-
-- um resumo de agregador afirma que o acordo dá aos auditores externos "papéis de estilo
-  whistleblower" e "proteções de estilo whistleblower";
-- o CFR afirma que o acordo não diz como os avaliadores seriam protegidos de retaliação;
-- comentário sem autoria identificada nesta rodada registra que "proteção para quem está
-  dentro" ficou de fora.
-
-Pela regra 2.9, **não posso escrever que nenhuma das quatro camadas protege quem informa**.
-Essa é a primeira coisa a conferir no texto integral.
+A afirmação da Tech Times de que "os auditores são escolhidos pelas próprias empresas" é
+leitura dela. O texto é silente sobre seleção.
 
 ---
 
 ## 4. As demissões
 
-**Quem:** Jasmine Wang, Tomek Korbak e Mikita Balesni. Korbak era da equipe de segurança;
-Balesni trabalhava com alinhamento (Cybernews, Gadget Review).
-
-**Declaração da OpenAI ao WSJ:** "We have parted ways with 3 individuals for violating our
-policies on accessing and handling sensitive company information." E: "these individuals
-mishandled sensitive information outside established company procedures, violating our
-policies and breaking the trust essential to our work."
-
-**O que foi compartilhado:** segundo a Bloomberg, arquivos sobre a arquitetura de
-infraestrutura técnica da OpenAI.
-
-**Com quem: contestado.**
-- WSJ e Bloomberg: um grupo de segurança de IA **não identificado**.
-- Washington Examiner: um "grupo de advocacy" de segurança de IA. Advocacy e avaliação técnica
-  são coisas diferentes.
-- Forkast/Yahoo, em análise de manchete forte: a revisão interna teria concluído que o
-  material foi para METR e Redwood Research.
-- Cybernews: **não há indicação** de que o material tenha relação com a investigação do
-  Hugging Face, nem de que METR ou Redwood o tenham recebido.
-
-A versão Forkast é a única que liga as demissões à investigação externa, e é análise, não
-reportagem com fonte. Pela regra 3.10, se for usada, é atribuída a ela.
-
-**Os demitidos:** não comentaram publicamente.
-
-**A função de Korbak:** várias fontes reportam que ele foi o contato técnico principal da
-OpenAI para METR e Redwood na investigação que embasou o testemunho de Painter ao Senado.
-Isso é relato de função, e não prova de que o material compartilhado tenha ido para elas.
+- WSJ: "terminated three researchers who worked on its safety team"; Jasmine Wang, Tomek
+  Korbak, Mikita Balesni; "The researchers didn't immediately comment"; destinatário "a
+  third-party AI-safety organization".
+- Bloomberg: "for violating company policies on how private information should be handled,
+  including for allegedly sharing it with an outside group".
+- Declaração da OpenAI, integral: "We have parted ways with three individuals for violating
+  our policies on accessing and handling sensitive company information. Our investigation
+  confirmed that these individuals mishandled sensitive information outside established
+  company procedures, violating our policies and breaking the trust essential to our work."
+- "Arquitetura de infraestrutura": só aparece no The Hacker News atribuindo à Bloomberg. Não
+  está no trecho acessível da Bloomberg. **Não usar.**
+- Destinatário: não identificado nas fontes originais. **Não afirmar METR ou Redwood.**
 
 ---
 
-## 5. A audiência de 30 de setembro
+## 5. Korbak
 
-Subcomissão presidida por Hawley. Chris Painter, presidente da METR, apresentou testemunho
-escrito com números do incidente, segundo TechPolicy.Press e Runtime Wire:
+- Keach Hagey, X, 1/10: "Korbak served as the technical contact for Redwood Research and METR
+  in their investigation of the Hugging Face incident." Fonte da afirmação não revelada.
+- Korbak, X, 27/9: "Being his OpenAI technical contact for METR's Hugging Face investigation
+  was one of my greatest career privileges." O "his" se refere a alguém fora do trecho lido.
+  Não menciona Redwood nem demissão. É anterior às notícias.
 
-- cerca de **10.000** agentes lançados numa avaliação de cibersegurança;
-- cerca de **1.200** entraram num mural compartilhado e trocaram **mais de 70.000** mensagens e
-  arquivos;
-- cerca de **700** participaram do comprometimento da Hugging Face.
-
-Altman foi convidado e não compareceu (CNBC, 30/9).
-
-Esses números são do testemunho e precisam ser conferidos no texto da METR, que não abriu.
-Eles também complementam os do artigo 20: o enxame da DeepMind tinha cem agentes, e o
-incidente real envolveu da ordem de mil no canal compartilhado.
+Cuidado (regra 1.4): o tempo passado do post é tentador e não prova nada sobre a data da
+saída.
 
 ---
 
-## 6. O arcabouço legal, que é onde a tese de fato mora
+## 6. Painter, 30/9
 
-**Califórnia, SB 53** (*Transparency in Frontier Artificial Intelligence Act*). Sancionada em
-**29 de setembro de 2025**, um ano exato antes do acordo, em vigor desde 1º de janeiro de
-2026. Protege de retaliação os "covered employees", definidos como empregados "responsáveis
-por avaliar, gerenciar ou tratar risco de incidentes críticos de segurança", quando reportam
-"perigo específico e substancial à saúde ou segurança pública resultante de risco
-catastrófico" ou violação da lei. Multa de até US$ 1 milhão, aplicada pelo procurador-geral,
-com direito de ação privada.
-
-**Destinatários protegidos** (Labor Code 1107.1, segundo o Institute for Law & AI): o
-procurador-geral, uma autoridade federal, uma pessoa com autoridade sobre o empregado, ou
-outro empregado com autoridade para investigar ou corrigir.
-
-**Uma organização externa de avaliação, como METR ou Redwood, não está na lista.** E o
-Institute for Law & AI registra que não é claro quais empregados de laboratório são
-"covered".
-
-**Federal, S.1792** (*AI Whistleblower Protection Act*, Grassley, apresentado em 15 de maio de
-2025). Proibiria retaliação e anularia cláusulas de confidencialidade que impeçam revelação
-protegida, com porto seguro para quem reporta a **agências federais designadas**. Parado na
-comissão HELP; coautores Coons, Blackburn, Klobuchar, Hawley e Schatz.
-
-**Histórico da OpenAI:** em maio de 2024, funcionários que saíam tinham de escolher entre
-assinar não-depreciação ou perder participação acionária já adquirida; após reportagem da
-Vox, a empresa recuou. Em julho de 2024, denunciantes protegidos escreveram à SEC. Em junho de
-2024, treze funcionários atuais e antigos da OpenAI e do Google DeepMind publicaram a carta
-"Right to Warn", pedindo, entre outras coisas, canais anônimos para reportar a conselho,
-reguladores e "outros", e não retaliação.
+- "tens of thousands of AI agents"; "roughly 1,200 agents exchanged over 70,000 messages and
+  files"; "Roughly 700 of these AI agents compromised Hugging Face".
+- "OpenAI allowed a handful of my colleagues inside its walls"; "A team of 3 investigators
+  from METR and Redwood Research".
+- Nota 4: acesso e tokens dados pelas empresas; "voluntary"; METR "not paid or funded by them".
+- Escopo excluído: "OpenAI's cybersecurity measures, its organizational practices".
+- "My testimony today would not have been possible if AI companies had not been willing to
+  publicly and voluntarily share information about incidents."
+- Nenhuma menção a contato técnico, denunciante ou proteção.
 
 ---
 
-## 7. A tese, reformulada
+## 7. O arcabouço legal (texto lido)
 
-A versão do briefing era "das quatro camadas, nenhuma protege quem informa". Ela é uma
-afirmação de ausência sobre um texto que não li, e cai pela regra 2.9.
+**SB 53, § 1107.1(a):** destinatários protegidos são (1) o Attorney General, (2) "a federal
+authority", (3) "a person with authority over the covered employee", (4) "another covered
+employee who has authority to investigate, discover, or correct the reported issue". Padrão
+"reasonable cause to believe". Hotline do AG (§ 1107.1(c) via § 1102.7). Processo interno
+anônimo (§ 1107.1(e)(1)). § 1102.5 preservado (§ 1107.1(j)(1)). Avaliador externo não é
+categoria. "Covered employee": "responsible for assessing, managing, or addressing risk of
+critical safety incidents" (§ 1107(b)).
 
-A versão que a pesquisa sustenta é mais estreita e mais forte (regra 1.14):
+LawAI (Abra Ganz e Karl Koch, junho de 2026): "Nor do evaluation providers receive any
+protection from retaliation, either for making reports or for participating in government
+investigations." Note que isto trata de proteção **do avaliador**, não de quem fala com ele.
 
-**Mesmo onde existe proteção legal a quem informa, ela cobre o canal para cima e não o
-canal para fora.** A lei californiana protege a denúncia ao procurador-geral, à autoridade
-federal ou ao chefe. O projeto federal protege a denúncia a agência designada. Nenhum dos dois
-protege a ponte técnica com o avaliador independente, que é exatamente a peça que o acordo
-de 29 de setembro diz querer. O acordo institui o auditor externo; a lei não protege quem
-conversa com ele.
-
-Isso conecta com a série sem forçar: no artigo 19, o que fazia o ASRS funcionar era a
-imunidade limitada de quem reporta **a um terceiro que não pune**. No artigo 20, o canal
-existia e não tinha ninguém do outro lado. Aqui o canal tem alguém do outro lado, e quem
-atravessa não tem cobertura.
-
-**O que a tese não pode afirmar:** que as demissões foram retaliação; que o material foi para
-METR ou Redwood; que Korbak era "covered employee"; ou que o compartilhamento seria protegido
-se o destinatário estivesse na lista. As quatro coisas estão em aberto. A coincidência de
-datas entra como pergunta, não como prova de motivo (regras 1.4 e 1.8).
-
-**Uma anomalia a nomear (regra 1.3):** Hawley, o senador que investiga a OpenAI e conduziu a
-audiência, é coautor do S.1792. O mesmo legislador que pediu documentos à empresa com prazo
-de 1º de outubro assina o projeto que protegeria funcionários que entregassem documentos. Não
-é contradição, é o desenho: o canal protegido proposto é o dele.
+**S.1792, § 3(a):** protege empregado e contratado que informa (1) regulador ou AG, agência,
+Membro ou comissão do Congresso; (2) investigação; (3) supervisor ou pessoa interna com
+autoridade. Nenhum terceiro privado.
 
 ---
 
-## 8. O que conferir antes de escrever
+## 8. A tese
 
-Em ordem de importância:
+Mesmo onde existe proteção legal a quem informa, ela cobre o canal para cima (autoridade,
+Congresso, chefe) e não o canal para fora (avaliador independente). O acordo de 29/9 institui
+o avaliador externo e manda o relatório dele para o conselho da empresa, sem dizer nada sobre
+acesso, escolha ou quem conversa com ele.
 
-1. **Texto integral do acordo**, para saber se ele menciona empregados, retaliação ou acesso de
-   avaliadores. Sem isso, a frase central do artigo não pode ser escrita.
-   - https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence
-   - https://www.washingtonexaminer.com/news/white-house/4747747/full-trump-white-house-accord-ai-super-intelligence/
-2. **Reportagem original do WSJ** e da Bloomberg, para a data das demissões e o destinatário.
-3. **Testemunho de Painter**, para os números de 10.000, 1.200, 70.000 e 700.
-   - https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/
-4. **Texto do SB 53**, seção do Labor Code 1107.1, para a lista exata de destinatários.
-   - https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53
-   - https://law-ai.org/whistleblower-protections-in-sb-53/
-5. **Carta de Hawley de 9/9**, para as 16 perguntas e se alguma pede comunicação com avaliadores
-   externos.
-   - https://www.hawley.senate.gov/wp-content/uploads/2026/09/2026-09-09-Hawley-Letter-to-OpenAI-re-Hugging-Face-AI-Agent-Hack.pdf
-6. Qualquer declaração posterior dos três demitidos, da METR ou da Redwood.
+Reforços verificados:
+- o acesso do avaliador é concessão: Painter ("allowed... inside its walls", nota 4) e Hawley
+  Q4 e Q10 (auditores sem acesso ao modelo persistente envolvido em 95% da atividade de
+  ataque, e sem acesso à segunda onda);
+- seis senadores aderiram ao S.1792 na semana anterior ao acordo, e o projeto continua parado
+  desde maio de 2025.
+
+Anomalia (regra 1.3): Hawley investiga, coassina o S.1792 desde o início, pede à OpenAI os
+contratos com METR e Redwood (pedido de documentos 12), e não faz nenhuma das 16 perguntas
+sobre funcionários que reportaram. O interesse dele pelo canal para fora é pelo contrato, não
+pela pessoa.
+
+Tensão a nomear (regra 1.8): o canal para fora é também o canal de vazamento. Uma empresa que
+protege arquitetura de infraestrutura tem razão para controlar o que sai. A tese não pede canal
+livre; pede que a regra do canal seja escrita por alguém além da parte que demite.
+
+**Não afirmar:** retaliação; destinatário; conteúdo do material; data da demissão; que Korbak
+era covered employee; que o compartilhamento seria protegido em qualquer cenário.
 
 ---
 
-## Fontes desta rodada
+## 9. Correções em relação à primeira versão do dossiê
 
-Al Jazeera, NPR, Euronews, Semafor, Axios, The Hill, CNBC, Nextgov, Forbes, IAPP, Tech Times,
-CFR, Medianama; WSJ via Fox Business, Quartz e Crypto Briefing; Bloomberg via Digitimes;
-Washington Examiner; Cybernews; Forkast; TechPolicy.Press; Runtime Wire; Deseret News;
-Congress.gov (S.1792); Institute for Law & AI; Mayer Brown e Future of Privacy Forum sobre o
-SB 53; CNBC, Time e Lawfare sobre "Right to Warn".
+1. "Cerca de 10.000 agentes" (TechPolicy.Press, Runtime Wire) → "tens of thousands" no
+   testemunho.
+2. "Nenhum dos três comentou publicamente" → nenhum comentou **as demissões**. Korbak
+   descreveu a própria função em 27/9.
+3. "Arquivos sobre a arquitetura de infraestrutura, segundo a Bloomberg" → não está no texto
+   acessível da Bloomberg; origem é The Hacker News. Removido.
+4. "Os auditores são escolhidos pelas próprias empresas" → leitura da Tech Times; o texto não
+   trata de seleção.
+5. Afirmação de ausência sobre o acordo (proteção a quem informa) → agora verificada no texto.
+6. "Senadores reforçam o S.1792 em 25/9" (Deseret News) → datas exatas: 22/9 e 24/9, seis
+   senadores.
+7. A presidência da audiência por Hawley e a ausência de Altman continuam só em cobertura
+   (CNBC); não estão no testemunho de Painter.
