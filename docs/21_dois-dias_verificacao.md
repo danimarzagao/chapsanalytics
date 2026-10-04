@@ -123,3 +123,71 @@ Intervenções pontuais:
 - [Post de Tomek Korbak, 27/set/2026](https://x.com/tomekkorbak/status/2104293494663909823)
 
 Fora do meu alcance: Congress.gov, WSJ, Bloomberg, o texto do SB 53 no site da legislatura e os posts no X (do de Korbak, li o texto pelo resultado de busca).
+
+---
+
+## Segunda rodada (4/out/2026, após a varredura do agente)
+
+Varredura de 42 itens: 19 confirmados, 13 parciais, 2 divergentes, 4 não encontrados, 4 inacessíveis. Seguem os que mudaram o texto.
+
+| Item | Achado | O que mudou no artigo |
+|---|---|---|
+| A1 | O item 4 continua depois de "externos": "as well as to ensure any issues identified are remediated" | A citação de abertura foi completada, e o parágrafo "Li o quarto item três vezes" diz que o mesmo comitê responde pela correção |
+| H4 | A comparação com a Sarbanes-Oxley já foi publicada por Flavia Moura (Business Model Analyst, 1º/out), sobre as seções 301, 302, 404, 906 e o PCAOB | O parágrafo credita Moura e fica só com o acréscimo: canal anônimo (301(m)(4)), proibição de coagir o auditor (303) e proteção ao denunciante (806). A nota "Hipótese minha" virou "O que é meu e o que não é" |
+| H1 a H3 | As três seções conferem no U.S. Code. O S.1792 acrescenta à lista da 806 o procurador-geral e o "appropriate regulatory official" | "acrescida do procurador-geral" entrou na frase sobre o pedigree |
+| E5 | A pergunta sobre a cooperação da OpenAI foi de Blumenthal, e Painter respondeu que o acordo cobria "a subset of those questions" e que as empresas "have no obligation to work with us" | Entrou no parágrafo de escopo, como terceira voz entre Hawley e a nota 8 |
+| C1, C4, C5 | Posts lidos no original: Balesni em 10/set; Korbak em 11/set (Pacífico; 12/set em UTC); o de 27/set cita post de Ryan Greenblatt | Datas no corpo; os posts passaram para "lido na fonte primária" |
+| C2, C3 | O post é de Hagey, com a redação "the technical contact for Redwood Research and METR". Zeff só anunciou que a reportagem passou a trazer os nomes | Citação ajustada para "o contato técnico" |
+| D2 | A "arquitetura de infraestrutura" está na Bloomberg, segundo o Techmeme, atribuída a uma fonte | A frase agora registra a informação sem se apoiar nela |
+| F5 | O deputado Greg Casar escreveu "Looks like they're firing whistleblowers" | Uma frase no parágrafo do que você não sabe, para marcar que a leitura de retaliação já circula e que o artigo não a endossa |
+| A6 | A Casa Branca lista três decretos em 29/set, não um | Nota corrigida |
+| I2, I3 | A carta traz 13 a 19 e 13 a 20 de julho; "dez mil agentes" é fala oral de Painter | Nota corrigida |
+| G2 | O canal interno anônimo vale só para "large frontier developer" | "para os grandes desenvolvedores" |
+| E1, E2, E3 | Hawley na presidência, recusa de Altman e fala de Kokotajlo confirmadas | Nota atualizada |
+
+Métricas depois da segunda rodada: 3.341 palavras, 145 frases, média 23,0, desvio-padrão 13,5, frases de até 8 palavras 13,1%, 17 frases com 40 palavras ou mais, zero travessões, zero ocorrências do molde de contraste e de meta-frases.
+
+### O que continua pendente
+
+- **S.1792 no Congress.gov (B1 a B3).** Lista de coautores, datas de 22 e 24/set e ações. Só abrindo no navegador. É a única afirmação de fato do corpo sem verificação independente.
+- **WSJ e Bloomberg.** A declaração integral da OpenAI e o trecho da Bloomberg sobre arquitetura continuam atrás de assinatura.
+- **Leituras por resumo.** O agente avisa que G1, G3, H1 a H4, I1, I2, A6 e parte de D3 e D4 vieram de ferramenta que resume a página. Vale conferência visual das aspas.
+- **Common Dreams.** Falta o título exato da reportagem nas referências.
+- **Moura.** Li o texto dela por resumo. Confira se ela de fato não trata de canal de funcionários, da 303 nem da 806, porque o "acrescento" depende disso.
+- **Opcional.** Em 16/set, Korbak escreveu que a OpenAI não vinha informando bem o público sobre incidentes de alinhamento. Conversa direto com "Seis dias úteis" e pode entrar se você quiser reforçar o parágrafo das três leituras.
+
+---
+
+## Terceira rodada (4/out/2026, com os vinte PDFs enviados)
+
+Texto extraído dos PDFs e conferido por busca literal. Tudo o que estava marcado como "lido por resumo" na segunda rodada foi conferido no documento, com as exceções listadas ao fim.
+
+### O que mudou no artigo
+
+| Fonte | Achado | Mudança |
+|---|---|---|
+| Congress.gov, Cosponsors | 13 coautores: 5 originais, Slotkin (8/out/2025), Schumer, Blumenthal e Gillibrand (22/set/2026), Durbin, Curtis e Kelly (24/set/2026), Schiff (30/set/2026) | As datas de 22 e 24/set estão confirmadas. Entraram Schiff, que aderiu no dia da audiência, e o total de treze. O "doze" do original não contava Schiff |
+| Congress.gov, All Info | Uma única ação: "Read twice and referred to the Committee on Health, Education, Labor, and Pensions", 15/mai/2025. Projeto idêntico na Câmara: H.R.3460 (Obernolte) | Confirmado, sem mudança |
+| Bloomberg (arquivo de 3/out) | Não traz nomes. Descreve "two safety and alignment researchers and a one research program manager". O destinatário é "an outside group" no primeiro parágrafo e "an external AI evaluation group" segundo uma fonte anônima, que também fala em "infrastructure architecture" | O segundo parágrafo do artigo atribuía os nomes também à Bloomberg: corrigido. A descrição "grupo de avaliação" e a arquitetura de infraestrutura entraram, com a ressalva de fonte única. A frase "no trecho que li, essa frase não está" saiu |
+| WSJ (arquivo de 1º/out, 12h41 ET) | Versão anterior aos nomes. Declaração integral em duas frases; "a third-party AI-safety organization"; "recently told some employees" | Confirmado. A nota agora diz qual versão foi lida |
+| SB 53, texto oficial | Seções 1107 e 1107.1 conferem. A lei menciona o avaliador em outro lugar: o relatório de transparência deve dizer "the extent to which third-party evaluators were involved" | Frase nova na seção da lei: o avaliador entra como item de relatório e fica fora como destinatário de relato. É achado do texto, e reforça a tese |
+| Comunicado do procurador-geral | Intimação entregue em 30/set; investigação formal anunciada no mês anterior; sem base legal nem prazo citados; convite a quem tiver informação | Uma oração sobre o convite entrou no parágrafo das duas metades |
+| Common Dreams | Título e frase de Casar conferem: "Looks like they're firing whistleblowers... What are they hiding?" | Referência completada |
+
+### Confirmado sem mudança
+
+- **Moura.** Trata das seções 404, 301, 302 e 906, do PCAOB e da publicação dos relatórios. Não menciona funcionário, canal de denúncia, seção 303 nem seção 806. O seu acréscimo se sustenta.
+- **Sarbanes-Oxley.** 78j-1(m)(2) e (m)(4), 7242 e 1514A(a)(1) conferem palavra por palavra com o que o artigo afirma.
+- **S.1792.** Destinatários, cláusula interna e definição de "covered individual" conferem.
+- **Carta de Hawley.** Prazo de 1º/out, perguntas 4, 6 e 10, item 12, e as duas datas da segunda onda (13 a 19 no corpo, 13 a 20 na pergunta 10 e no item 10 dos documentos).
+- **Ganz e Koch.** A frase sobre "evaluation providers" está no sumário executivo.
+- **ASRS.** "Founded in 1976 through a Memorandum of Agreement"; operação a partir de 15/abr/1976.
+
+### O que os PDFs não resolvem
+
+- **Casa Branca.** O arquivo enviado é a Executive Order 14409, de 2 de junho de 2026 ("Promoting Advanced Artificial Intelligence Innovation and Security"), e não um decreto de 29/set. A afirmação da nota sobre três decretos em 29/set continua apoiada só na varredura do agente.
+- **Ynet.** O PDF traz só os primeiros parágrafos. O subtítulo diz "though no link between the cases is known"; a frase "no indication" não aparece no trecho.
+- **TechCrunch.** A versão em PDF é anterior aos nomes e diz que o veículo não os confirmou.
+- **Posts no X e transcrição da audiência.** Não vieram em PDF; seguem apoiados na leitura do agente.
+
+Métricas: 3.431 palavras, 148 frases, média 23,2, desvio-padrão 13,5, 16 frases com 40 palavras ou mais, zero travessões, zero ocorrências do molde de contraste e de meta-frases.

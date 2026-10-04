@@ -286,6 +286,13 @@ Caso: escrevi que o item 4 do acordo "tem uma frase só" e cortei a frase antes 
 encarrega o comitê de garantir a correção dos problemas. O comitê virava mero receptor. Cite
 até o fim da unidade sintática, ou marque o corte e diga o que ficou fora.
 
+
+**3.18 Antes de chamar uma ideia de "hipótese minha", procure quem já a publicou.**
+Caso: a comparação entre o item 4 do acordo e a Sarbanes-Oxley foi apresentada como
+hipótese própria e já tinha sido publicada por Flavia Moura (Business Model Analyst, 1/10).
+O que sobra é o acréscimo verificável (seções 301(m)(4), 303 e 806), e o crédito vai no
+corpo. É a regra 3.10 aplicada à própria autoria.
+
 ---
 
 ## 4. Regras de forma

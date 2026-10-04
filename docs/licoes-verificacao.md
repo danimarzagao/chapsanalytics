@@ -396,3 +396,13 @@ A verificação da autora confirmou o esqueleto factual e encontrou:
   "doze coautores" não fechava (5 + 6 = 11). A página de coautores do Congress.gov lista
   também Elissa Slotkin, que entrou em 8/10/2025. São doze. Corrigir exige abrir a fonte,
   inclusive quando quem corrige é a verificação.
+
+- **A correção da correção também envelheceu** (regras 1.12 e 2.11). Eu restaurei "doze
+  coautores" contando Slotkin; a página de 4/10 lista treze, porque Adam Schiff aderiu em
+  30/9, dia da audiência. Contagem de signatários tem prazo de validade até dentro do mesmo
+  dia de trabalho.
+- **Hipótese "minha" já publicada** (regra 3.18): a comparação com a Sarbanes-Oxley era de
+  Flavia Moura. Ficou o crédito e o acréscimo das seções 301(m)(4), 303 e 806.
+- **Atribuição a veículo errado:** o segundo parágrafo atribuía os nomes também à Bloomberg,
+  que não os traz; a Bloomberg descreve "two safety and alignment researchers and a one
+  research program manager".
