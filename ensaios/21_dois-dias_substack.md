@@ -1,5 +1,7 @@
 # Dois dias
 
+> **RASCUNHO SUPERADO** por `21_dois-dias_vozDani.md`.
+
 *Em 29 de setembro, sete homens assinaram na Casa Branca um compromisso que pede auditor externo em todo laboratório de fronteira. Em 1º de outubro, três pesquisadores de segurança da OpenAI saíram da empresa por ter, segundo ela, levado informação para fora. A lei que existe protege quem fala para cima. Ninguém escreveu a regra para quem fala para fora*
 
 ---

@@ -35,6 +35,7 @@ disponível da data de publicação, e não a data de publicação em si.
 | 18b | O lugar sem endereço | 11/09 | [v2](https://docs.google.com/document/d/1Mlzj4whxJA3gZqa0Vr_7FMkUwZt82WvSGjJ1TaR_VnE) · [teaser](https://docs.google.com/document/d/1JtLmjbGm_czd7h6GshzUU1MkXn89LZyXNhbla36lKtM) · [precursor](https://docs.google.com/document/d/1uPJv2r50eL9Pyd_FDHARfufnsSijI7REYoep_l7GBto) |
 | 19 | Seis dias úteis | 20/09 | [v2](https://docs.google.com/document/d/1Omk3xy7r44epF-5M4S4ADc_9kKQ7PcIQ_lFsA76ghic) · [verificação](https://docs.google.com/document/d/1u4t-vtquYZ255A4sflkasqWG-bikpC2Xa9Wrs1BywRc) |
 | 20 | Mesmo prompt, quatro comportamentos | 27/09 | [final](https://docs.google.com/document/d/1GlYD83Av9ZAlsokFppq0N-_2B1xtJUWbdDFQrFP0MDU) |
+| 21 | Dois dias | 04/10 | `ensaios/21_dois-dias_vozDani.md` (reescrita da autora, pendências abertas) · `docs/21_dois-dias_verificacao.md` |
 
 Sem numeração explícita nos arquivos até o artigo 11. A numeração de 11 a 20 vem do nome
 dos próprios documentos.

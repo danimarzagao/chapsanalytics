@@ -376,3 +376,23 @@ As meta-frases eram "vale contar", "vale insistir", "vale ler devagar" e "vale r
 Entraram no script como métrica contada. Também entraram o teto de negritos e a faixa de
 oito palavras, que é onde a fragmentação se esconde do filtro de seis. E o separador de
 frases passou a não quebrar em inicial de nome, que estava contando "Joel Z." como frase.
+
+
+---
+
+## Artigo 21, "Dois dias" (4/10/2026)
+
+A verificação da autora confirmou o esqueleto factual e encontrou:
+
+- **Omissões que mudavam o argumento** (regra 1.20): a intimação do procurador-geral da
+  Califórnia de 30/9, as críticas públicas de Balesni e Korbak de 10–11/9, e a palavra de
+  Painter para a segunda onda ("fora do escopo") contra a de Hawley ("acesso negado").
+- **Citação truncada** do item 4 do acordo (regra 3.17). O texto do American Presidency
+  Project termina com "as well as to ensure any issues identified are remediated".
+- **Imprecisões:** "nota 4" (notas 4 a 6), "créditos" (tokens), "todo laboratório"
+  (signatários), "segundo ela" (a acusação de levar para fora é do WSJ), data do ASRS
+  (memorando de 1975, operação em 1976).
+- **Correção errada dentro da verificação** (regra 1.12 de novo): a verificação dizia que
+  "doze coautores" não fechava (5 + 6 = 11). A página de coautores do Congress.gov lista
+  também Elissa Slotkin, que entrou em 8/10/2025. São doze. Corrigir exige abrir a fonte,
+  inclusive quando quem corrige é a verificação.

@@ -117,6 +117,14 @@ prompt eram idênticos. Pela minha própria tese, prompt é o quadro de valores 
 cultura é o que emerge depois. Mapeada na camada certa, a evidência ficou mais favorável à
 tese, não menos. Errar a camada enfraquece o argumento justamente onde ele era mais forte.
 
+
+**1.20 Antes de escrever sobre uma janela curta, varra tudo o que aconteceu dentro dela.**
+Caso: "Dois dias" tratava de 29/9 a 1/10 e omitia os dois fatos do dia do meio que mais
+pesavam, a intimação do procurador-geral da Califórnia à OpenAI e as críticas públicas que
+dois dos demitidos tinham feito à empresa três semanas antes. O segundo cria uma leitura
+concorrente do mesmo fato; o primeiro corrigiu a tese ("jurisdição sem acesso" virou
+"jurisdição que só alcança papel"). Fato adverso ao enquadramento é o primeiro a buscar.
+
 ---
 
 ## 2. Regras de números
@@ -271,6 +279,12 @@ Generalizar o particular é erro silencioso, porque o texto continua soando verd
 Caso: o paper justifica o rótulo que dá a uma coorte de agentes citando Leibo e colegas, e
 Leibo assina o paper. A justificativa é autocitação, o que não a invalida e muda o peso
 dela. É a regra 3.5 aplicada dentro de um único documento.
+
+
+**3.17 Citação truncada que muda a função do que é citado é citação errada.**
+Caso: escrevi que o item 4 do acordo "tem uma frase só" e cortei a frase antes da oração que
+encarrega o comitê de garantir a correção dos problemas. O comitê virava mero receptor. Cite
+até o fim da unidade sintática, ou marque o corte e diga o que ficou fora.
 
 ---
 
