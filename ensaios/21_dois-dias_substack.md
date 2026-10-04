@@ -12,6 +12,8 @@ Antes de qualquer coisa, o que eu não sei. Não sei quando os três foram desli
 
 O que me interessa é mais estreito e, acho, mais durável. Em dois dias, o desenho de governança que os Estados Unidos escolheram para a IA de fronteira e o caso concreto mais próximo dele bateram exatamente no mesmo ponto: a pessoa que fica entre o laboratório e quem o avalia de fora.
 
+Chego a três conclusões, e adianto as três para que o leitor possa conferir o caminho em vez de esperar por ele. O acordo cria o auditor externo, mas manda o relatório dele de volta para o conselho da própria empresa, e por isso não cria o receptor de fora que eu disse faltar em "Seis dias úteis". A lei americana que existe, e a que está em tramitação, protegem quem relata para cima, ao Estado ou ao chefe, e não quem relata para fora, ao avaliador. E entre as duas coisas fica uma pessoa, o contato técnico do avaliador dentro da empresa, cuja conduta é regida só pela política da empresa. É nela que o sistema inteiro se apoia, e é ela que ninguém protege.
+
 ## O que o acordo diz, lido inteiro
 
 O nome oficial é *White House Accord on Super Intelligence: Joint Commitment on Frontier Responsibilities*. Assinam Donald Trump, Sundar Pichai pelo Google, Dario Amodei pela Anthropic, Mark Zuckerberg pela Meta, Greg Brockman pela OpenAI, Elon Musk pela xAI e Jensen Huang pela Nvidia. No bloco de assinaturas, o cargo de Trump aparece como "President of the Unites States", com o erro de digitação preservado na transcrição do American Presidency Project.
@@ -64,13 +66,31 @@ Nenhuma das dezesseis perguntas é sobre funcionário que reportou preocupação
 
 Não leio isso como contradição de Hawley. Leio como o retrato exato do lugar onde a atenção institucional está. O interesse do Congresso pelo canal para fora é pelo contrato entre organizações, e não pela pessoa que, dentro da empresa, opera esse contrato todo dia.
 
-## Para onde a exceção migra
+## O que isto faz com "Seis dias úteis"
 
-Em "Seis dias úteis", escrevi que todo regime tem a via rápida, com prazo declarado, e a via lenta sem relógio, e que o comportamento do sistema é decidido pela segunda. Este caso tem a mesma forma. A via rápida é a linha direta do procurador-geral e o relato ao Congresso: protegidos, raros, formais. A via lenta é a conversa técnica diária com o avaliador, regida por contrato de confidencialidade e política interna, avaliada pela mesma parte que demite.
+Há duas semanas, escrevi que o problema da divulgação de incidentes da OpenAI não era a empresa, e sim a falta de alguém do lado de fora com jurisdição para receber o relato. Usei o sistema de reporte da aviação americana como precedente: em 1976, a FAA pediu à NASA, separada dos órgãos de fiscalização, que administrasse o ASRS. O regulador abriu mão de receber o relato para que o relato existisse. E terminei dizendo que não sabia qual instituição deveria cumprir esse papel para a IA.
 
-Há uma razão honesta para essa via ser apertada, e não quero escondê-la. O canal para fora é também o canal de vazamento. Um laboratório que guarda pesos, arquitetura e vulnerabilidades tem motivo legítimo para controlar a saída de informação. Um pesquisador que entrega a terceiros mais do que o combinado pode estar fazendo exatamente o que a OpenAI acusa os três de ter feito. Quero isso dito no corpo do texto, porque a tese não pede canal livre. Pede que a regra do canal seja escrita por alguém além da parte que tem o poder de demitir.
+Este caso reforça uma parte daquele texto e corrige outra.
 
-O sistema de reporte da aviação americana, que usei em "Seis dias úteis", é o contraexemplo de que já existe solução para isso. Foi a FAA que pediu à NASA, separada dos órgãos de fiscalização, que administrasse o ASRS. O regulador abriu mão de receber o relato para que o relato existisse. Em "Mesmo prompt, quatro comportamentos", o cordão que os agentes podiam puxar não tinha ninguém do outro lado. Aqui o cordão tem alguém do outro lado, e o acordo assinado na Casa Branca não diz quem protege a mão que puxa.
+Reforça a principal. Em 29 de setembro o governo americano teve a chance de nomear o receptor de fora e também abriu mão de receber o relato, como a FAA em 1976. A diferença está no destino. A FAA entregou o relato a um terceiro neutro, que não opera e não pune. O acordo o entrega ao conselho da empresa auditada. É o mesmo gesto de renúncia, com o efeito contrário.
+
+Reforça também a regra que tirei da trilha lenta: todo regime tem uma via rápida, com prazo e proteção, e uma via lenta sem relógio, e é na segunda que o sistema se decide. Aqui a via rápida é a linha direta do procurador-geral e o relato ao Congresso, protegidos e raros. A via lenta é a conversa técnica diária com o avaliador, regida por contrato de confidencialidade e política interna, julgada pela mesma parte que demite.
+
+E corrige a frase mais larga. Escrevi que o lado de fora não existia. Existe, e em duas metades que não se encontram. Uma metade tem jurisdição e não tem acesso: o procurador-geral da Califórnia e o Congresso podem receber denúncia protegida, mas nenhum dos dois entra no laboratório para olhar o modelo. A outra tem acesso e não tem jurisdição: a METR e a Redwood entraram, investigaram e levaram o resultado ao Senado, mas só porque a empresa deixou e só até onde deixou. A ponte entre as duas metades é uma pessoa, e foi essa peça que eu não vi em "Seis dias úteis". O endereço do lado de fora não é só um prédio a construir. Precisa também de uma regra para quem caminha até ele.
+
+Há uma razão honesta para essa via ser apertada, e não quero escondê-la. O canal para fora é também o canal de vazamento. Um laboratório que guarda pesos, arquitetura e vulnerabilidades tem motivo legítimo para controlar a saída de informação. Um pesquisador que entrega a terceiros mais do que o combinado pode estar fazendo exatamente o que a OpenAI acusa os três de ter feito. A tese não pede canal livre. Pede que a regra do canal seja escrita por alguém além da parte que tem o poder de demitir.
+
+## O que fazer com isso, fora de um laboratório de fronteira
+
+Quase ninguém que me lê dirige a OpenAI. Mas quase todo mundo que me lê contrata, ou vai contratar, alguém de fora para dizer se um sistema de IA dentro de casa está funcionando, seja auditoria, consultoria de risco ou avaliação de fornecedor. O desenho do acordo é o desenho padrão desses contratos, e os três buracos se repetem.
+
+O primeiro é o acesso. Se o contrato do avaliador diz "parceria" e não diz o que ele pode consultar, ele vai ver o que lhe mostrarem, como os auditores do caso Hugging Face na segunda onda. Escreva no contrato, antes do incidente, a que o avaliador tem acesso e o que acontece quando o acesso é negado.
+
+O segundo é o destino do relatório. Se ele vai só para um comitê do seu conselho, o que você comprou é garantia para o conselho, o que pode ser exatamente o que você quer. Só não chame isso de transparência para cliente, regulador ou público.
+
+O terceiro é a pessoa do meio. Toda avaliação externa tem um contato técnico do lado de dentro. Antes de nomear essa pessoa, escreva o que ela pode entregar, quem resolve a dúvida quando o pedido do avaliador passa do combinado, e que ela não responde sozinha por uma decisão que a empresa tomou ao contratar a avaliação. Se você é essa pessoa, peça isso por escrito. A proteção legal que existe, onde existe, cobre o seu relato ao Estado e ao seu chefe, e não a sua conversa com o auditor.
+
+Em "Mesmo prompt, quatro comportamentos", o cordão que os agentes podiam puxar não tinha ninguém do outro lado. Aqui tem alguém do outro lado, e o acordo assinado na Casa Branca não diz quem protege a mão que puxa.
 
 Se o próximo avaliador externo de um laboratório de fronteira precisar de um contato técnico do lado de dentro, como tem precisado, quem vai aceitar o cargo sabendo que a regra do que pode atravessar é escrita, aplicada e julgada pela mesma empresa que assinou o compromisso de ser auditada?
 
@@ -118,4 +138,4 @@ KORBAK, Tomek. Post no X, 27 de setembro de 2026.
 
 ---
 
-*Este artigo integra a série VibeCoding em Contexto. O ASRS e a via lenta sem relógio estão em "Seis dias úteis". O cordão sem ninguém do outro lado está em "Mesmo prompt, quatro comportamentos".*
+*Este artigo integra a série VibeCoding em Contexto. O ASRS e a via lenta sem relógio estão em "Seis dias úteis e uma trilha sem relógio", que este texto reforça e corrige em um ponto. O cordão sem ninguém do outro lado está em "Mesmo prompt, quatro comportamentos".*
