@@ -84,7 +84,7 @@ O MEC já escreveu que algumas atividades devem ser "preservadas como exclusivam
 
 **Cálculo próprio.** Os cerca de 45% de professores brasileiros dos anos finais que participaram de formação sobre IA nos doze meses anteriores são conta minha sobre os microdados de professores da TALIS 2024 (item TT4G21G do questionário), com o peso amostral e os cem pesos replicados da pesquisa; o resultado foi 44,8%, com erro-padrão de cerca de 1,6 ponto. Os pesos chegaram a mim com o separador decimal corrompido por uma conversão de planilha, e eu os reconstruí. Validei a reconstrução reproduzindo dois números oficiais da OCDE: uso de IA, 55,9% contra 56,1% publicado, e necessidade alta de formação em IA, 38,3% contra 39%. O resultado não muda quando excluo as linhas com pesos duvidosos nem quando calculo sem peso. Não é número oficial da OCDE, e por isso aparece no texto como estimativa minha.
 
-**Números de Bastani.** As porcentagens são dos autores. Os números brutos, numa escala de 0 a 1: média do grupo de controle de 0,284 nos exercícios e 0,321 na prova; efeito do ChatGPT comum de +0,137 nos exercícios e −0,054 na prova; efeito do tutor de +0,361 e −0,004, este último sem significância estatística; 2.848 observações. O artigo tem uma correção publicada pela revista que não li. O achado sobre percepção está no texto principal; os detalhes estão no apêndice B.3, que também não li.
+**Números de Bastani.** As porcentagens são dos autores. Os números brutos, numa escala de 0 a 1: média do grupo de controle de 0,284 nos exercícios e 0,321 na prova; efeito do ChatGPT comum de +0,137 nos exercícios e −0,054 na prova; efeito do tutor de +0,361 e −0,004, este último sem significância estatística; 2.848 observações. A revista publicou uma correção em 20 de agosto de 2025, que li: ela trata só da afiliação de Osbert Bastani e não altera nenhum resultado. O achado sobre percepção está no texto principal; os detalhes estão no apêndice B.3, que também não li.
 
 **O que não consegui verificar.** O texto integral do parecer. A tabela oficial da OCDE com a participação em formação sobre IA (Table 4.22). Os estudos de Kosmyna e colegas e de Gerlich citados pelo MEC, que conheço só pela citação. Os estudos de Cruces e colegas, Caosun e Aral, e Farach e colegas, que uso a partir do meu próprio livro (Marzagão, 2026), sem reabri-los para este texto.
 
@@ -94,7 +94,7 @@ O MEC já escreveu que algumas atividades devem ser "preservadas como exclusivam
 
 ## Referências
 
-BASTANI, Hamsa; BASTANI, Osbert; SUNGU, Alp; GE, Haosen; KABAKCI, Özge; MARIMAN, Rei. Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences*, v. 122, n. 26, e2422633122, 2025.
+BASTANI, Hamsa; BASTANI, Osbert; SUNGU, Alp; GE, Haosen; KABAKCI, Özge; MARIMAN, Rei. Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences*, v. 122, n. 26, e2422633122, 2025. Correção em v. 122, n. 34, e2518204122, 2025.
 
 BRASIL. Conselho Nacional de Educação. Súmula do Parecer CNE/CP nº 15/2026. Diretrizes para a Utilização da Inteligência Artificial na Educação Brasileira. *Diário Oficial da União*, 6 out. 2026, ed. 189, seção 1, p. 18.
 
