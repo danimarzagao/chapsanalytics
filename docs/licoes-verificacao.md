@@ -406,3 +406,28 @@ A verificação da autora confirmou o esqueleto factual e encontrou:
 - **Atribuição a veículo errado:** o segundo parágrafo atribuía os nomes também à Bloomberg,
   que não os traz; a Bloomberg descreve "two safety and alignment researchers and a one
   research program manager".
+
+
+---
+
+## Artigo 22, "Perguntar não mede" (11/10/2026)
+
+A verificação da autora manteve a tese e derrubou duas premissas:
+
+- **Afirmação de ausência sobre documento já publicado** (regras 2.9 e 3.20): o parecer
+  integral estava no site do CNE desde 7/10. Lido, ele tem um princípio de autonomia
+  intelectual e uma escada etária de restrição, o que reescreveu a terceira conclusão. O
+  achado novo, mais forte que o original: o art. 4º do projeto de resolução lista 12 dos 13
+  princípios do parecer e deixa fora justamente o da autonomia intelectual.
+- **Erro herdado do próprio livro** (regra 3.19): autores e resultado de Cruces et al.; Caosun
+  e Aral apresentados como estudo empírico. **O capítulo 5 de *O Trabalho que Vem* precisa
+  dessas duas correções.**
+- **Referência fantasma na nota** (regra 3.13): Farach et al. citado na nota e ausente do corpo.
+- **Atribuição de autoria** (regra 3.21): Mattos Filho.
+- **Indicador mal especificado:** "se a distância entre com e sem cresce" acusa dependência
+  quando a ferramenta melhora e o aluno fica igual. O indicador certo é a curva do desempenho
+  sem a ferramenta.
+- **Evidência de um lado só** (regra 1.6): faltava dizer que o GPT Base acertava 51% das vezes
+  e que há experimentos de tutoria com ganho.
+- **Comparação indevida:** 45% de participação em formação e 39% de necessidade alta não se
+  subtraem (regra 2.1).

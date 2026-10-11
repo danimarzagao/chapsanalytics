@@ -1,5 +1,7 @@
 # Perguntar não mede
 
+> **RASCUNHO SUPERADO** por `22_perguntar-nao-mede_substack_v2.md` (verificação em `docs/22_perguntar-nao-mede_verificacao.md`).
+
 *O Ministério da Educação já deu nome ao risco de a inteligência artificial pensar no lugar do aluno. Para saber se ele está acontecendo, propõe ouvir a percepção dos professores. O maior experimento sobre o tema mostra que a percepção é justamente o que falha*
 
 ---

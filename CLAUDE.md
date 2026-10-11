@@ -293,6 +293,25 @@ hipótese própria e já tinha sido publicada por Flavia Moura (Business Model A
 O que sobra é o acréscimo verificável (seções 301(m)(4), 303 e 806), e o crédito vai no
 corpo. É a regra 3.10 aplicada à própria autoria.
 
+
+**3.19 O livro da autora é fonte secundária sobre os estudos que ele cita.**
+Caso: no artigo 22 citei Cruces e colegas a partir do capítulo 5 de *O Trabalho que Vem*:
+autores errados ("Dezzutti, Rossi e Tetaz"; são Fernández Meijide, Galiani, Gálvez e
+Lombardi) e um resultado que o paper não sustenta (a diferença "voltou integralmente" a
+0,548; no módulo sem IA foi 0,300 e 0,200, sem diferença significativa). O mesmo capítulo
+chama de "experimento" o trabalho de Caosun e Aral, que é modelo teórico. É a regra 3.8 com
+um livro no lugar do artigo: o que o livro diz de um estudo se confere no estudo.
+
+**3.20 "Será divulgado" é afirmação com data.**
+Caso: a súmula do DOU, assinada em 5/10, dizia que o parecer "será divulgado na página do
+CNE"; escrevi que o texto integral não estava publicado. Em 7 e 8/10 ele já estava, com
+link na própria análise que eu usava. Antes de afirmar que um documento não saiu, procure-o
+na data em que escreve (regras 2.9 e 3.6).
+
+**3.21 Autoria de página institucional é a do metadado, não a da lista de contatos.**
+Caso: atribuí a análise do Mattos Filho aos quatro advogados listados como profissionais da
+prática; a autoria registrada é outra. Na dúvida, atribua à instituição.
+
 ---
 
 ## 4. Regras de forma
