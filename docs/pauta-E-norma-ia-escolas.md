@@ -256,7 +256,21 @@ Leituras:
   60,4% (37,4%); não acredita que se deva usar 38,6% (48,0%); escola não permite 17,7% (12,1%);
   sobrecarga com tecnologia 12,6% (33,2%).
 - Necessidade alta de formação em IA: 39% (OCDE 29%); professores iniciantes, 32%.
-- Participação em formação sobre IA no Brasil: não lida (Table 4.22, cap. 4).
+- **Participação em formação sobre IA nos últimos 12 meses (TT4G21G, "Using artificial
+  intelligence for teaching and learning"): 44,8% (e.p. aprox. 1,6; n = 2.846).** Cálculo
+  meu a partir dos microdados de professores do Brasil (ISCED 2), com TCHWGT e 100 pesos
+  replicados (BRR, Fay 0,5). OCDE: 38% (relatório principal, cap. 4, segundo a autora; não
+  lido por mim). **Ressalva de método:** os pesos chegaram corrompidos pela exportação do
+  Planilhas Google (separador decimal convertido em milhar) e foram reconstruídos supondo seis
+  casas decimais. A reconstrução foi validada contra dois números oficiais: uso de IA (TT4G36)
+  dá 55,9% contra 56,1% publicado; necessidade alta de formação em IA (TT4G24G) dá 38,3% contra
+  39%. O resultado de 44,8% não muda ao excluir as 182 linhas com pesos suspeitos, nem sem
+  peso nenhum. Não é número oficial: se entrar no texto, entra como cálculo próprio sobre os
+  microdados, ou é substituído pela Table 4.22.
+- Leitura: mais professores brasileiros fizeram formação em IA (44,8%) do que dizem precisar
+  muito dela (39%), e ainda assim 56% usam. O questionário não diz o que a formação ensinou.
+  Pela evidência do cap. 5 (Farach et al.), o conteúdo importa mais do que a participação:
+  formação em protocolo de uso piorou resultados; só a mudança de moldura ajudou.
 
 Leituras:
 - **A avaliação com IA já é prática.** Um terço dos professores que usam IA a usa para avaliar
@@ -317,5 +331,5 @@ aprendeu.
 ## 10. O que falta abrir
 
 1. Texto integral do parecer e do projeto de resolução (página do CNE, quando divulgado).
-3. TALIS 2024, Table 4.22 (participação em formação sobre IA, Brasil). Os CSVs enviados (acg, bcg, ccg, tcg) são arquivos de escola/diretor (prefixo TC4G, peso SCHWGTC); o dado está no arquivo de professores (BTG), não enviado.
+3. TALIS 2024, Table 4.22, para substituir o cálculo próprio de participação em formação sobre IA.
 4. Margens de erro da TIC Educação 2024, nos arquivos para download.
