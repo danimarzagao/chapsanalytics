@@ -14,7 +14,7 @@ Segunda rodada, 11/10/2026. Documento de projeto, não texto publicável.
 | TIC Educação 2024 (alunos) e 2025 (escolas), tabelas expandidas do Cetic.br, extraídas em 11/10/2026 | lidas (primária) |
 | Página de metodologia da TIC Educação | lida (primária) |
 | Bastani et al., PNAS 122(26) e2422633122, 2025, e versão SSRN 4895486 | lidos (primária) |
-| Documento orientador do MEC, abril/2026 | **não lido**; links indisponíveis |
+| Documento orientador do MEC, *Inteligência Artificial na Educação Básica* (88 pp., abril/2026), cópia do espelho computacional.com.br | lido (primária; conferir capa contra a versão gov.br) |
 | TALIS 2024: nota do Brasil (pp. 3, 4, 6) e Tables 1.59, 1.60, 1.63 da base de dados | lidas (primária); tabelas extraídas pela autora, conferidas contra a nota |
 
 ---
@@ -78,6 +78,66 @@ social, vigilância emocional e perfilização para fins disciplinares.
 
 Nota: a sanção baseada "exclusivamente" em resultado de ferramenta de IA cobre o caso do
 detector de IA, mas a palavra "detector" não aparece em nenhuma fonte lida. Não usar.
+
+---
+
+## 2b. O documento orientador do MEC (lido), e o que ele faz com a tese
+
+Orientação às secretarias e escolas, não norma. Cinco capítulos; quatro domínios de formação
+confirmados: "Compreensão Crítica da IA; Uso Pedagógico Intencional da IA; Proteção de Direitos
+e Bem-Estar; Desenvolvimento Profissional e Bem-Estar Docente".
+
+**Converge com o livro, e muito mais do que eu supunha:**
+- "o uso ou não uso de sistemas de IA seja uma decisão das comunidades escolares, porém
+  assegurando, de forma obrigatória, a aprendizagem intencional e significativa sobre estes
+  sistemas". Aprender **sobre** IA é obrigatório; usar é opcional. Isso resolve a ambiguidade
+  da "integração progressiva" da minuta do CNE.
+- "As decisões implicando o ensino-aprendizagem COM ou SEM IA devem ter por objetivo maior
+  garantir o desenvolvimento de habilidades cognitivas e sociais, evitando a dependência".
+- Princípio 1: "Recursos com IA devem ser adotados apenas se forem comprovadamente superiores
+  a soluções sem IA". A gestão deve documentar "porque a solução com IA é preferível à solução
+  sem IA ou analógica".
+- Princípio 2: uso mediado "evitando o 'descarregamento cognitivo' (Kosmyna et al., 2025;
+  Gerlich, 2025)".
+- Professores podem optar por não usar; as escolas devem definir em quais atividades a IA é
+  "permitida, restrita ou proibida, diferenciando tarefas de criação, pesquisa, revisão e
+  avaliação", e quais "devem ser preservadas como exclusivamente humanas".
+- "IA desplugada" nos anos iniciais: classificação com cartões e agrupamentos físicos.
+- Formação docente: "especialista em experiências de aprendizagem com e sem IA";
+  "Planejamento de atividades híbridas (com e sem IA)"; riscos de "descarregamento cognitivo,
+  empobrecimento do raciocínio, dependência excessiva".
+
+É, quase ponto a ponto, o atrito produtivo do cap. 4 e o elemento 2 do cap. 5. A versão
+anterior desta pauta tratava a norma como alheia ao dano de formação. O documento do MEC o
+nomeia explicitamente. Essa parte da divergência cai.
+
+**Regra 3.18 contra mim:** o documento já usa os mesmos números da TIC (37%, 70%, 19%, 33%) e já
+escreve que eles revelam "uma assimetria relevante entre adoção prática e mediação crítica". A
+leitura que eu ia apresentar como achado é do MEC. Atribuir.
+
+Dado novo, do mesmo documento: 43% dos professores do fundamental e médio usam IA generativa
+na preparação de conteúdos (TIC Educação, CGI.br 2025a; tabela não lida por mim).
+
+**Onde a divergência sobrevive, mais estreita:**
+- **Como se sabe se o dano está acontecendo.** O instrumento proposto é perceptivo: "A
+  coordenação pedagógica pode sistematizar as percepções dos professores sobre o impacto das
+  ferramentas no engajamento cognitivo dos estudantes, avaliando se estão desenvolvendo
+  autonomia e pensamento crítico ou se estão se tornando dependentes". O livro pede medida:
+  "avaliações periódicas sem acesso à ferramenta". E Bastani et al. mostram por que percepção
+  não basta: os alunos do GPT Tutor acharam que tinham ido significativamente melhor na prova
+  sem IA, e não foram. O estudo mediu a percepção dos alunos, não a dos professores; a extensão
+  para professores é hipótese, e o texto deve dizê-lo.
+- **Base de evidência.** O princípio do descarregamento cognitivo se apoia em Kosmyna et al.
+  (preprint, 54 participantes) e Gerlich. O experimento randomizado grande e publicado com
+  prova sem a ferramenta, Bastani et al. (PNAS 2025), não aparece no documento (busca por
+  "Bastani" sem resultado). O argumento do MEC é melhor do que a evidência que ele cita.
+- **Força.** O documento orienta; o parecer do CNE, que vincula depois da homologação, é o
+  que se lê com moldura de risco ao estudante (pelo Mattos Filho).
+
+**Tese reformulada (regra 1.14):** o MEC já nomeou o dano que *O Trabalho que Vem* descreve, e
+propõe detectá-lo pela percepção dos professores; o único experimento grande que mediu o dano
+com prova sem a ferramenta mostra que, pelo menos para os próprios alunos, a percepção é
+exatamente o que falha.
 
 ---
 
@@ -257,6 +317,5 @@ aprendeu.
 ## 10. O que falta abrir
 
 1. Texto integral do parecer e do projeto de resolução (página do CNE, quando divulgado).
-2. Documento orientador do MEC de abril/2026.
-3. TALIS 2024, Table 4.22 (participação em formação sobre IA, Brasil).
+3. TALIS 2024, Table 4.22 (participação em formação sobre IA, Brasil). Os CSVs enviados (acg, bcg, ccg, tcg) são arquivos de escola/diretor (prefixo TC4G, peso SCHWGTC); o dado está no arquivo de professores (BTG), não enviado.
 4. Margens de erro da TIC Educação 2024, nos arquivos para download.
