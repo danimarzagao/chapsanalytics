@@ -431,3 +431,11 @@ A verificação da autora manteve a tese e derrubou duas premissas:
   e que há experimentos de tutoria com ganho.
 - **Comparação indevida:** 45% de participação em formação e 39% de necessidade alta não se
   subtraem (regra 2.1).
+- **v3, leitura integral da resolução:** a v2 afirmava que o princípio da autonomia
+  intelectual "ficou fora" do texto que obriga, com base nos arts. 1º a 8º. O art. 18, III o
+  traz de volta como diretriz obrigatória da educação básica. A afirmação de ausência
+  sustentada por leitura parcial caiu, como prevê a regra 2.9. A tese sobreviveu deslocada:
+  a resolução fixa o objetivo e não fixa a medida. Também se confirmou na resolução o que o
+  g1 noticiara (vedações por etapa, art. 46 com doze meses, detector no art. 41, X), com uma
+  diferença: a pré-correção de redações é admitida como auxiliar (art. 40, § 4º).
+- Abertura da errata do livro: `docs/errata-o-trabalho-que-vem.md`.
