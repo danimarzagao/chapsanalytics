@@ -15,7 +15,7 @@ Segunda rodada, 11/10/2026. Documento de projeto, não texto publicável.
 | Página de metodologia da TIC Educação | lida (primária) |
 | Bastani et al., PNAS 122(26) e2422633122, 2025, e versão SSRN 4895486 | lidos (primária) |
 | Documento orientador do MEC, abril/2026 | **não lido**; links indisponíveis |
-| TALIS 2024, nota do Brasil | **não lida** |
+| TALIS 2024: nota do Brasil (pp. 3, 4, 6) e Tables 1.59, 1.60, 1.63 da base de dados | lidas (primária); tabelas extraídas pela autora, conferidas contra a nota |
 
 ---
 
@@ -183,6 +183,39 @@ Leituras:
   aplica" (16%) não é definida na página. E5A/E5B são de outra população (escolas) e outro ano.
   Não combinar em razão.
 
+**TALIS 2024 (OCDE), professores, Brasil contra média OCDE de 27 países.** Pergunta: uso de IA
+"in teaching or to facilitate student learning in the 12 months prior to the survey".
+
+- Usaram IA: 56,1% (e.p. 2,2) contra 36,3% (e.p. 0,4), anos finais do fundamental (ISCED 2).
+  Anos iniciais (ISCED 1): 55,2%. Não há dado do Brasil para o ensino médio.
+- Finalidades, entre quem usa: planos de aula ou atividades 77,4% (OCDE 63,7%); ajustar a
+  dificuldade do material 64,2% (37,4%); aprender ou resumir um tema 62,6% (67,9%); alunos com
+  necessidades especiais 53,7% (34,9%); dados de desempenho 42,0% (25,3%); feedback ou
+  comunicação com pais 39,4% (32,3%); **avaliar ou corrigir trabalhos 35,6% (25,5%)**.
+- Barreiras, entre quem não usa: falta de conhecimento 64,3% (74,9%); falta de infraestrutura
+  60,4% (37,4%); não acredita que se deva usar 38,6% (48,0%); escola não permite 17,7% (12,1%);
+  sobrecarga com tecnologia 12,6% (33,2%).
+- Necessidade alta de formação em IA: 39% (OCDE 29%); professores iniciantes, 32%.
+- Participação em formação sobre IA no Brasil: não lida (Table 4.22, cap. 4).
+
+Leituras:
+- **A avaliação com IA já é prática.** Um terço dos professores que usam IA a usa para avaliar
+  ou corrigir trabalhos. Sobre o total de professores, isso daria cerca de 20% (56,1% × 35,6%,
+  conta minha, sobre valores arredondados e sem erro-padrão; regra 2.13: se usar, dizer que é
+  derivada). O que o parecer veda é a sanção baseada só em IA, não a correção assistida.
+- **O professor brasileiro usa mais e resiste menos.** Menos ceticismo de princípio (38,6% contra
+  48,0%) e muito menos sobrecarga (12,6% contra 33,2%). A barreira brasileira é infraestrutura,
+  não convicção.
+- **Pelo livro, o professor é o sênior.** O cap. 5 diz que no mesmo deployment os seniores
+  "atingem pleno potencial: a IA amplifica o julgamento que eles já tinham". O professor que
+  gera plano de aula com IA está, em tese, do lado bom da augmentation trap. O aluno que gera a
+  resposta está do lado ruim. A mesma ferramenta, com efeito oposto conforme a camada (regra
+  1.19), e a norma trata as duas pela mesma moldura de risco.
+- **Régua.** TIC (alunos, 2024) e TALIS (professores, 2024) medem populações e perguntas
+  diferentes. No mesmo segmento, anos finais do fundamental: 39% dos alunos usuários de
+  Internet usam IA em atividades escolares; 56% dos professores usaram IA no trabalho nos
+  últimos doze meses. Pode-se pôr lado a lado com essa ressalva, não subtrair.
+
 **Bastani et al., PNAS 2025.** Escola de ensino médio na Turquia, cerca de mil alunos do 9º ao
 11º ano, quatro sessões de matemática, três braços: só livro, GPT Base, GPT Tutor (com a
 solução e dicas do professor no prompt). Pré-registrado. 2.848 observações. Números brutos
@@ -225,5 +258,5 @@ aprendeu.
 
 1. Texto integral do parecer e do projeto de resolução (página do CNE, quando divulgado).
 2. Documento orientador do MEC de abril/2026.
-3. TALIS 2024, nota do Brasil (o número de 56% de professores continua sem fonte lida).
+3. TALIS 2024, Table 4.22 (participação em formação sobre IA, Brasil).
 4. Margens de erro da TIC Educação 2024, nos arquivos para download.
