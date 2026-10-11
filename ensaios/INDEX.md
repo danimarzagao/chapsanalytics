@@ -36,6 +36,7 @@ disponível da data de publicação, e não a data de publicação em si.
 | 19 | Seis dias úteis | 20/09 | [v2](https://docs.google.com/document/d/1Omk3xy7r44epF-5M4S4ADc_9kKQ7PcIQ_lFsA76ghic) · [verificação](https://docs.google.com/document/d/1u4t-vtquYZ255A4sflkasqWG-bikpC2Xa9Wrs1BywRc) |
 | 20 | Mesmo prompt, quatro comportamentos | 27/09 | [final](https://docs.google.com/document/d/1GlYD83Av9ZAlsokFppq0N-_2B1xtJUWbdDFQrFP0MDU) |
 | 21 | Dois dias | 04/10 | `ensaios/21_dois-dias_vozDani.md` (versão de trabalho; a final, com três rodadas, está com a autora) · `docs/21_dois-dias_verificacao.md` |
+| 22 | Perguntar não mede | — | `ensaios/22_perguntar-nao-mede_substack.md` (rascunho, primeira rodada) · `docs/pauta-E-norma-ia-escolas.md` |
 
 Sem numeração explícita nos arquivos até o artigo 11. A numeração de 11 a 20 vem do nome
 dos próprios documentos.
