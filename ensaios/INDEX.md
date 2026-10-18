@@ -37,6 +37,7 @@ disponível da data de publicação, e não a data de publicação em si.
 | 20 | Mesmo prompt, quatro comportamentos | 27/09 | [final](https://docs.google.com/document/d/1GlYD83Av9ZAlsokFppq0N-_2B1xtJUWbdDFQrFP0MDU) |
 | 21 | Dois dias | 04/10 | `ensaios/21_dois-dias_vozDani.md` (versão de trabalho; a final, com três rodadas, está com a autora) · `docs/21_dois-dias_verificacao.md` |
 | 22 | Perguntar não mede | — | `ensaios/22_perguntar-nao-mede_substack_v3.md` (v3, parecer e resolução lidos inteiros) · `docs/22_perguntar-nao-mede_verificacao.md` |
+| 23 | Um número sem dono | — | `ensaios/23_um-numero-sem-dono_substack.md` (rascunho, primeira rodada) · `docs/pauta-23-trilhao-seis-pregoes.md` |
 
 Sem numeração explícita nos arquivos até o artigo 11. A numeração de 11 a 20 vem do nome
 dos próprios documentos.
