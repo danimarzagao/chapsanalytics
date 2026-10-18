@@ -180,3 +180,56 @@ moveram o mercado, o que sugere que a pergunta deixou de ser demanda e passou a 
 sobre dívida.
 
 **Para escrever, falta só (opcional):** comunicado do Fed de setembro, para saber se houve alta.
+
+## 10. Quinta rodada, 18/10: TNW, Bloomberg Línea, Malay Mail, Oracle, Fed
+
+**The Next Web, 9/10, "How the two figures emerged".** A genealogia do número, com quatro
+origens que não se encaixam:
+- FT (8/10): os US$ 70 bi vieram de "attempts by OpenAI's own investors to produce a direct
+  comparison" com a Anthropic;
+- Reuters: a OpenAI teria indicado esse número a investidores num evento separado;
+- CNN: uma fonte disse que os US$ 70 bi "did not come from OpenAI";
+- The Information (8/10, à noite): os relatos anteriores vieram da estimativa de **um investidor
+  não identificado**, feita depois de a diretora financeira Sarah Friar dizer que o run rate
+  cresceu 70% entre o fim de junho e o fim de setembro; "OpenAI did not dispute the earlier
+  figures".
+- E há uma troca de régua anterior: os US$ 40 bi de meados de agosto (Bloomberg, The
+  Information) incluíam receita que a OpenAI recebia quando a Microsoft vendia os modelos no
+  Azure, e que deixou de receber por volta de abril, com o novo acordo comercial.
+
+**Bloomberg (via Bloomberg Línea, 9/10, Rebecca Torrence e Shirin Ghaffary):** US$ 50 bi no fim
+de setembro; a OpenAI espera chegar ou passar de US$ 70 bi **no fim do ano**, puxada pelo
+negócio empresarial; rodada com avaliação de US$ 1,4 tri antes do novo dinheiro.
+
+**Malay Mail (AFP), 9/10:** escreve que os US$ 70 bi foram "previously communicated to
+investors". É a versão que culpa a empresa; contradiz a da CNN.
+
+**Securitas Global Risk Solutions, 15/10 (consultoria de seguro de crédito; secundária):** CDS
+de 5 anos da Oracle em 288 pb no fechamento de 15/10, recorde, contra 260 uma semana antes (S&P
+Global Market Intelligence e LSEG); S&P rebaixou a Oracle a BBB- em julho; **a OpenAI responde
+por cerca de metade dos US$ 638 bi em obrigações de desempenho remanescentes da Oracle.** É o
+canal de transmissão: um ajuste de régua na receita da OpenAI chega ao crédito da Oracle pela
+concentração de clientes. Conferir o RPO no 10-Q da Oracle antes de usar.
+
+**Fed, comunicado de 28/1/2026:** faixa mantida em 3,50% a 3,75%. O FedWatch de hoje dá 3,75% a
+4,00%, então houve **uma alta de 25 pb entre fevereiro e outubro**. Data não verificada; preciso
+do comunicado da reunião em que ela ocorreu (provavelmente setembro).
+
+**Focus:** o arquivo novo é o mesmo de 2/10.
+
+## 11. Tese final candidata
+
+Um número sem dono moveu um trilhão. A cifra de US$ 70 bi teve quatro histórias de origem
+(investidores, a própria OpenAI num evento, um investidor isolado, nenhuma origem na OpenAI), e a
+única certeza é a régua: era a receita da OpenAI contada pelo método bruto da Anthropic, que a
+própria OpenAI chamara de inflado em abril. Quando o número voltou à régua líquida, o mercado leu
+como queda. A empresa "did not dispute the earlier figures" enquanto eles circulavam. Regras 2.1
+(uma régua por afirmação) e 3.5 (uma estimativa repetida por vários veículos não é várias fontes).
+
+Camadas: a régua abre a semana em 8/10; o crédito (CoreWeave, Oracle) e o choque de energia
+(guerra com o Irã, CPI de 14/10) a aprofundam. Juros: houve uma alta em 2026, mas as apostas de
+nova alta em outubro caíram de 57,6% para 15,5% no mês, com um salto de horas no dia do CPI.
+
+**Ponte com a série:** "Seis dias úteis" (a régua contaminada pela própria fonte), "Perguntar não
+mede" (o que se vê não é o que existe) e o Nobel de 12/10, que premia justamente modelos em que
+expectativas, formadas por informação pública, movem a economia.
