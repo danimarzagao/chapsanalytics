@@ -233,3 +233,37 @@ nova alta em outubro caíram de 57,6% para 15,5% no mês, com um salto de horas 
 **Ponte com a série:** "Seis dias úteis" (a régua contaminada pela própria fonte), "Perguntar não
 mede" (o que se vê não é o que existe) e o Nobel de 12/10, que premia justamente modelos em que
 expectativas, formadas por informação pública, movem a economia.
+
+## 12. Sexta rodada, 18/10: Oracle e atas do Fed (primárias)
+
+**Oracle, resultado do 1º tri fiscal 2027, 10/9/2026.** RPO de **US$ 664 bi**, alta de US$ 209
+bi em 12 meses; mais de US$ 30 bi em novos contratos de nuvem de IA no trimestre. Receita
+total US$ 19,3 bi (+30%); IaaS US$ 7,4 bi (+121%). Fluxo de caixa operacional recorde de US$ 23
+bi, **fluxo de caixa livre negativo de US$ 5 bi**; venda de US$ 20 bi em ações no trimestre.
+**O comunicado não nomeia a OpenAI.** Correções à rodada anterior: o RPO é 664, não os 638 da
+Securitas; "metade é OpenAI" não está na fonte primária e sai do texto, ou entra atribuído à
+Securitas como estimativa de terceiro.
+
+**Ata do FOMC de 28-29/7/2026.** Faixa mantida em 3,50% a 3,75%, com três votos pela alta.
+Alerta literal: "the possibility that AI developments could disappoint, leading to a significant
+repricing of stocks, with consequent negative effects on consumer spending"; e, em estabilidade
+financeira, "the increased degree to which capital spending in the AI sector was being financed
+by borrowing, including credit provided by nonbank investors or regional banks". Inflação
+pressionada por tarifas, energia do conflito no Oriente Médio e demanda do "AI buildout".
+
+**Ata do FOMC de 15-16/9/2026.** Alta unânime de 25 pb para **3,75% a 4,00%**, efetiva em
+17/9. "Most participants assessed that another increase... would likely be appropriate by year
+end." Um par de participantes quis conter preços setoriais "stemming from energy market
+disruptions and AI-related demand". **A IA aparece duas vezes na ata: como risco financeiro e
+como fonte de inflação.**
+
+## 13. O que isso faz com a tese
+
+- Juros: houve alta em setembro e o Fed sinalizou outra até o fim do ano. Isso é pano de fundo
+  constante na semana (regra 1.17) e explica nível, não o dia 8/10. A aposta específica em alta
+  já em outubro caiu de 57,6% para 15,5%.
+- O Fed previu o mecanismo em julho: revisão das expectativas sobre IA, reprecificação ampla,
+  crédito. A semana de 8 a 15/10 foi o roteiro da ata, e o gatilho foi uma troca de régua.
+- A Oracle mostra a outra metade: RPO de US$ 664 bi com caixa livre negativo. O crédito dela
+  depende de os contratos virarem caixa, e os contratos dependem da receita dos clientes. Não
+  afirmar a concentração na OpenAI sem fonte primária.
