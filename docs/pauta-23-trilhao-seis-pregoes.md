@@ -82,3 +82,50 @@ caiu no período.
 
 **Ainda faltam:** FT 8/10; Axios 29/9 e 3/9; CNBC (US$ 68 bi); Reuters 15/10; histórico
 diário do FedWatch de 8 a 16/10; comunicado do Fed sobre a "recente alta"; Focus de 13/10.
+
+## 6. Terceira rodada, 18/10: Axios e CNBC lidos
+
+**Axios, 8/10, Madison Mills, "OpenAI annualized revenue $20 billion less than previously
+reported".** A própria Axios: "The $70 billion figure, widely reported in September by Axios
+and other media outlets, was based on information shared with investors in an attempt to
+create a more direct comparison to rival Anthropic, Axios has learned." "Both companies are
+GAAP compliant." Exemplo: cliente paga US$ 100 via nuvem; a Anthropic registra US$ 100 e
+lança a parte da nuvem como despesa; a OpenAI registra só a sua parte. O número de US$ 70 bi
+foi uma tentativa de "gross up" a receita da OpenAI pelo método da Anthropic, por interesse
+de investidores. "Reality check": em mercado público, investidores preferem receita efetiva a
+"financial constructs".
+
+**Axios, 29/9, mesma repórter, "Scoop: OpenAI's annual recurring revenue nears $70B".** Só o
+lide abriu (o resto exige cadastro na newsletter): "nearing $70 billion, as enterprise sales
+more than doubled since July, sources familiar with the financials tell Axios." O mesmo veículo
+e a mesma repórter publicaram o número e a correção dele, nove dias depois.
+
+**CNBC, 8/10, Ashley Capoot e Kate Rooney.** OpenAI disse a investidores ~US$ 50 bi no fim de
+setembro; o número "widely reported late last month" aparece aqui como **US$ 68 bi** (não 70);
+"included gross revenue from OpenAI's partners". "The Financial Times was first to report the
+$50 billion figure." Crescimento do run rate de 77% no 3º tri; enterprise +107%. Quedas no dia:
+Nvidia 3%, Oracle quase 6%, AMD 4%, Broadcom 4%, Intel 5%. Avaliação da OpenAI: US$ 852 bi.
+Anthropic: run rate de US$ 65 bi no fim de julho (método bruto).
+
+**CNBC Daily Open, 8/10 (Anniek Bao) e 9/10 (Leonie Kidd).** Em 8/10, S&P 500 −1,09%, Nasdaq
+−2,15%. O texto de 9/10 chama a diferença de "**perceived** $20 billion shortfall". Contexto
+de energia: guerra entre Estados Unidos e Irã "now in its eighth month"; Brent acima de US$ 104;
+WTI US$ 91,49; Kalshi com 87% de chance de gasolina acima de US$ 4 por galão na eleição de 3/11.
+**Isso explica o CPI de energia de setembro.**
+
+## 7. A tese depois da terceira rodada
+
+Confirmada nas fontes abertas: o número que caiu em 8/10 não foi a receita da OpenAI, foi a
+régua. US$ 70 bi (Axios) ou US$ 68 bi (CNBC) era a receita da OpenAI convertida ao método da
+Anthropic; US$ 50 bi é a mesma receita no método da própria OpenAI. As duas contas são legais. O
+mercado reagiu à troca de régua como se fosse queda de demanda, e a CNBC, um dia depois,
+passou a escrever "perceived". Mesmo o número que circulava variava entre veículos (68 contra
+70), o que é a regra 2.1 dentro da própria cobertura.
+
+**O que a tese não pode dizer:** que a régua causou os US$ 1,64 tri. Ela abriu a semana (8/10);
+depois vieram guerra, petróleo acima de US$ 100 e CPI de energia (14/10). Causas em camadas
+(regra 1.5). E a probabilidade de alta de juros em outubro *caiu* no período, segundo o
+FedWatch.
+
+**Ainda faltam:** Reuters 15/10 (via Kitco); comunicado do Fed de setembro (houve alta?); FT
+8/10 (opcional, CNBC e Axios já o citam); Axios 3/9 (opcional).
