@@ -45,3 +45,40 @@ causas simultâneas (juros, CPI, dívida) e a régua pode ser só a faísca. Cau
 ## 3. Textos originais necessários, na íntegra
 
 Ver resposta ao usuário de 18/10.
+
+## 4. Segunda rodada, 18/10: fontes primárias recebidas
+
+**CPI de setembro (BLS, USDL-26-1574, embargo até 8h30 ET de 14/10/2026).** Cheio +0,6% no
+mês (dessazonalizado) e 3,7% em 12 meses (era 3,4% em agosto). Núcleo +0,3% no mês e 2,6% em
+12 meses (era 2,4%). Gasolina +9,1% no mês, "accounting for over half of the monthly all items
+increase"; energia +20,4% em 12 meses; gasolina +34,2%; óleo combustível +74,2%. Alimentos
+2,5%. **Leitura:** é inflação de energia. O núcleo subiu, mas está em 2,6%.
+
+**CME FedWatch, capturado em 18/10/2026 (dados de 09h46 CT).** Taxa atual: 375-400 pb.
+Reunião de 28/10: 84,5% manutenção, 15,5% alta de 25 pb. Uma semana antes (9/10): 82,3% e
+17,7%. Um mês antes (18/9): 42,4% e 57,6%. **Defeater (regra 1.6):** a probabilidade de alta
+em outubro *caiu* de 57,6% para 17,7% entre 18/9 e 9/10, ou seja, antes e durante o início
+da queda dos chips. As fontes secundárias que atribuem a queda a "apostas crescentes de alta"
+falam do salto no dia do CPI (21% para 47%); o FedWatch não traz os dias 14 e 15, e em 16/10
+já marca 15,5%. Ou o salto foi de horas, ou as fontes erram. Sem o histórico diário, "medo
+de juros" não pode ser causa principal no texto.
+
+**Nobel 2026 (press release da Real Academia, 12/10).** "for microeconomic foundations of
+macroeconomic stabilisation". Mecanismo: famílias e empresas "are forward looking"; "When
+governments and central banks communicate their plans for economic policy, they can influence
+this view of the future". John Hassler: os modelos ajudam a lidar com "shocks in the economy,
+such as energy crises or sudden changes in how much households consume". **Gancho:** a
+inflação americana de setembro é um choque de energia, o caso que a Academia citou.
+
+**Focus (Banco Central), 2/10/2026.** IPCA 2026: 5,01 (era 4,99 uma semana antes); Selic fim
+de 2026: 13,50; câmbio: 5,20. **O Focus de 13/10 (5,22%) continua só em cobertura.**
+
+## 5. Estado da tese
+
+A régua (bruto contra líquido) segue dependendo do FT, da Axios e da CNBC. O FedWatch
+enfraquece a explicação concorrente de juros, o que fortalece a tese se a régua se confirmar,
+e pede cuidado: não afirmar que juros não pesaram, só que a probabilidade de alta em outubro
+caiu no período.
+
+**Ainda faltam:** FT 8/10; Axios 29/9 e 3/9; CNBC (US$ 68 bi); Reuters 15/10; histórico
+diário do FedWatch de 8 a 16/10; comunicado do Fed sobre a "recente alta"; Focus de 13/10.
