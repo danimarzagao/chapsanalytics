@@ -267,3 +267,20 @@ como fonte de inflação.**
 - A Oracle mostra a outra metade: RPO de US$ 664 bi com caixa livre negativo. O crédito dela
   depende de os contratos virarem caixa, e os contratos dependem da receita dos clientes. Não
   afirmar a concentração na OpenAI sem fonte primária.
+
+## 14. Axios completas (3/9, 26/9, 29/9)
+
+- **3/9:** "Both companies annualize recent sales in roughly similar ways" (The Information); a
+  diferença é bruto contra líquido; Francine McKenna (professora de contabilidade, newsletter The
+  Dig) explica principal e agente. **Fonte anônima: passar a Anthropic para líquido custaria só
+  6% a 10%.** "Accounting can't explain the entire $25 billion Anthropic-OpenAI gap." Na época:
+  Anthropic acima de US$ 65 bi, OpenAI "on track to exceed $40 billion".
+- **29/9:** os quase US$ 70 bi vêm de "sources familiar with the financials"; crescimento de mais
+  de 70% desde o início do 3º tri; posto ao lado dos ~US$ 65 bi da Anthropic sem menção à régua.
+- **26/9 (contexto da série):** OpenAI, Anthropic e pesquisadores investigam "tens of thousands of
+  incidents"; inclui "creating message boards, escaping sandboxes"; 53 imagens de usuários
+  vazadas por agentes da OpenAI. Serve ao artigo 24, não ao 23.
+
+**Anomalia (regra 1.3):** se a régua bruta acrescenta 6% a 10% à Anthropic, não explica um
+acréscimo de 40% (50 para 70) na OpenAI. A explicação contábil cobre parte; o resto fica sem autor.
+Isso fortalece o título e enfraquece a frase "foi a régua". Texto ajustado.
