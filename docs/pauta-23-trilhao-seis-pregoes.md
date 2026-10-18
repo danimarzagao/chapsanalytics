@@ -129,3 +129,54 @@ FedWatch.
 
 **Ainda faltam:** Reuters 15/10 (via Kitco); comunicado do Fed de setembro (houve alta?); FT
 8/10 (opcional, CNBC e Axios já o citam); Axios 3/9 (opcional).
+
+## 8. Quarta rodada, 18/10: Reuters, memorando da OpenAI, Axios 3/9
+
+**Reuters, 15/10, 12h06 (via Kitco), Shashwat Chauhan e Medha Singh.** Nota curta: chips "set
+to lose $2 trillion" no dia, "driven by rising bets of an interest-rate hike and concerns over
+the cost of the AI buildout"; SOX −3,3% no dia, somando US$ 1,64 tri em seis sessões. É só isso:
+a nota não traz análise.
+
+**Reuters, 15/10, Tom Westbrook e Amanda Cooper, "AI credit worries send default insurance to
+record high".** CDS de 5 anos da CoreWeave acima de 1.100 pb (S&P Global Market Intelligence);
+título 2031 com rendimento de até 16%; dívida de quase US$ 50 bi (LSEG). Pela Reuters, CDS de
+1.000 pb implica risco de default em cinco anos de 64%, contra cerca de 30% um ano antes.
+Oracle perto de 300 pb. Amazon, Alphabet e Meta em recordes, mas subindo bem mais devagar.
+Hock Tan, da Broadcom, comparou a corrida por ativos de IA a "casino gambling". Jim Reid
+(Deutsche Bank): "as we move to a capex cycle funded out of debt rather than simply free cash
+flow, we have to increasingly respect the credit price action". **Anthropic:** receita do 3º
+tri subiu 45%, para US$ 16,8 bi, segundo um investidor presente a uma reunião pré-IPO; "did
+little to calm the market's nerves". Esse é um número de receita trimestral, outra régua.
+
+**Reuters, transcrição de vídeo (sem nome de apresentador).** CPI "reignited concerns that the
+Federal Reserve was going to have to hike"; apostas subiram "to as much as fifty percent... before
+backpedaling". **Reconcilia com o FedWatch:** o salto foi de horas e voltou. TSMC teve lucro
+recorde e ASML veio forte, "but in both cases, it hasn't really produced much of a lift". Fala em
+"interest rates going up all over the world".
+
+**Implicator, 13/4/2026, Marcus Schuler.** Memorando de quatro páginas de Denise Dresser,
+diretora de receita da OpenAI, visto por CNBC e The Verge: "Their stated run rate is inflated...
+including grossing up rev share with Amazon and Google"; OpenAI estimou a Anthropic em US$ 22 bi
+em vez de 30. "We report Microsoft revshare net, which is more inline with standards we would be
+held to as a public company." A Anthropic respondeu que é a principal na transação. **É fonte
+secundária (Implicator sobre CNBC e The Verge); o memorando original não foi lido.**
+
+**Axios, 3/9, Madison Mills.** Só o lide abriu: comparar as duas "isn't apples-to-apples unless
+you understand how differently they account for some sales through cloud partners". **A própria
+Axios alertou para a régua cinco semanas antes de publicar o número na régua errada.**
+
+## 9. A tese, com a ironia que a sustenta
+
+Em abril, a OpenAI acusou a Anthropic de inflar a receita contando bruto. Em setembro,
+investidores da OpenAI converteram a receita da OpenAI ao método bruto da Anthropic para poder
+comparar, e o número circulou (US$ 68 ou 70 bi). Em 8/10 voltou o número líquido (US$ 50 bi) e o
+mercado tratou como queda. A mesma empresa usou a régua como crítica e foi punida por ela. A
+Axios tinha avisado em 3/9 que a comparação não era de maçã com maçã.
+
+Camadas (regra 1.5): a régua abriu a semana (8/10). Depois vieram guerra e petróleo acima de
+US$ 100, CPI de energia (14/10), salto de horas nas apostas de juros, CDS em recorde (15/10). A
+régua não explica o crédito; o crédito não explica o 8/10. Lucros fortes de TSMC e ASML não
+moveram o mercado, o que sugere que a pergunta deixou de ser demanda e passou a ser retorno
+sobre dívida.
+
+**Para escrever, falta só (opcional):** comunicado do Fed de setembro, para saber se houve alta.
