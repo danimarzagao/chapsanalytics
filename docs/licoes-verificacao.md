@@ -439,3 +439,21 @@ A verificação da autora manteve a tese e derrubou duas premissas:
   g1 noticiara (vedações por etapa, art. 46 com doze meses, detector no art. 41, X), com uma
   diferença: a pré-correção de redações é admitida como auxiliar (art. 40, § 4º).
 - Abertura da errata do livro: `docs/errata-o-trabalho-que-vem.md`.
+
+---
+
+## Artigo 23, "Um número sem dono" (18/10/2026)
+
+- **Painel de cotação lido como dado histórico:** o "Nasdaq −2,15%" de 8/10 era o painel da
+  página no dia da captura (18/10). Nova cautela: número em barra de cotações de página salva
+  não é dado do dia da matéria.
+- **Comparação de proporções com bases diferentes** (regra 2.1): eu comparava uma queda de 6% a
+  10% (bruto para líquido) com um acréscimo de 40% (líquido para bruto). A autora converteu: a
+  régua explica de US$ 3 a 6 bi dos 20.
+- **Contradição interna:** o texto provava que a régua não fechava e depois chamava o gatilho de
+  "diferença de método contábil". Coerência entre a prova e a frase-resumo.
+- **"Somando US$ 1,64 trilhão" em seis pregões até 15/10:** a Reuters diz seis pregões
+  *anteriores*, com projeção de US$ 2 tri incluindo o dia 15. O título e o corpo da nota não eram
+  números diferentes; eram dois momentos.
+- **Exemplo atribuído ao veículo e não à fonte:** o exemplo dos US$ 100 é de Francine McKenna,
+  ouvida pela Axios (regra 3.9).

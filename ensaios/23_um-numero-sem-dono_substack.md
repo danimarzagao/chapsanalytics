@@ -1,5 +1,7 @@
 # Um número sem dono
 
+> **SUPERADO** pela v2 (`23_um-numero-sem-dono_substack_v2.md`).
+
 *Em 8 de outubro, a receita da OpenAI "caiu" US$ 20 bilhões sem que um único cliente deixasse de pagar. O que mudou foi a régua. Seis pregões depois, as ações de chips americanas tinham perdido US$ 1,64 trilhão, e ninguém sabia dizer de onde tinha saído o número que deu início a tudo*
 
 ---
