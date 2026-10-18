@@ -457,3 +457,12 @@ A verificação da autora manteve a tese e derrubou duas premissas:
   números diferentes; eram dois momentos.
 - **Exemplo atribuído ao veículo e não à fonte:** o exemplo dos US$ 100 é de Francine McKenna,
   ouvida pela Axios (regra 3.9).
+- **Versão publicada (18/10).** Quatro rodadas da autora acrescentaram: a ata de setembro com o
+  PCE nas duas metodologias, publicada em 7/10, como exemplo do Fed declarando a régua na
+  véspera do número de US$ 50 bi (versão mais forte do fato, regra 3.14); a guerra iniciada por
+  EUA e Israel em 28/2 (o rascunho omitia Israel); três réguas para o Brent no mesmo dia
+  (futuro US$ 104,28, à vista US$ 130,18, Fortune US$ 108,33); a Bloomberg de 13/8 refazendo a
+  hipótese 40 × 1,7 (a base já tinha incorporado metade do crescimento); e os quantificadores
+  das atas do Fed ("several", "some", "a few"), que o rascunho achatava.
+- **Correção minha que precisou ser desfeita (regra 1.12):** eu tinha separado o US$ 1,64 tri do
+  índice da Filadélfia; a nota da Reuters liga os dois, e a versão final voltou ao original.
