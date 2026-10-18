@@ -4,7 +4,7 @@
 
 ---
 
-Em 29 de setembro, a Axios publicou que a receita anualizada da OpenAI se aproximava de US$ 70 bilhões. Em 8 de outubro, o *Financial Times* informou que a empresa tinha dito a investidores que o número estava perto de US$ 50 bilhões no fim de setembro. Nesse dia, segundo a CNBC, a Nvidia caiu 3%, a Oracle quase 6%, a Broadcom e a AMD 4% cada, a Intel 5%, e o Nasdaq fechou em queda de 2,15%.
+Em 29 de setembro, a Axios publicou que a receita anualizada da OpenAI se aproximava de US$ 70 bilhões. Em 8 de outubro, o *Financial Times* informou que a empresa tinha dito a investidores que o número estava perto de US$ 50 bilhões no fim de setembro. Nesse dia, segundo a CNBC, a Nvidia caiu 3%, a Oracle quase 6%, a CoreWeave quase 8%, a Broadcom e a AMD 4% cada e a Intel 5%. Pela Bloomberg, o Nasdaq 100 recuou 1,4% e um índice dos grandes fabricantes de chips, 3,4%.
 
 Nenhum cliente deixou de pagar. A explicação que circulou foi contábil. A própria Axios, na correção que publicou no mesmo dia, pela mesma repórter, Madison Mills, escreveu: os US$ 70 bilhões eram a receita da OpenAI contada pelo método da Anthropic. Se um cliente paga US$ 100 por um serviço de IA comprado através de um provedor de nuvem, a Anthropic registra os US$ 100 como receita e lança a parte do provedor como despesa. A OpenAI registra só a sua parte. As duas formas seguem as regras contábeis americanas.
 
@@ -14,7 +14,7 @@ Chego a três conclusões. O dia que abriu a queda foi provocado por um número 
 
 ## A régua que a OpenAI chamou de inflada
 
-Num domingo de abril, Denise Dresser, diretora de receita da OpenAI, mandou um memorando de quatro páginas aos funcionários, segundo a CNBC e o The Verge, que o leram. Nele, dizia que a receita anualizada da Anthropic, então anunciada em US$ 30 bilhões, estava inflada em cerca de US$ 8 bilhões. "Eles usam um tratamento contábil que faz a receita parecer maior do que é, incluindo contar bruto a divisão de receita com a Amazon e o Google", escreveu. "Nós reportamos a divisão de receita com a Microsoft líquida, o que está mais alinhado com os padrões que uma empresa de capital aberto precisa seguir." A Anthropic respondeu que conta bruto porque é a parte principal da transação, e os provedores de nuvem são canal de distribuição.
+Num domingo de abril, Denise Dresser, diretora de receita da OpenAI, mandou um memorando de quatro páginas aos funcionários, segundo a CNBC e o The Verge, que leram o documento, conforme relatou o Implicator. Nele, dizia que a receita anualizada da Anthropic, então anunciada em US$ 30 bilhões, estava inflada em cerca de US$ 8 bilhões. "Eles usam um tratamento contábil que faz a receita parecer maior do que é, incluindo contar bruto a divisão de receita com a Amazon e o Google", escreveu. "Nós reportamos a divisão de receita com a Microsoft líquida, o que está mais alinhado com os padrões que uma empresa de capital aberto precisa seguir." A Anthropic respondeu que conta bruto porque é a parte principal da transação, e os provedores de nuvem são canal de distribuição.
 
 Cinco meses depois, a receita da própria OpenAI circulou pelo método que ela tinha chamado de inflado. Segundo a Axios, os US$ 70 bilhões foram uma tentativa de "inflar" o número da OpenAI pela régua da Anthropic, atendendo ao interesse de investidores por uma comparação "maçã com maçã". Quando o número voltou à régua da própria OpenAI, o mercado leu como queda.
 
@@ -40,7 +40,7 @@ Um dia depois, a CNBC já tinha trocado o verbo. Na edição de 8 de outubro, a 
 
 Sozinha, a régua explica um dia ruim. A semana precisou de mais.
 
-Em 14 de outubro, o índice de preços ao consumidor americano de setembro mostrou alta de 3,7% em 12 meses, contra 3,4% em agosto. A gasolina subiu 9,1% no mês e respondeu, segundo o Bureau of Labor Statistics, por mais da metade da alta do índice; a energia acumulava 20,4% em 12 meses. O núcleo, que exclui alimentos e energia, foi a 2,6%. Em 15 de outubro, a Reuters registrou o custo do seguro contra calote em recorde para várias empresas ligadas à IA: o CDS de cinco anos da CoreWeave, operadora de data centers que deve quase US$ 50 bilhões, passou de 1.100 pontos-base, e o da Oracle chegou perto de 300. Naquele dia, as ações de chips caíram mais 3,3%, somando US$ 1,64 trilhão perdidos em seis pregões.
+Em 14 de outubro, o índice de preços ao consumidor americano de setembro mostrou alta de 3,7% em 12 meses, contra 3,4% em agosto. A gasolina subiu 9,1% no mês e respondeu, segundo o Bureau of Labor Statistics, por mais da metade da alta do índice; a energia acumulava 20,4% em 12 meses. O núcleo, que exclui alimentos e energia, foi a 2,6%. Em 15 de outubro, a Reuters registrou o custo do seguro contra calote em recorde para várias empresas ligadas à IA: o CDS de cinco anos da CoreWeave, operadora de data centers que deve quase US$ 50 bilhões, passou de 1.100 pontos-base, e o da Oracle chegou perto de 300. Naquele dia, o índice de semicondutores da Filadélfia chegou a cair mais 3,3%, somando US$ 1,64 trilhão perdidos em seis pregões.
 
 A explicação mais repetida para a semana foi o medo de alta de juros, e ela precisa de cuidado. O Fed subiu os juros por unanimidade em 16 de setembro, para a faixa de 3,75% a 4%, e a ata registra que a maioria dos participantes via outra alta como provável até o fim do ano. Mas a aposta numa alta já na reunião de 28 de outubro caiu ao longo do período, de 57,6% em 18 de setembro para 17,7% em 9 de outubro e 15,5% em 16 de outubro, segundo o CME FedWatch. No dia do índice de preços, as apostas subiram a cerca de 50%, nas palavras de uma transcrição da Reuters, "antes de recuar". Os juros pesaram a semana inteira. Por pesarem o tempo todo, não explicam por que a queda começou num dia específico.
 
@@ -64,7 +64,7 @@ Para quem lê notícia de empresa, a pergunta é a que fiz na seção anterior: 
 
 Para quem dirige empresa e mede o próprio desempenho, vale o mesmo que vale para a OpenAI. Se o seu indicador principal pode ser contado de dois jeitos e você publica só um, outra pessoa vai publicar o outro por você, e o mercado não vai saber qual é qual.
 
-Num setor em que as duas maiores empresas contam a mesma coisa de jeitos diferentes, que acusaram uma à outra de contar errado e que se preparam para abrir capital nos próximos meses, quem vai publicar primeiro a conversão entre as duas réguas, e por que até agora ninguém publicou?
+Num setor em que as duas maiores empresas contam a mesma coisa de jeitos diferentes, uma das quais já acusou a outra de contar errado, e que se preparam para abrir capital, quem vai publicar primeiro a conversão entre as duas réguas, e por que até agora ninguém publicou?
 
 ---
 
