@@ -38,6 +38,7 @@ disponível da data de publicação, e não a data de publicação em si.
 | 21 | Dois dias | 04/10 | `ensaios/21_dois-dias_vozDani.md` (versão de trabalho; a final, com três rodadas, está com a autora) · `docs/21_dois-dias_verificacao.md` |
 | 22 | Perguntar não mede | — | `ensaios/22_perguntar-nao-mede_substack_v3.md` (v3, parecer e resolução lidos inteiros) · `docs/22_perguntar-nao-mede_verificacao.md` |
 | 23 | Um número sem dono | — | `ensaios/23_um-numero-sem-dono_final.md` (versão publicada, 18/10) · `docs/23_um-numero-sem-dono_melhorias.md` · `docs/pauta-23-trilhao-seis-pregoes.md` |
+| 24 | Quem calibra a régua | — | `ensaios/24_quem-calibra-a-regua_substack.md` (rascunho, primeira rodada) · `docs/pauta-24-micron.md` |
 
 Sem numeração explícita nos arquivos até o artigo 11. A numeração de 11 a 20 vem do nome
 dos próprios documentos.
