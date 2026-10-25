@@ -89,3 +89,41 @@ Pela conta, 15% do lucro operacional do ano seriam cerca de US$ 14,9 bi.
 
 **Falta:** Taipei Times de 23/10 (Lisa Wang, o novo programa de participação); resultado da
 negociação de 23/10 em Taoyuan; número de empregados da Micron (10-K).
+
+## Terceira rodada, 25/10
+
+**Taipei Times, 23/10, Lisa Wang: "Micron announces a new profit-sharing program".** O novo
+bônus trimestral entra no ano fiscal de 2027, para empregados elegíveis da força de trabalho
+global, complementando o IPP (cuja fórmula também foi "substantially enhanced"). **Base de cálculo:
+"Quarterly net income minus forecast capital expenditure for the following quarter".** Pago metade
+em ações (com um ano de carência) e metade em dinheiro. Donghui Lu: "Profit-sharing mechanisms are
+common among Asian companies, but they are rarely seen among American technology firms... This
+approach offers transparency and, to a certain degree, predictability." Adicional de turno a partir
+de dezembro: diurno triplica para NT$ 4.500; noturno 15% e madrugada 20% do salário. Remuneração
+máxima condicional de engenheiro de entrada: quase NT$ 4 mi no ano fiscal de 2027, contra NT$ 1,45
+mi em 2025; sênior NT$ 6 mi, contra mais de NT$ 2 mi (projeção do sindicato de Taichung, com ações
+e previdência). Previdência patronal de 8% para 10%. **O sindicato de Taoyuan fez a greve acusando a
+empresa de "failed to disclose its profit-sharing ratio"**; pede 15% do lucro operacional global.
+
+**A tese, afiada.** A fórmula tem base pública e percentual secreto, e a base inclui uma previsão
+de investimento que a própria empresa faz. Quem controla a previsão de capex controla o tamanho do
+bolo. Contraste: a Samsung usa 10,5% do lucro operacional da divisão de chips, número auditado ao
+fim do período. Na Micron, o lucro líquido entra auditado, mas o desconto é uma previsão. Lu chama
+isso de "transparência e, em certo grau, previsibilidade"; o sindicato chama de não divulgação.
+Regra 1.5: as duas coisas são verdade em camadas diferentes (a forma é pública; o parâmetro, não).
+
+**Números do 10-K (View Filing Data, EDGAR):** lucro líquido do ano fiscal de 2026 US$ 84,97 bi;
+lucro antes de impostos US$ 99,67 bi; caixa US$ 38,36 bi; dívida de longo prazo de US$ 14,02 bi para
+US$ 4,69 bi. O PDF do 10-K tem só a capa do visualizador; **o número de empregados não veio.**
+
+**Contexto:** ato de centenas de trabalhadores em Taipé, 19/10 (Focus Taiwan), por salários,
+previdência e "clearer profit-sharing rules", "amid a recent wave of strikes and strike
+authorization votes across Taiwan"; o sindicato quer previdência patronal mínima de 6% para 9% e
+depois 15%. Lai Ching-te, 15/10, na inauguração da fábrica de Taichung: "The more the world needs
+AI, the more it needs Taiwan".
+
+**Réguas que não batem:** investimento da Micron em Taiwan: NT$ 1,6 tri (US$ 49 bi), pela empresa
+via Reuters; NT$ 1,4 tri (US$ 43,18 bi) "over the past three decades", por Lai. Usar um, nomeado.
+
+**Descartados:** as notas da Newsquawk e da Stockopedia são de **4/9**, não de 23/10. Sobre a
+negociação de 23/10 em Taoyuan, segue sem notícia.
