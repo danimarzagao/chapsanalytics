@@ -62,3 +62,37 @@ avalia pessoas, então não comparar sem fonte. Não sei se agentes já foram "d
 
 1. O próprio "AI 거버넌스 리포트" (link de download no comunicado, news.sktelecom.com).
 2. Opcional: o anúncio de junho em coreano, citado pela TelecomTV.
+
+## Segunda rodada, 1/11: os dez arquivos de contexto
+
+- **RCR Wireless, 18/6, e SBS Star:** confirmam o "AX Innovation 2.0": agentes como "digital
+  employees" com número, departamento, função e permissões; "Agent Store" interno onde empregados
+  compartilham agentes que criaram; agente de rede só lê o que precisa, "for the same reason a
+  marketing hire wouldn't have" acesso a tudo.
+- **Fortune, 10/3/2026, Nick Lichtenberg:** Tim Walsh (KPMG EUA) diz que a métrica que está
+  redesenhando o quadro de pessoal é a **"labor cost margin"**, e não a receita por empregado.
+  Pesquisa KPMG com 100 CEOs de grandes empresas: quase 80% destinam pelo menos 5% do orçamento de
+  capital à IA; 41%, pelo menos 10%. **É de março: contexto, não notícia da semana.**
+- **The Next Web:** pesquisa com **29** executivos de Fortune 500/1000; 75% otimistas com agentes;
+  52% esperam quadro estável ou maior; 48% esperam reduzir. A própria matéria diz que a amostra é
+  pequena demais para ser representativa. **Não usar como dado; no máximo como ilustração, com a
+  ressalva.**
+- **Allwork, maio:** ClickUp com cerca de 3.000 agentes internos, três por empregado, desde janeiro.
+- **BBC (BBC Eye), Sofia Liguori:** "makes me feel ashamed to work at Google", em caráter pessoal,
+  apesar de "contract restricting her from doing so"; Andreas Kirsch também saiu. Google: processo
+  "consistent" de revisão de contratos e proibição de "retaliation of any kind". Mais Ynet, LBC,
+  IBTimes e um quarto texto sobre a demissão.
+
+## Tese ajustada
+
+O artigo pode pôr lado a lado duas fichas de funcionário da mesma semana. O agente da SKT tem
+número, responsável humano proporcional ao risco, registro de cada ação, avaliação de desempenho e
+procedimento de desligamento, escrito e certificado por norma ISO. A engenheira do Google tem um
+contrato que, segundo ela, a impede de criticar a empresa, e saiu para poder falar. Sem forçar a
+analogia (regra 1.2: não é a mesma empresa nem a mesma condição): o ponto é que a governança mais
+cuidadosa da semana foi escrita para o agente. O livro dá a régua para avaliar o desenho da SKT
+(quatro parâmetros de calibração) e o alerta (onboarding e avaliação automatizados em tarefas de
+cuidado).
+
+**Prudência:** a comparação SKT x Google é retórica; cada caso precisa se sustentar sozinho. Se a
+dupla parecer forçada, o texto fica só com a SKT e o livro.
