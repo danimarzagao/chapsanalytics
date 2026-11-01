@@ -466,3 +466,21 @@ A verificação da autora manteve a tese e derrubou duas premissas:
   das atas do Fed ("several", "some", "a few"), que o rascunho achatava.
 - **Correção minha que precisou ser desfeita (regra 1.12):** eu tinha separado o US$ 1,64 tri do
   índice da Filadélfia; a nota da Reuters liga os dois, e a versão final voltou ao original.
+
+---
+
+## Artigo 25, "O agente com crachá" (1/11/2026)
+
+- **Convergência inflada (nova regra 1.21):** "quase ponto a ponto" eram três de quatro; a
+  reversibilidade não aparece no relatório da SKT (busca por dez termos coreanos, sem ocorrência).
+  A ausência virou o melhor parágrafo do texto, com o marco de Singapura (IMDA v1.5) e a lista de
+  dimensões de Tomašev, Franklin e Osindero.
+- **Inferência apresentada como fato (regra 3.4):** o relatório liga a avaliação dos agentes à de
+  "executivos", sem dizer quais; o corpo fala em desempenho da organização. "Os executivos que os
+  supervisionam" era leitura minha; a v2 a marca como leitura.
+- **Atribuição de fala (regra 3.1):** "da contratação ao desligamento" é da empresa, segundo a
+  TelecomTV, e não do CEO; "funcionários digitais" não foi localizado.
+- **Página errada:** o responsável por nível de risco está na p. 27, não na 29.
+- **Contexto que mudava a leitura (regra 3.14):** a multa recorde da PIPC à SKT em agosto de
+  2025 (134,8 bi de wons, vazamento de ~23 mi clientes), com ordem de reforçar o papel do CPO, que
+  hoje responde também pela governança de IA.

@@ -1,5 +1,7 @@
 # O agente com crachá
 
+> **SUPERADO** pela v2 (`25_o-agente-com-cracha_substack_v2.md`).
+
 *A SK Telecom dá número de funcionário a agentes de IA, define quem responde por eles, avalia o desempenho de cada um e desliga os que deixam de ser necessários. O resultado entra na avaliação e na remuneração dos executivos que os supervisionam. É, quase ponto a ponto, o método de calibração que propus para gestores, posto em norma por uma empresa, com duas regras que eu não tinha previsto*
 
 ---

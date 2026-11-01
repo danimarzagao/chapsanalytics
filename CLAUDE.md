@@ -125,6 +125,14 @@ dois dos demitidos tinham feito à empresa três semanas antes. O segundo cria u
 concorrente do mesmo fato; o primeiro corrigiu a tese ("jurisdição sem acesso" virou
 "jurisdição que só alcança papel"). Fato adverso ao enquadramento é o primeiro a buscar.
 
+
+**1.21 Quando o seu arcabouço aparece no documento de outro, liste cada elemento e procure o que falta.**
+Caso: escrevi que a SK Telecom tinha posto em norma "quase ponto a ponto" os quatro parâmetros de
+calibração do livro. Três aparecem; a reversibilidade não aparece no relatório inteiro, e é
+justamente o critério que o marco de Singapura trata como fator próprio. Reconhecer o próprio
+modelo no texto alheio é o momento de maior viés de confirmação: a convergência tem de ser
+contada elemento a elemento, e a ausência vira achado.
+
 ---
 
 ## 2. Regras de números
