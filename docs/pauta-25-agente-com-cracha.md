@@ -96,3 +96,47 @@ cuidado).
 
 **Prudência:** a comparação SKT x Google é retórica; cada caso precisa se sustentar sozinho. Se a
 dupla parecer forçada, o texto fica só com a SKT e o livro.
+
+## Terceira rodada, 1/11: o relatório (fonte primária, coreano, 40 pp.; tradução minha)
+
+**"AI 거버넌스 리포트", SKT, outubro de 2026, Parte 3, pp. 25-30.**
+
+- p. 25, sistema de número de funcionário: "핵심은 '책임 있는 자율적인 업무처리'" (o núcleo é o
+  "processamento autônomo e responsável do trabalho"); quanto mais o agente faz sozinho, mais claro
+  tem de ser quem supervisiona, com que critério e em que escopo. Componentes: registro (ID básico,
+  número após cumprir critérios), responsável, permissões, avaliação, operação e encerramento.
+- p. 26: agente que ajuda uma pessoa é gerido por ela; agente de maior impacto ou mais autônomo
+  "deve obrigatoriamente" ter líder de equipe ou executivo como responsável. **E o nível de
+  intervenção humana é desenhado por tarefa: "até onde o agente decide e executa sozinho, e em que
+  ponto o humano intervém".** (Corrige a pauta: a SKT calibra também quanto o agente pode fazer,
+  não só quem supervisiona.)
+- p. 27, Agent OS: identificação (ID, dono, número), execução (registros, políticas, interrupção),
+  auditoria, uso (tokens, chamadas, custo); grava cada etapa e permite interromper.
+- **p. 28, três fatores obrigatórios para dar número e definir o escopo do agente: (1) se existe
+  procedimento operacional padrão (SOP); (2) se o desempenho pode ser medido objetivamente; (3) se
+  há capacidade de concluir a tarefa sem intervenção humana.** "Esses três fatores são a base para
+  estimar a autonomia e o nível de risco." Supervisão em três momentos: revisão e aprovação antes de
+  decisões importantes; monitoramento durante; verificação depois.
+- **p. 29: "A SKT reconhece oficialmente o AI Agent com número de funcionário como uma nova força de
+  trabalho (Workforce)."** Avaliação por dados de operação e indicadores definidos antes; usuário e
+  responsável fazem autoavaliação; comitê de especialistas em IA avalia competência e desempenho.
+  **Uso de curto prazo: vinculação à avaliação e à remuneração de executivos e prêmios a
+  empregados. Longo prazo: inclusão no KPI organizacional.** "O resultado é base para expandir os
+  agentes e melhorar a divisão de trabalho entre pessoas e agentes."
+- p. 30: avaliação periódica de resultado, desempenho, **custo de operação** e funções; "o agente
+  cuja necessidade diminuiu tem a operação encerrada".
+
+## Tese, com o documento
+
+1. **Convergência com o livro (cap. 4, §4):** supervisão proporcional ao impacto e à autonomia; o
+   SOP e a capacidade de concluir sem humano são o avesso de "especificidade do contexto" e
+   "frequência de casos de fronteira". A SKT pôs em norma quase os quatro parâmetros.
+2. **O que a SKT acrescenta, e o livro não tem:** "o desempenho pode ser medido objetivamente" como
+   condição de autonomia. É uma regra sensata e tem um efeito colateral: a autonomia vai para o
+   trabalho mensurável, e o trabalho difícil de medir fica com as pessoas (e, pelo cap. 4 §2, é o de
+   julgamento e cuidado). Liga com "Perguntar não mede".
+3. **O achado da semana:** o desempenho do agente entra na avaliação e na remuneração de executivos
+   e em prêmios de empregados. O humano responsável passa a ser avaliado também pelo agente que
+   supervisiona. É o "contrato reformulado" do cap. 5 §9 visto de outro ângulo, e é o ponto mais
+   novo do caso.
+4. Contraste opcional: Sofia Liguori (BBC), que saiu para poder falar. Usar só se não forçar.
