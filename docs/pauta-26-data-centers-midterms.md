@@ -67,3 +67,32 @@ Residencial, em centavos por kWh:
 - **Problema de denominador:** falta a taxa entre os republicanos que venceram. Se a maioria da bancada tem nota acima de 3, 83% não diz nada.
 - O placar é construção editorial do próprio veículo. A metodologia declara que o polo "booster" é "a posição expressa pelos grandes desenvolvedores de IA".
 - Hannah Parry, 19/10: cita um estudo de Berkeley e Harvard de setembro, segundo o qual imóveis a até 1 milha de um data center novo perdem 7,2%, e a até 3 milhas, 3% em cinco anos. Ler o estudo original.
+
+## Rodada 2 (8/11): decreto de Abbott, bocas de urna estaduais, estudo de Berkeley
+
+### O decreto (fonte primária: comunicado do Gabinete do Governador, 3/8/2026)
+- Ordena à PUCT e ao ERCOT uma "comprehensive verification and audit of all data centers advancing through ERCOT's interconnection process". O texto diz: "must complete this audit before any data center project moves forward".
+- O comunicado não usa a palavra moratória. Quem usa: Paul Cobler, Texas Tribune (via KWTX, 3/8), "announced a moratorium on the approval of data centers"; e a Pew (22/9), "statewide moratorium". A Daily Signal (Emily Medeiros, 6/8) escreve "effectively pausing". No texto, escrevo "suspensão até a auditoria" e atribuo o rótulo "moratória" a quem o usa (regra 3.4).
+- Antecedentes: diretriz de 10/6 para que data centers paguem a própria infraestrutura elétrica, e pedido de julho para proibir data centers em áreas residenciais rurais (Daily Signal).
+- Escala: fila de 474 GW, mais de cinco vezes o pico recorde do ERCOT; cerca de 90% dos pedidos são de data centers. O Tribune contou 335 data centers em operação e pelo menos 248 planejados.
+- Prazo: não definido, e a cobertura diz que é "unclear how long". O ERCOT adiou o estudo "batch zero".
+
+### Bocas de urna estaduais (Voter Poll by SSRS, tabelas da NBC, transcritas pela autora)
+
+| | Texas (Abbott / Hinojosa) | Geórgia (Jackson / Bottoms) |
+|---|---|---|
+| Opõe-se a data center novo na comunidade | 75% da amostra; 36 / 62 | 78%; 38 / 61 |
+| Apoia | 25%; 74 / 25 | 22%; 71 / 28 |
+| Data centers "crucial" | 24%; 33 / 66 | 27%; 32 / 68 |
+| Custo de vida "crucial" | 48%; 34 / 64 | 50%; 33 / 66 |
+| Corrupção "crucial" | 55%; 37 / 61 | 56%; 38 / 61 |
+| IA fará mais mal que bem | 56%; 37 / 62 | 56%; 41 / 58 |
+
+- Texas, identificação partidária com os que pendem: republicanos 48% (90% votaram em Abbott), democratas 45%.
+- **Achado:** Abbott suspendeu a aprovação de data centers três meses antes da eleição e mesmo assim teve só 36% entre os eleitores contrários a data centers. Ou o eleitor não deu crédito à suspensão, ou a posição sobre data centers está funcionando como marcador partidário. A tabela cruzada não separa as duas leituras: falta cruzar a posição sobre data centers com o partido (regra 1.8).
+- Nos dois estados, data centers ficam abaixo de custo de vida e corrupção como tema "crucial".
+
+### Schlauch e Greenhill, "Data Centers Lower Nearby Housing Values", Energy Institute at Haas WP 366, setembro de 2026
+- Desenho: estudo de evento empilhado e pareado; compara vendas perto de grandes data centers recém-anunciados com áreas parecidas cujos data centers foram anunciados depois.
+- Resultados: queda de 3% em média até 3 milhas em cinco anos e de 7,2% até 1 milha. O efeito é maior em data centers hyperscale, em áreas urbanas e no primeiro grande data center da área. Antes de 2021, o preço reagia na inauguração; nos anúncios recentes, reage quase todo no anúncio. Perda total estimada de US$ 20,6 bilhões; mais de 34 milhões de americanos moram a até 3 milhas de um data center grande, operando ou planejado.
+- Ressalva dos autores: working paper sem revisão por pares; os autores declaram não ter conflito de interesse. Simon Greenhill está em Harvard e Monash; Garrison Schlauch, em Berkeley.
