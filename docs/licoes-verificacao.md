@@ -484,3 +484,9 @@ A verificação da autora manteve a tese e derrubou duas premissas:
 - **Contexto que mudava a leitura (regra 3.14):** a multa recorde da PIPC à SKT em agosto de
   2025 (134,8 bi de wons, vazamento de ~23 mi clientes), com ordem de reforçar o papel do CPO, que
   hoje responde também pela governança de IA.
+
+## Artigo 26, "O decreto sem crédito" (8/11/2026)
+
+- **Premissa de ausência derrubada (regras 2.9 e 3.20).** A primeira versão dizia que ninguém sabia quando a auditoria do Texas acabaria. Em 20/8 o ERCOT tinha anunciado o relatório para 10/12. A data, achada pela autora, passou a sustentar a leitura de credibilidade.
+- **"Não consigo escolher" sem fazer a conta.** Deixei duas leituras em aberto quando as proporções publicadas já restringiam o resultado. A autora fez a conta, e a leitura partidária explica quase todo o número. Antes de declarar uma tensão insolúvel, veja se a aritmética das marginais já resolve parte dela (complemento à regra 1.8).
+- **Correção conferida antes de entrar (regra 1.12).** Na conta da autora, a faixa de 5% a 12% de voto em Abbott entre não republicanos contrários era incompatível com os cerca de 5% que ele teve entre todos os não republicanos. Refeita com essa restrição e com a dos favoráveis, a faixa fica em 83% a 99%, e a conclusão se mantém.
