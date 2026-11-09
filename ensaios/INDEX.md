@@ -40,6 +40,7 @@ disponível da data de publicação, e não a data de publicação em si.
 | 23 | Um número sem dono | — | `ensaios/23_um-numero-sem-dono_final.md` (versão publicada, 18/10) · `docs/23_um-numero-sem-dono_melhorias.md` · `docs/pauta-23-trilhao-seis-pregoes.md` |
 | 24 | Quem calibra a régua | — | `ensaios/24_quem-calibra-a-regua_substack.md` (rascunho, primeira rodada) · `docs/pauta-24-micron.md` |
 | 25 | O agente com crachá | — | `ensaios/25_o-agente-com-cracha_substack_v2.md` (v2 da autora, duas rodadas) · `docs/25_o-agente-com-cracha_verificacao.md` |
+| 26 | O decreto sem crédito | 9/11/2026 | `ensaios/26_o-decreto-sem-credito_final.md` (versão publicada) · `docs/pauta-26-data-centers-midterms.md` · `docs/26_o-decreto-sem-credito_revisao-autora.md` |
 
 Sem numeração explícita nos arquivos até o artigo 11. A numeração de 11 a 20 vem do nome
 dos próprios documentos.
