@@ -31,3 +31,9 @@ E as mesmas citações onde se repetem nos caps. 1, 4, 7 e 10.
 - **Trecho:** "Call centers já reduziram headcount em 30% a 40% em alguns segmentos."
 - **Problema:** o número não tem fonte no livro. Identificado ao escrever "Contar cabeças" (art. 27, novembro de 2026).
 - **Compromisso:** na edição revisada, o número sai ou entra com fonte nomeável (regra 3.1).
+
+## Capítulo 1, seção 5 (PwC), correção proposta em 15/11/2026
+- **Trecho:** "A maioria das organizações que investe em IA não está gerando retorno mensurável."
+- **Problema:** o estudo da PwC (*Want ROI from AI? Go for growth*, 2026) mede o desempenho em relação à mediana do setor e não permite afirmar nada sobre retorno absoluto.
+- **Proposta:** a redação e a nota estão em `docs/28_quatro-evidencias-verificadas.md`, seção 5.
+- **Antes de entrar na edição revisada:** conferir no PDF da PwC a distribuição por quintis e a definição de "AI-driven financial performance" (regra 1.12). A frase do meio talvez venha da *Global CEO Survey* 2026, que ainda não foi conferida.
