@@ -26,3 +26,8 @@ Todos os demais estudos do cap. 5: Shen e Tamkin (arXiv 2601.20245); Farach, Cam
 Tankelevitch et al. (arXiv 2604.08678); Microsoft Work Trend Index 2023; McKinsey
 Superagency 2025; Intelligent.com 2025; o dado de 81% de empresas sem conseguir contratar.
 E as mesmas citações onde se repetem nos caps. 1, 4, 7 e 10.
+
+## Capítulo 1, seção 2 ("O 'momento cana' dos serviços")
+- **Trecho:** "Call centers já reduziram headcount em 30% a 40% em alguns segmentos."
+- **Problema:** o número não tem fonte no livro. Identificado ao escrever "Contar cabeças" (art. 27, novembro de 2026).
+- **Compromisso:** na edição revisada, o número sai ou entra com fonte nomeável (regra 3.1).
