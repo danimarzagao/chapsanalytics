@@ -491,3 +491,9 @@ A verificação da autora manteve a tese e derrubou duas premissas:
 - **"Não consigo escolher" sem fazer a conta.** Deixei duas leituras em aberto quando as proporções publicadas já restringiam o resultado. A autora fez a conta, e a leitura partidária explica quase todo o número. Antes de declarar uma tensão insolúvel, veja se a aritmética das marginais já resolve parte dela (complemento à regra 1.8).
 - **Correção conferida antes de entrar (regra 1.12).** Na conta da autora, a faixa de 5% a 12% de voto em Abbott entre não republicanos contrários era incompatível com os cerca de 5% que ele teve entre todos os não republicanos. Refeita com essa restrição e com a dos favoráveis, a faixa fica em 83% a 99%, e a conclusão se mantém.
 - **Versão publicada (9/11).** Ficou registrada como `ensaios/26_o-decreto-sem-credito_final.md`. Em relação à v2, a autora tirou a seção "O que mudou desde a versão anterior" e a frase sobre a premissa antiga da conta, porque o rascunho nunca foi publicado. Ajustou também "pelo menos metade" para "quase metade, 48%": é o piso da conta, alcançado quando todos os não republicanos são contrários. Nos cenários que fecham, a fatia fica entre 53% e 64%.
+
+## Artigo 27, "Contar cabeças" (15/11/2026)
+
+- **Uma reportagem secundária errou data e veículo (regra 3.2).** A Mundo RH situa o recuo do CEO da Klarna em setembro de 2025 e na Reuters. As reportagens que li datam a fala de maio de 2025 e a atribuem à Bloomberg. A primeira versão do artigo repetiu a Mundo RH. Uma frase de um terceiro, citada por um veículo, vai até o veículo que a colheu.
+- **A cobertura brasileira leu um dado global como nacional (regras 3.2 e 2.1).** Os 64% e 77% atribuídos a "empresas brasileiras" vêm do total global da Avanade, e os 77% medem outra coisa.
+- **O próprio livro também contou cabeças sem fonte.** A frase "Call centers já reduziram headcount em 30% a 40%" foi para a errata (regra 3.19 aplicada ao próprio texto).
