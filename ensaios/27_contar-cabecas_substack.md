@@ -6,7 +6,7 @@
 
 "Quantas pessoas poderemos eliminar com a IA?" A pergunta está em "O Teto Intelectual do Brasil", que Emerson Pinha, fundador da AITOUR e da VTX365, publicou no sábado, 14 de novembro, no seu Substack. Pinha diz que a ouve em conversas com lideranças de vários setores e que ela revela "uma compreensão limitada do seu potencial econômico". A pergunta que falta, segundo ele, é sobre crescimento: que produto antes inviável a empresa consegue criar, que mercado consegue alcançar.
 
-A pergunta que ele quer ouvir é a que eu também gostaria de ouvir com mais frequência. Pinha propõe olhar para o preparo das lideranças, e o texto dele me deixou com uma pergunta paralela: o que pode estar ocorrendo para que empresas parecidas, dentro da mesma cultura, façam perguntas tão diferentes? Levantei minhas próprias hipóteses sobre isso, e a que desenvolvo aqui olha para o instrumento de medida. Ela não exclui a dele. Acrescenta uma camada que costuma passar despercebida, a do que cada empresa consegue medir.
+A pergunta que ele quer ouvir é a que eu também gostaria de ouvir com mais frequência. Pinha atribui o padrão ao preparo das lideranças, e não sei se concordo 100% com essa afirmação. O texto dele me deixou com uma pergunta paralela: o que pode estar ocorrendo para que empresas parecidas, dentro da mesma cultura, façam perguntas tão diferentes? Levantei minhas próprias hipóteses sobre isso, e a que desenvolvo aqui olha para o instrumento de medida. Ela não exclui a dele. Acrescenta uma camada que costuma passar despercebida, a do que cada empresa consegue medir.
 
 ## O que o balanço consegue ler
 
