@@ -35,5 +35,5 @@ Saíram cerca de 170 palavras do corpo:
 Resultado do voz.py: 1.968 palavras, média de 24,3 e desvio-padrão de 15,6 palavras por frase, sem referências fantasma.
 
 ## Pendente para a autora
-- Confirmar a data do texto de Pinha.
-- Confirmar se a errata dos call centers entra publicamente no texto.
+- Data do texto de Pinha confirmada pela autora (14/11).
+- A admissão sobre os call centers saiu do texto, por decisão da autora, e fica guardada para outra oportunidade. A errata segue registrada em `docs/errata-o-trabalho-que-vem.md`.

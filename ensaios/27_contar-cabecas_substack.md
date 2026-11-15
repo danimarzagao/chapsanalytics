@@ -46,9 +46,7 @@ O detalhe que mais me interessa está na composição: o número médio de funci
 
 A pesquisa mais recente sobre o tema aponta na mesma direção. A Avanade, criada por Microsoft e Accenture para vender serviços de tecnologia, encomendou à Vanson Bourne entrevistas com 3.600 decisores de empresas com receita acima de 500 milhões de dólares, em agosto e setembro. Dois terços dizem que a IA ainda não deu retorno financeiro que justifique o investimento, e 36% medem o progresso por metas de adoção e atividade, exatamente a contagem que o axioma de Patrone descarta. Para 77%, investe-se demais em melhorias incrementais, e só 6% têm como foco principal criar operações, receitas ou negócios novos. A Avanade vende o serviço que corrigiria esse atraso, e isso pesa na leitura. Ainda assim, os entrevistados dizem o que Pinha diz, com uma diferença: eles sabem disso. O problema descrito ali é de quem sabe que deveria medir outra coisa e não sabe como.
 
-## O meu próprio número
-
-Devo uma admissão antes de terminar, porque ela é a melhor defesa do argumento. No capítulo 1 do meu livro, escrevi que "call centers já reduziram headcount em 30% a 40% em alguns segmentos". A frase não tem fonte. Contei cabeças, e contei sem régua, no mesmo livro em que, no capítulo 6, critico os painéis de RH que medem headcount, tempo de casa e horas de treinamento e não capturam o conhecimento que vai embora com quem sai. A régua de cabeças é sedutora porque é concreta, e eu também caí nela.
+## O que medir no lugar
 
 Pinha termina pedindo que as lideranças tenham "consciência das próprias limitações e disposição genuína para aprender". O pedido é bom, e eu acrescentaria um instrumento a ele. Antes de perguntar quantas pessoas a IA permite cortar, pergunte o que a empresa mediria se a preparação tivesse uma linha no balanço: quantos problemas chegaram e encontraram alguém pronto, quanto custou o que deixou de dar errado, o que aconteceu com prazos e reclamações três meses depois de cada corte. Enquanto a perda evitada não tiver onde ser registrada, a pergunta de Pinha vai continuar sendo feita por gente que não tem teto nenhum.
 
@@ -62,9 +60,9 @@ Pinha termina pedindo que as lideranças tenham "consciência das próprias limi
 
 **Ressalvas que acompanham os números.** A contagem da Challenger registra cortes anunciados, não demissões efetivadas, e classifica cada anúncio pelo motivo que a empresa declara; a parcela atribuída à IA mede a justificativa, não a causa. O ensaio de Patrone não foi revisado por pares, se apoia sobretudo em textos anteriores do próprio programa ANOA e traz um DOI fornecido pelo autor; uso dele os conceitos, não resultados. A pesquisa da Avanade cobre América do Norte, EMEA e Ásia-Pacífico e não publica recorte brasileiro, embora cite um respondente do Brasil. Os "dois terços" do texto são 65% (retorno que ainda não justifica o investimento) e 66% (retorno não calculado formalmente), ambos do total global. Reportagens brasileiras leram esses números e os 77% como dados de empresas brasileiras, e os 77% como urgência de treinar equipes; no relatório, os 77% se referem ao excesso de investimento incremental. A Avanade vende serviços de IA. Os 17% da Airbnb são uma métrica de gestão divulgada pela empresa e não aparecem como linha do balanço. Os casos da Mundo RH são de comunicados das próprias empresas, e não li os originais.
 
-**O que não consegui verificar.** A entrevista de Siemiatkowski à Bloomberg, de maio de 2025, que conheço pelas reproduções da Finextra e da Fortune. Os comunicados de Block e Cloudflare, que conheço pela Mundo RH. A data de publicação do texto de Pinha, que deduzo da indicação "21 hours ago" na página lida em 15 de novembro. Quantos postos nos parceiros terceirizados de atendimento da Airbnb deixaram de existir; o relatório informa só a queda de custo.
+**O que não consegui verificar.** A entrevista de Siemiatkowski à Bloomberg, de maio de 2025, que conheço pelas reproduções da Finextra e da Fortune. Os comunicados de Block e Cloudflare, que conheço pela Mundo RH. Quantos postos nos parceiros terceirizados de atendimento da Airbnb deixaram de existir; o relatório informa só a queda de custo.
 
-**Sobre o livro.** Os trechos de *O Trabalho que Vem* (Marzagão, 2026) citados são do capítulo 1, seção 2, do capítulo 5, seções 5 e 9, e do capítulo 6, seção 1, relidos para este texto. A frase sobre call centers no capítulo 1 não tem fonte no livro, e a incluo na errata da próxima edição.
+**Sobre o livro.** Os trechos de *O Trabalho que Vem* (Marzagão, 2026) citados são do capítulo 5, seção 5, relidos para este texto.
 
 ---
 
@@ -94,7 +92,7 @@ KANTROWITZ, Alex. Klarna CEO: We're Giving AI More Customer Service Work, Not Le
 
 KLARNA. Klarna AI assistant handles two-thirds of customer service chats in its first month. Comunicado, 27 fev. 2024.
 
-MARZAGÃO, Daniela. *O Trabalho que Vem: Como Você e Sua Empresa se Preparam para o Futuro*. 2026. Capítulos 1, 5 e 6.
+MARZAGÃO, Daniela. *O Trabalho que Vem: Como Você e Sua Empresa se Preparam para o Futuro*. 2026. Capítulo 5.
 
 MUNDO RH. Demissões na conta da IA: empresas cortam pessoal, mas quem assume o trabalho? 9 nov. 2026.
 
