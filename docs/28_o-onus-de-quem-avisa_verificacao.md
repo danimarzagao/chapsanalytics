@@ -45,3 +45,7 @@ A versão anterior está em `ensaios/28_o-onus-de-quem-avisa_substack_v2.md`. Ca
 ## Decisões da autora
 - O artigo 27 já foi publicado, com Emerson Pinha marcado; ele viu e agradeceu a menção. O artigo 28 cita "Contar cabeças" pelo título.
 - A frase "Isso é leitura minha, e a Conference Board não a faz" subiu para o corpo, logo depois da descrição da última pergunta do Value Capture Bridge. O fecho ficou só com o artigo 19 e o artigo que falta.
+
+## Ajuste de 22/11 (dado de responsabilização)
+- Incluída a pergunta sobre dono claro e responsabilização por decisões de IA, do relatório *Disrupted Leadership* (slides do webcast de 13/10): 29%, 30%, 30%, 7% (e 4% "not sure", omitido). Ressalvas na nota: slides lidos, relatório não; amostra com peso para América do Norte, grandes organizações e cargos seniores; provável sobreposição com a pesquisa do relatório de planejamento, não confirmada.
+- Cortadas uma frase da Toyota (parte unida a outra), a epígrafe do roadmap ("serviria de epígrafe...") e a contagem de relatos do ASRS (briefing da FAA de 2023, que só tinha sido visto na busca), para voltar a menos de 2.000 palavras.
