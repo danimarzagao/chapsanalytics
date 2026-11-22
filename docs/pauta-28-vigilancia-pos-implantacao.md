@@ -121,3 +121,11 @@ Proposta C da varredura de 14 a 22/11.
 3. O relatório completo do Top 10 2026 da ECRI, se a autora conseguir pelo cadastro. Os comunicados e o blog já estão lidos.
 4. Se o FDA publicou algum desdobramento do RFC em 2026.
 5. Os três documentos do HHS recebidos e não lidos (estratégia de IA, plano de conformidade, comunicado do RFI), só se houver tempo.
+
+## 6. Rodada de cultura de culpa (22/11): exemplos reunidos
+- **Aviação, ASRS (NASA):** operação desde 15/4/1976; "voluntary and non-punitive" conforme a AC 00-46F e o 14 CFR 91.25, segundo a NASA; mais de 2 milhões de relatos num briefing da FAA de 2023 (sem número de 2026). Só os resultados da busca; não abri o CALLBACK 555 nem a circular. A versão mais forte do fato (a FAA pediu à NASA, separada da fiscalização, que administrasse o sistema; CLAUDE.md, regra 3.14) **não foi reverificada nesta rodada** e ficou fora do texto.
+- **Saúde, Edmondson (1996):** unidades com liderança melhor relatavam mais erros de medicação (resumo do PSNet; artigo de 1996, e não de 2006 como aparece em uma listagem).
+- **Indústria, Toyota (andon):** o cordão em geral chama ajuda, e a linha só para se o líder não resolve dentro do ciclo; só funciona com resposta sem culpa (Lean Blog, IndustryWeek; relatos de praticantes). Hospitais copiaram a ideia (Virginia Mason); não achei medida de dano evitado.
+- **Trabalho e IA, GoTo (vendor), 2.500 pessoas, 10 países, nov/2025 a jan/2026:** 83% temem ser culpados ou demitidos por erro de IA; 31% sentem pressão para calar sobre erros; 14% relataram e ouviram que se calassem; 17% já culparam a IA por erro próprio. Cobertura secundária; relatório não lido.
+- **Esta semana:** Derica Rice (Deloitte): "AI may just be the scapegoat"; Susan De La Vega (Korn Ferry via Fortune): gerentes defendem mandatos de IA sobre os quais "had no say"; Machuel (Adecco, opinião): 21% sentem que suas preocupações com novas tecnologias são levadas a sério.
+- **Texto escrito:** `ensaios/28_o-onus-de-quem-avisa_substack.md` (primeira versão).
