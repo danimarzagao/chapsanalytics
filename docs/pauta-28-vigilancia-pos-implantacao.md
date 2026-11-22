@@ -9,10 +9,10 @@ Proposta C da varredura de 14 a 22/11.
 |---|---|
 | Roadmap do CMS/HHS, "A Clinical Super Intelligence Roadmap: Better Answers, Faster Care, and Lower Costs" (PDF, texto integral) | primária. O texto extraído não traz data. A cobertura da Route Fifty (17/11) diz "publicado na sexta", ou seja, 13/11 |
 | FDA, Request for Public Comment sobre desempenho de dispositivos com IA no mundo real (docket FDA-2025-N-4203) | primária. Prazo de comentários: 1/12/2025. É documento de discussão, "não representa minuta nem orientação final" |
-| ECRI: comunicado de 25/8/2026, posição de junho de 2024, páginas do Top 10 de 2025 e 2026, formulário de notificação | primária (a ECRI sobre si mesma). Os relatórios completos do Top 10 ficam atrás de cadastro, e só li as páginas de apresentação |
+| ECRI: comunicado de 25/8/2026, posição de junho de 2024, comunicados e blog do Top 10 (2025: 4/12/2024; 2026: março), formulário de notificação | primária (a ECRI sobre si mesma). Os relatórios completos do Top 10 ficam atrás de cadastro, e só li os comunicados, o blog e as páginas de apresentação. Fierce Healthcare (10/3/2026) e Becker's, secundárias |
 | Conference Board, comunicado de 18/11/2026 (página do próprio órgão e PR Newswire) | primária para os números do comunicado. Não li o relatório completo |
 | Deloitte Global, comunicado e artigo, 10/11/2026 | primária |
-| CFM, notícia do portal de 27/2/2026 | primária. O texto da Resolução 2.454/2026 não foi lido no DOU |
+| CFM, Resolução 2.454/2026: DOU de 27/2/2026 (ed. 39, seção 1, p. 158), versão retificada pelo DOU de 5/3/2026 (ed. 43, seção 1, p. 91) e cópia do original | primária, lida na íntegra. A retificação altera só o art. 16 (proteção de dados: "proteção geral de dados pessoais" passa a "Lei Geral de Proteção de Dados Pessoais (LGPD)"); os artigos sobre classificação e monitoramento não mudam. Notícia do portal do CFM de 27/2/2026 e notícia de vigência de 26/8 também lidas |
 | Machado Meyer, 3/3/2026 | secundária (análise jurídica) |
 | Fortune, artigo de opinião de Denis Machuel, CEO da Adecco, 19/11 | primária para a posição dele; autor com interesse comercial |
 | Korn Ferry via Fortune, 7/11 (pesquisa publicada em 22/10) | secundária; fora da janela |
@@ -38,8 +38,20 @@ Proposta C da varredura de 14 a 22/11.
   - Pesquisa com 124 respondentes, em sua maioria líderes de qualidade, segurança, risco ou conformidade: 31% encontraram saída que consideraram incorreta ou enganosa no último ano, 34% não, 35% não tinham certeza; 9% relataram que um erro de IA chegou ao paciente ou afetou uma decisão de cuidado. Os mais encontrados foram os escribas ambientes (37%).
   - O formulário de notificação é voluntário e traz a opção "I don't know" para a pergunta "Could this problem be AI-related?".
   - Em junho de 2024, a ECRI recomendava registro de soluções de IA, definição do nível de autonomia ("the more autonomy, the more monitoring that is needed"), comitê de supervisão e sistema de notificação, e alertava que "an institution's current reporting system may not be set up to capture AI-associated concerns".
-  - A IA é o primeiro item do Top 10 de riscos de tecnologia de 2025 e das preocupações de segurança do paciente de 2026 ("Navigating the AI Diagnostic Dilemma": dependência sem verificação pode aumentar erros de diagnóstico, perpetuar viés e corroer o pensamento crítico, segundo a própria página).
-- **CFM, Resolução 2.454/2026 (DOU 27/2/2026):** a decisão final é sempre do médico; vedada a delegação à IA da comunicação de diagnóstico, prognóstico ou decisão terapêutica; registro do uso de IA no prontuário. Classificação de risco em baixo, médio, alto e "inaceitável", sendo que, segundo o Machado Meyer, o texto menciona o inaceitável sem defini-lo. As medidas de monitoramento e auditoria têm todas a expressão "sem prazo específico". Instituições com sistemas próprios criam uma Comissão de IA e Telemedicina e dão a órgãos de controle acesso a relatórios de auditoria e monitoramento. Veda aos estabelecimentos impor metas ou políticas que subordinem a conduta médica. Em vigor 180 dias após a publicação: uma notícia do portal do CFM, cujo título encontrei na busca e não li, diz "entram em vigor no dia 26 de agosto"; o Machado Meyer escreve "a partir de setembro". Publicada no DOU de 27/2/2026 (ed. 39, seção 1, p. 158) e **retificada em 5/3/2026 (ed. 43, seção 1, p. 91)**; a retificação não foi lida, então qualquer citação do texto tem de partir da versão retificada. Os CRMs fiscalizam. O escritório questiona a competência do CFM para parte da governança.
+  - A IA é o primeiro item do Top 10 de riscos de tecnologia de 2025 (comunicado de 4/12/2024) e das preocupações de segurança do paciente de 2026 (relatório com o ISMP, março). No texto do item 1, a ECRI diz que a dependência excessiva pode corroer o pensamento crítico e produzir viés de automação, e recomenda políticas de uso claras e "documenting when AI informs diagnostic decisions". **O item 5 da mesma lista é "Lack of Recognition and Reporting of Harm Events" e o 8 é "Culture of Blame Hinders Learning and Improvement"**: segundo o CMO da ECRI, quando os clínicos não se sentem psicologicamente seguros para reportar, "early warning signs of risk can be overlooked". Ou seja, o acompanhamento depende de cultura de notificação, além de infraestrutura. Conecta com a segurança psicológica do livro e com o dado da Adecco de que só 21% dos trabalhadores sentem que suas preocupações com novas tecnologias são levadas a sério (a conferir no texto).
+- **CFM, Resolução 2.454/2026 (texto lido, versão retificada):**
+  - **Vigência:** art. 23, "entra em vigor após decorridos 180 (cento e oitenta) dias da data de sua publicação". O portal do CFM noticia a entrada em vigor em 26/8. O "a partir de setembro" do Machado Meyer não se sustenta.
+  - **Delegação:** o médico é o responsável final; vedado delegar à IA a comunicação de diagnósticos, prognósticos ou decisões terapêuticas "sem a devida mediação humana" (original: art. 10, § 2º, conforme a cópia lida; a notícia do portal diz que a comunicação não pode ser delegada, sem a ressalva da mediação humana, e a letra da norma vale mais). Art. 11: toda utilização de IA deve ser comunicada e explicada ao paciente.
+  - **Governança (arts. 12 a 15):** instituições que desenvolvem ou usam sistemas de IA têm de instituir governança e, quando couber, uma Comissão de IA e Telemedicina sob coordenação médica, subordinada à diretoria técnica; sistemas classificados em "baixo, médio, alto ou inaceitável" (art. 13); os CRMs fiscalizam (art. 15).
+  - **Classificação e monitoramento (anexo):**
+    - **Baixo risco:** "monitoradas e revisadas periodicamente", com reclassificação se o potencial de impacto mudar.
+    - **Médio:** "monitoramento regular (embora não necessariamente contínuo como nos casos de alto risco) e avaliação de desempenho/bias em intervalos apropriados"; pode subir a alto risco se aumentar o grau de autonomia.
+    - **Alto:** "os mais rigorosos processos de validação, auditorias regulares e monitoramento contínuo".
+    - **Inaceitável:** aparece no art. 13 e não é definido no anexo.
+    - **A norma não fixa periodicidade numérica nem data.** A expressão "sem prazo específico", que apareceu na minha versão anterior, é do quadro do Machado Meyer, e não do texto da resolução. Usar as palavras da norma ("periodicamente", "intervalos apropriados", "regulares").
+  - **Anexo III:** relatórios regulares de desempenho, limitações conhecidas e vieses, com divulgação pública "sempre que possível"; monitoramento contínuo dos outputs com análise estratificada; descontinuação em caso grave de viés; o diretor técnico responde pela fiscalização; acesso de Conselhos de Medicina, Ministério Público e entidades de defesa de pacientes a relatórios de auditoria, monitoramento e configuração, a pedido da autoridade.
+  - **Autonomia (art. 19):** nenhum médico será penalizado por não seguir a orientação da IA (§ 1º); "as instituições não devem impor metas ou políticas que subordinem as condutas dos médicos" (§ 2º). A redação é "não devem", e o Machado Meyer resumiu como "vedado".
+  - O Machado Meyer questiona a competência do CFM para parte da governança. Atribuir, se usar.
 
 ### Gestão: o que os documentos dizem sobre planejar e acompanhar
 - **Conference Board, 18/11 (775 líderes internacionais e 35 entrevistas):**
@@ -81,8 +93,8 @@ Proposta C da varredura de 14 a 22/11.
 - **Frase-chave de opinião:** "AI may just be the scapegoat" é de uma conselheira, em entrevista à Deloitte. Atribuir com nome e cargo (regra 3.9).
 
 ## 5. O que falta
-1. Texto da Resolução CFM 2.454/2026 no DOU de 27/2/2026 e a retificação de 5/3/2026 (arts. sobre monitoramento, auditoria e vigência).
+1. (Resolvido) Texto da Resolução CFM 2.454/2026 e retificação de 5/3/2026, lidos.
 2. Relatório completo do Conference Board, para a pergunta exata e a base dos 11%.
-3. O Top 10 da ECRI completo, se a autora conseguir pelo cadastro.
+3. O relatório completo do Top 10 2026 da ECRI, se a autora conseguir pelo cadastro. Os comunicados e o blog já estão lidos.
 4. Se o FDA publicou algum desdobramento do RFC em 2026.
 5. Os três documentos do HHS recebidos e não lidos (estratégia de IA, plano de conformidade, comunicado do RFI), só se houver tempo.
