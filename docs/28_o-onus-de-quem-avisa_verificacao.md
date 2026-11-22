@@ -30,6 +30,9 @@ A versão anterior está em `ensaios/28_o-onus-de-quem-avisa_substack_v2.md`. Ca
 - Klarna: 27/2/2024 e 700 atendentes; a fala de maio de 2025 ("a too predominant evaluation factor"); catorze meses e doze dias entre as duas datas.
 - Conference Board: 11%, os quatro degraus do comunicado, os três instrumentos como descritos no webcast.
 
+## Atualização de 22/11 (deck de webcast enviado)
+- O deck enviado é do webcast de 13/10 sobre *Disrupted Leadership*, e não traz a pergunta dos 11%. A ressalva sobre a amostra (mais peso para América do Norte, grandes organizações e cargos seniores) e a coincidência de N e datas com o relatório de planejamento entraram na nota, como ressalva e sem afirmar que seja a mesma pesquisa. Ver pauta, seção 8.
+
 ## Continua sem verificar (declarado na nota)
 - Corpo do artigo de Edmondson.
 - Base de cada percentual da GoTo.
