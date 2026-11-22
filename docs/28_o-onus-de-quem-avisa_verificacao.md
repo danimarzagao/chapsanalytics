@@ -39,6 +39,6 @@ A versão anterior está em `ensaios/28_o-onus-de-quem-avisa_substack_v2.md`. Ca
 - Pergunta exata dos 11% do Conference Board e os 7% que faltam; 10% no webcast contra 11% no comunicado.
 - Se há revisão posterior da AC 00-46F.
 
-## Decisões da autora pendentes
-- Mostrar o texto a Emerson Pinha antes de publicar o artigo 27 (e confirmar se o artigo 28 menciona "o artigo anterior" na forma desejada).
-- Decidir se a frase "Isso é leitura minha, e a Conference Board não a faz" fica no fecho ou sobe para o corpo.
+## Decisões da autora
+- O artigo 27 já foi publicado, com Emerson Pinha marcado; ele viu e agradeceu a menção. O artigo 28 cita "Contar cabeças" pelo título.
+- A frase "Isso é leitura minha, e a Conference Board não a faz" subiu para o corpo, logo depois da descrição da última pergunta do Value Capture Bridge. O fecho ficou só com o artigo 19 e o artigo que falta.
