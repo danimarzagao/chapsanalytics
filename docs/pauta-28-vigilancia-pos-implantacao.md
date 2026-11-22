@@ -10,7 +10,7 @@ Proposta C da varredura de 14 a 22/11.
 | Roadmap do CMS/HHS, "A Clinical Super Intelligence Roadmap: Better Answers, Faster Care, and Lower Costs" (PDF, texto integral) | primária. O texto extraído não traz data. A cobertura da Route Fifty (17/11) diz "publicado na sexta", ou seja, 13/11 |
 | FDA, Request for Public Comment sobre desempenho de dispositivos com IA no mundo real (docket FDA-2025-N-4203) | primária. Prazo de comentários: 1/12/2025. É documento de discussão, "não representa minuta nem orientação final" |
 | ECRI: comunicado de 25/8/2026, posição de junho de 2024, comunicados e blog do Top 10 (2025: 4/12/2024; 2026: março), formulário de notificação | primária (a ECRI sobre si mesma). Os relatórios completos do Top 10 ficam atrás de cadastro, e só li os comunicados, o blog e as páginas de apresentação. Fierce Healthcare (10/3/2026) e Becker's, secundárias |
-| Conference Board, comunicado de 18/11/2026 (página do próprio órgão e PR Newswire) | primária para os números do comunicado. Não li o relatório completo |
+| Conference Board: comunicado de 18/11/2026 (página do órgão e PR Newswire); Q3 2026 CHRO Confidence Index (PDF e comunicado de 1/10/2026, abertos); transcrição do webcast Human Capital Watch "AI & Workforce Planning" (Matt Rosenbaum e Robin Mayab, pesquisadores do centro de capital humano) | primárias. Não li o relatório completo, *Planning for a Shifting Workforce: How Leaders Can Navigate AI-Driven Change* (restrito a membros) |
 | Deloitte Global, comunicado e artigo, 10/11/2026 | primária |
 | CFM, Resolução 2.454/2026: DOU de 27/2/2026 (ed. 39, seção 1, p. 158), versão retificada pelo DOU de 5/3/2026 (ed. 43, seção 1, p. 91) e cópia do original | primária, lida na íntegra. A retificação altera só o art. 16 (proteção de dados: "proteção geral de dados pessoais" passa a "Lei Geral de Proteção de Dados Pessoais (LGPD)"); os artigos sobre classificação e monitoramento não mudam. Notícia do portal do CFM de 27/2/2026 e notícia de vigência de 26/8 também lidas |
 | Machado Meyer, 3/3/2026 | secundária (análise jurídica) |
@@ -69,6 +69,28 @@ Proposta C da varredura de 14 a 22/11.
 - **Adecco (Machuel, 19/11):** 19% de 40.500 trabalhadores em 36 países dizem que os líderes são empáticos aos efeitos da mudança; 36% dizem que a empresa explica como a IA cria oportunidade para eles. A Adecco vende serviços de talento.
 - **Korn Ferry:** 6% acreditam que os executivos de topo estão plenamente preparados; 66% esperam que gestores passem mais tempo ajudando times na mudança. Pesquisa de 22/10.
 
+
+### Conference Board: o que dá para afirmar sobre os 11% sem o relatório
+- **O relatório:** *Planning for a Shifting Workforce: How Leaders Can Navigate AI-Driven Change*. Segundo a transcrição do webcast, os dados vêm de uma pesquisa com 775 líderes internacionais, "primarily in North America", feita em julho e agosto de 2026, e de 35 entrevistas semiestruturadas com líderes de empresas na América do Norte e na Europa, em setembro e outubro. (O comunicado diz "775 international leaders and 35 interviews" sem as datas.)
+- **A pergunta, por analogia (não é a do relatório):** o Q3 2026 CHRO Confidence Index (aberto; N = 121 CHROs, predominantemente sediados nos EUA, membros e não membros do centro) fez a mesma família de pergunta: "Which statement best describes how the anticipated effects of AI are currently incorporated into your organization's global workforce planning?", com cinco degraus:
+  1. "not yet assessing";
+  2. "HR is assessing the implications, but with limited involvement from business, finance, or technology leaders";
+  3. discussing implications "but they are not yet incorporated into workforce plans and financial planning";
+  4. incorporated "for some functions, roles, business units or geographies";
+  5. incorporated "across the enterprise".
+  Resultado, empresas globais (N = 63): 6%, 10%, 33%, 32%, 19%; não globais (N = 57): 9%, 14%, 28%, 30%, 19%. O 19% do HR Dive vem daqui, com bases de 63 e 57.
+- **Hipótese sobre os 7% que faltam no comunicado de novembro:** o comunicado lista quatro categorias (11%, 35%, 34%, 13%, soma 93%) e o índice tem cinco degraus. O degrau "HR assessing with limited involvement" pode ser a categoria ausente. É inferência minha, a confirmar com a Conference Board.
+- **Uma diferença de um ponto:** no webcast, Rosenbaum diz que "only 10%" estão na categoria de toda a empresa, e acrescenta que isso "matches up with about the 13% of folks who said that they significantly accounted" (a enquete do público do webcast). O comunicado escreve 11%. Usar o número do comunicado e anotar a diferença; só o relatório decide.
+- **A pergunta sobre emprego (webcast):** "the net effect of AI on the total number of full-time employees over the next two years compared to what they would have had otherwise". É um contrafactual declarado, não uma previsão de quadro.
+- **Enquetes do público do webcast** (por exemplo, 35,5% em "slightly", 35,7% em rigidez de arquitetura de cargos, "absorbed by other work, review or exception handling" como resposta mais frequente sobre o tempo economizado): são de audiência autosselecionada, sem representatividade. Não citar como dado.
+- **Os instrumentos, segundo os pesquisadores no webcast:**
+  - **Workflow Realization Screen** (cinco perguntas): o trabalho é adequado à IA? Ela acessa a informação certa, com contexto e permissões? "Can we run and measure the workflow properly? That includes an owner, integration, and controls." As pessoas vão usar de forma consistente? Que decisão de negócio mudaria se funcionar?
+  - **Work Transition Ledger:** classifica a mudança do trabalho em automação (trabalho humano para ou cai muito), aumento, **migração** (o trabalho muda de pessoa ou equipe: "you don't have real net gains") e criação (trabalho novo: revisar saídas, tratar exceções, manter informação). Não é um exercício único: refaz-se "over time as the tools are evolving".
+  - **Value Capture Bridge** (quatro perguntas): escala e frequência da economia; a equipe consegue usá-la, ou ela é absorvida por revisão e exceções; o ganho se sustenta em condições normais de operação ("even a solution working in one quarter might not work in another one because of the change of demand"); quem decide o uso do ganho e como o resultado é verificado.
+  - **Exemplo hipotético dado por Mayab:** o engenheiro de campo que economiza 15 minutos redigindo um relatório, mas passa tempo relendo e corrigindo. Ela diz que não é caso real, e sim inspirado nas entrevistas. Em um caso real das entrevistas, a empresa decidiu não fazer nada e deixou os engenheiros dedicarem mais tempo aos clientes.
+  - **Rosenbaum:** "Most organizations don't have the infrastructure that they need or the data or the capacity to evaluate" a mistura de trabalho que muda; recomenda começar com poucos fluxos prioritários. E de um entrevistado: o objetivo é não ter de prever o efeito da IA, e sim "sense" a mudança e adaptar a força de trabalho.
+- **Ponte com a tese:** a pergunta do Value Capture Bridge sobre "se o ganho se sustenta em condições normais" é a versão de gestão da deriva de desempenho que o FDA e a ECRI descrevem. A categoria "migração" do ledger é o "o custo mudou de lugar" de Batistella e a composição do 10-Q da Airbnb (art. 27). São instrumentos novos, com autoria de uma consultoria-associação, sem validação publicada.
+
 ## 3. Tese e estrutura possíveis
 
 **Tese (estreita).** Nos quatro documentos de saúde, o teste antes da implantação é tratado como insuficiente e o acompanhamento depois é tratado como a parte que falta: o FDA pergunta ao público como se faz, o CMS promete "melhorar" uma vigilância sem mecanismo de reporte, a ECRI diz que não há registro central e o CFM exige auditoria e monitoramento contínuos (art. 9º, § 2º) e o dever de comunicar falhas (art. 7º, § 2º), mas não diz a quem nem em que prazo. Na gestão, onde a IA é usada para decidir quem fica, nem o planejamento existe na maioria: 11% integraram a IA ao planejamento de toda a empresa e conselheiros dizem não ter indicadores.
@@ -95,7 +117,7 @@ Proposta C da varredura de 14 a 22/11.
 
 ## 5. O que falta
 1. (Resolvido) Texto da Resolução CFM 2.454/2026 e retificação de 5/3/2026, lidos.
-2. Relatório completo do Conference Board, para a pergunta exata e a base dos 11%.
+2. Relatório completo do Conference Board, para o texto exato da pergunta de novembro e a base dos 11%. Parcialmente resolvido: ver a seção "Conference Board: o que dá para afirmar".
 3. O relatório completo do Top 10 2026 da ECRI, se a autora conseguir pelo cadastro. Os comunicados e o blog já estão lidos.
 4. Se o FDA publicou algum desdobramento do RFC em 2026.
 5. Os três documentos do HHS recebidos e não lidos (estratégia de IA, plano de conformidade, comunicado do RFI), só se houver tempo.
